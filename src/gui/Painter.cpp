@@ -304,13 +304,6 @@ void DcPainter::drawRectangle( const double &x, const double &y, const double &w
 		dc->DrawRoundedRectangle( a_rund( x ), a_rund( y ), a_rund( w ), a_rund( h ), rnd );
 }
 
-#if defined(__VISUALC__)
-#include <wx/list.h>
-WX_DECLARE_LIST( wxPoint, wxPointList);
-#include <wx/listimpl.cpp>
-WX_DEFINE_LIST(wxPointList);
-#endif
-
 /*****************************************************
 **
 **   DcPainter   ---   drawPolygon
@@ -318,20 +311,13 @@ WX_DEFINE_LIST(wxPointList);
 ******************************************************/
 void DcPainter::drawPolygon(int n, MyPoint points[], wxCoord xoffset, wxCoord yoffset )
 {
-	int i;
-
-#if defined(__VISUALC__)
-	// ugly conversion from array to wxList: ms vcpp compiler doesn't tolerate array initialisation
-	wxPointList list;
-	vector<wxPoint> vlist;
-	for( i = 0; i < n; i++ ) vlist.push_back( points[i].toWxPoint());
-	for( i = 0; i < n; i++ ) list.Append( &vlist[i] );
-	dc->DrawPolygon( (const wxList*)&list, xoffset, yoffset );
-#else
-	wxPoint p[n];
-	for( i = 0; i < n; i++ ) p[i] = points[i].toWxPoint();
-	dc->DrawPolygon( n, p, xoffset, yoffset );
-#endif
+	wxPoint *wxpoints = new wxPoint[n];
+	for( int i  = 0; i < n; i++ )
+	{
+		wxpoints[i] = points[i].toWxPoint();
+	}
+	dc->DrawPolygon( n, wxpoints, xoffset, yoffset );
+	delete[] wxpoints;
 }
 
 /*****************************************************

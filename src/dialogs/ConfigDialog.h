@@ -27,6 +27,7 @@
 
 #include <wx/dialog.h>
 
+#include "constants.h"
 #include "ConfigPanel.h"
 
 class ConfigPanel;

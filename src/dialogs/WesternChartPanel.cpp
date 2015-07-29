@@ -321,13 +321,13 @@ void WesternChartPanel::do_layout()
     wxFlexGridSizer* sizer_right = new wxFlexGridSizer(1, 1, 0, 0);
     wxStaticBoxSizer* sizer_preview = new wxStaticBoxSizer(sizer_preview_staticbox, wxVERTICAL);
     wxFlexGridSizer* grid_previewpanel = new wxFlexGridSizer(1, 1, 3, 3);
-    wxFlexGridSizer* sizer_left = new wxFlexGridSizer(3, 1, 0, 0);
+    wxFlexGridSizer* sizer_left = new wxFlexGridSizer(4, 1, 0, 0);
     wxStaticBoxSizer* sizer_colors = new wxStaticBoxSizer(sizer_colors_staticbox, wxVERTICAL);
     wxStaticBoxSizer* sizer_show = new wxStaticBoxSizer(sizer_show_staticbox, wxVERTICAL);
     wxStaticBoxSizer* sizer_chartoptions = new wxStaticBoxSizer(sizer_chartoptions_staticbox, wxVERTICAL);
     wxGridSizer* grid_options = new wxGridSizer(2, 2, 0, 0);
     wxStaticBoxSizer* sizer_defaultview = new wxStaticBoxSizer(sizer_defaultview_staticbox, wxVERTICAL);
-    wxFlexGridSizer* grid_defaultview = new wxFlexGridSizer(4, 1, 3, 3);
+    wxFlexGridSizer* grid_defaultview = new wxFlexGridSizer(1, 1, 3, 3);
     grid_defaultview->Add(choice_defaultskin, 0, wxALL|wxEXPAND, 3);
     grid_defaultview->AddGrowableCol(0);
     sizer_defaultview->Add(grid_defaultview, 1, wxEXPAND, 0);

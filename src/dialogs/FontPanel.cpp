@@ -333,10 +333,10 @@ void FontPanel::set_properties()
 void FontPanel::do_layout()
 {
     // begin wxGlade: FontPanel::do_layout
-    wxFlexGridSizer* sizer_main = new wxFlexGridSizer(1, 2, 0, 0);
-    wxFlexGridSizer* sizer_left = new wxFlexGridSizer(2, 1, 0, 0);
+    wxFlexGridSizer* sizer_main = new wxFlexGridSizer(1, 1, 0, 0);
+    wxFlexGridSizer* sizer_left = new wxFlexGridSizer(3, 1, 0, 0);
     wxStaticBoxSizer* sizer_pdffonts = new wxStaticBoxSizer(sizer_pdffonts_staticbox, wxVERTICAL);
-    wxFlexGridSizer* grid_pdffonts = new wxFlexGridSizer(5, 3, 3, 3);
+    wxFlexGridSizer* grid_pdffonts = new wxFlexGridSizer(4, 3, 3, 3);
     wxStaticBoxSizer* sizer_fonts = new wxStaticBoxSizer(sizer_fonts_staticbox, wxVERTICAL);
     wxFlexGridSizer* grid_fonts = new wxFlexGridSizer(5, 3, 3, 3);
     grid_fonts->Add(label_default, 0, wxALL|wxALIGN_CENTER_VERTICAL, 3);
@@ -378,7 +378,7 @@ void FontPanel::do_layout()
     SetSizer(sizer_main);
     sizer_main->Fit(this);
     sizer_main->AddGrowableRow(0);
-    sizer_main->AddGrowableCol(1);
+    sizer_main->AddGrowableCol(0);
     // end wxGlade
 }
 

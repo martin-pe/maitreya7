@@ -74,7 +74,7 @@ AspectOrbisPanel::AspectOrbisPanel(wxWindow* parent, int id, const wxPoint& pos,
 	}
 	wxBoxSizer* sizer_lr = new wxBoxSizer(wxHORIZONTAL);
 	wxBoxSizer* sizer_tb = new wxBoxSizer(wxVERTICAL);
-	wxFlexGridSizer* grid_l = new wxFlexGridSizer( 10, 2, 0, 0 );
+	wxFlexGridSizer* grid_l = new wxFlexGridSizer( 11, 2, 0, 0 );
 	wxFlexGridSizer* grid_r = new wxFlexGridSizer( 10, 2, 0, 0 );
 
 	grid_l->Add(header_1a, 0, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 3);

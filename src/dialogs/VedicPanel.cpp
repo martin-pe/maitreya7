@@ -295,20 +295,20 @@ void VedicPanel::set_properties()
 void VedicPanel::do_layout()
 {
     // begin wxGlade: VedicPanel::do_layout
-    wxFlexGridSizer* sizer_main = new wxFlexGridSizer(1, 4, 0, 0);
-    wxFlexGridSizer* sizer_right = new wxFlexGridSizer(2, 1, 0, 0);
+    wxFlexGridSizer* sizer_main = new wxFlexGridSizer(1, 3, 0, 0);
+    wxFlexGridSizer* sizer_right = new wxFlexGridSizer(1, 1, 0, 0);
     wxStaticBoxSizer* sizer_maincols = new wxStaticBoxSizer(sizer_maincols_staticbox, wxVERTICAL);
-    wxFlexGridSizer* grid_maincols = new wxFlexGridSizer(11, 1, 3, 0);
-    wxFlexGridSizer* sizer_center = new wxFlexGridSizer(3, 1, 0, 0);
+    wxFlexGridSizer* grid_maincols = new wxFlexGridSizer(12, 1, 3, 0);
+    wxFlexGridSizer* sizer_center = new wxFlexGridSizer(4, 1, 0, 0);
     wxStaticBoxSizer* sizer_order_lagna = new wxStaticBoxSizer(sizer_order_lagna_staticbox, wxVERTICAL);
     wxStaticBoxSizer* sizer_arabic = new wxStaticBoxSizer(sizer_arabic_staticbox, wxVERTICAL);
     wxBoxSizer* sizer_arabic_selection = new wxBoxSizer(wxHORIZONTAL);
     wxStaticBoxSizer* sizer_partly = new wxStaticBoxSizer(sizer_partly_staticbox, wxVERTICAL);
     wxStaticBoxSizer* sizer_sobjects = new wxStaticBoxSizer(sizer_sobjects_staticbox, wxHORIZONTAL);
-    wxFlexGridSizer* grid_sobjects = new wxFlexGridSizer(8, 1, 3, 3);
-    wxFlexGridSizer* sizer_left = new wxFlexGridSizer(2, 1, 0, 0);
+    wxFlexGridSizer* grid_sobjects = new wxFlexGridSizer(3, 1, 3, 3);
+    wxFlexGridSizer* sizer_left = new wxFlexGridSizer(1, 1, 0, 0);
     wxStaticBoxSizer* sizer_eobjects = new wxStaticBoxSizer(sizer_eobjects_staticbox, wxHORIZONTAL);
-    wxFlexGridSizer* grid_eobjects = new wxFlexGridSizer(12, 1, 3, 3);
+    wxFlexGridSizer* grid_eobjects = new wxFlexGridSizer(11, 1, 3, 3);
     grid_eobjects->Add(check_objects_outer, 0, wxALL|wxEXPAND, 3);
     grid_eobjects->Add(check_objects_dragonhead, 0, wxALL|wxEXPAND, 3);
     grid_eobjects->Add(check_objects_dragontail, 0, wxALL|wxEXPAND, 3);
@@ -354,11 +354,9 @@ void VedicPanel::do_layout()
     grid_maincols->Add(check_main_kara, 0, wxALL|wxEXPAND, 3);
     grid_maincols->Add(check_main_ashtaka, 0, wxALL|wxEXPAND, 3);
     grid_maincols->AddGrowableCol(0);
-    grid_maincols->AddGrowableCol(1);
     sizer_maincols->Add(grid_maincols, 1, wxALL, 3);
     sizer_right->Add(sizer_maincols, 1, wxALL, 3);
     sizer_right->AddGrowableRow(0);
-    sizer_right->AddGrowableRow(1);
     sizer_right->AddGrowableCol(0);
     sizer_main->Add(sizer_right, 1, wxALL, 3);
     SetSizer(sizer_main);

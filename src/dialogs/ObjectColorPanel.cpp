@@ -451,8 +451,8 @@ void ObjectColorPanel::set_properties()
 void ObjectColorPanel::do_layout()
 {
     // begin wxGlade: ObjectColorPanel::do_layout
-    wxFlexGridSizer* sizer_main = new wxFlexGridSizer(1, 2, 0, 0);
-    wxFlexGridSizer* sizer_left = new wxFlexGridSizer(3, 1, 0, 0);
+    wxFlexGridSizer* sizer_main = new wxFlexGridSizer(1, 1, 0, 0);
+    wxFlexGridSizer* sizer_left = new wxFlexGridSizer(4, 1, 0, 0);
     wxStaticBoxSizer* sizer_houses = new wxStaticBoxSizer(sizer_houses_staticbox, wxHORIZONTAL);
     wxFlexGridSizer* grid_houses = new wxFlexGridSizer(2, 3, 3, 3);
     wxStaticBoxSizer* sizer_signs = new wxStaticBoxSizer(sizer_signs_staticbox, wxHORIZONTAL);

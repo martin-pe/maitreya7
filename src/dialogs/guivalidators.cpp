@@ -32,6 +32,8 @@
 
 #include <wx/filename.h>
 #include <wx/settings.h>
+#include <wx/textctrl.h>
+#include <wx/window.h>
 
 extern Config *config;
 
@@ -72,6 +74,38 @@ BaseTextValidator::BaseTextValidator( const BaseTextValidator &v )
 
 /*****************************************************
 **
+**   BaseTextValidator   ---   isInCharIncludes
+**
+******************************************************/
+bool BaseTextValidator::isInCharIncludes( const wxString& val )
+{
+	size_t i;
+	for ( i = 0; i < val.length(); i++)
+	{
+		if (m_includes.Index((wxString) val[i]) == wxNOT_FOUND)
+			return false;
+	}
+	return true;
+}
+
+/*****************************************************
+**
+**   BaseTextValidator   ---   isNotInCharExcludes
+**
+******************************************************/
+bool BaseTextValidator::isNotInCharExcludes( const wxString& val )
+{
+    size_t i;
+    for ( i = 0; i < val.length(); i++)
+    {
+       if (m_excludes.Index((wxString) val[i]) != wxNOT_FOUND)
+            return false;
+    }
+    return true;
+}
+
+/*****************************************************
+**
 **   BaseTextValidator   ---   OnChar
 **
 ******************************************************/
@@ -93,8 +127,8 @@ void BaseTextValidator::OnChar(wxKeyEvent &event )
 		if ( 
 			! (keyCode < WXK_SPACE || keyCode == WXK_DELETE || keyCode > WXK_START) &&
 			(
-			((m_validatorStyle & wxFILTER_INCLUDE_CHAR_LIST) && !IsInCharIncludes(wxString((wxChar) keyCode, 1))) ||
-			((m_validatorStyle & wxFILTER_EXCLUDE_CHAR_LIST) && !IsNotInCharExcludes(wxString((wxChar) keyCode, 1))) ||
+			((m_validatorStyle & wxFILTER_INCLUDE_CHAR_LIST) && !isInCharIncludes(wxString((wxChar) keyCode, 1))) ||
+			((m_validatorStyle & wxFILTER_EXCLUDE_CHAR_LIST) && !isNotInCharExcludes(wxString((wxChar) keyCode, 1))) ||
 			((m_validatorStyle & wxFILTER_ASCII) && !isascii(keyCode)) ||
 			((m_validatorStyle & wxFILTER_ALPHA) && !wxIsalpha(keyCode)) ||
 			((m_validatorStyle & wxFILTER_ALPHANUMERIC) && !wxIsalnum(keyCode)) ||

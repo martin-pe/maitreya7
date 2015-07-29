@@ -172,6 +172,9 @@ ApplicationWindow::ApplicationWindow(const wxChar *title, int xpos, int ypos, in
 	docommands = true;
 	listctrl = new MainWindowControl( this, -1 );
 	listctrl->Show( true );
+
+	wxLog::SetLogLevel( wxLOG_Error );
+
 	if ( config->logMode == 1 )
 	{
 		m_text = new wxTextCtrl(this, wxID_ANY, wxT("Log window.\n"),
@@ -201,9 +204,15 @@ ApplicationWindow::ApplicationWindow(const wxChar *title, int xpos, int ypos, in
 	docmanager = new DocumentManager;
 	menubar = new AppMenuBar( wxMB_DOCKABLE );
 	SetMenuBar( menubar );
+
+	/*
+	wxToolBarBase *tt = GetToolBar();
+	delete tt;
+	SetToolBar( NULL );
+	*/
 	maintoolbar = ToolbarFactory::get()->createMainToolbar( this );
-	maintoolbar->Realize();
 	SetToolBar( maintoolbar );
+	maintoolbar->Realize();
 	showToolBars();
 	statusbar = (MainWindowStatusbar*)CreateStatusBar();
 	showStatusBar();
@@ -752,8 +761,8 @@ void ApplicationWindow::OnToolbarConfigChanged( wxCommandEvent &event )
 	delete maintoolbar;
 	SetToolBar( 0 );
 	maintoolbar = ToolbarFactory::get()->createMainToolbar( this );
-	maintoolbar->Realize();
 	SetToolBar( maintoolbar );
+	maintoolbar->Realize();
 	showToolBars();
 	updateTools = true;
 }

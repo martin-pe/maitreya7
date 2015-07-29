@@ -140,7 +140,7 @@ FontConfig::FontConfig()
 	for ( int i = 0; i < MAX_FONTS; i++ )
 	{
 	fbFont[i] = *wxTheFontList->FindOrCreateFont( defaultfd[i].pointSize, defaultfd[i].family,
-		defaultfd[i].style, defaultfd[i].weight, defaultfd[i].facename );
+		defaultfd[i].style, defaultfd[i].weight, false, defaultfd[i].facename );
 	}
 }
 

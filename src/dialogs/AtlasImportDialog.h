@@ -83,6 +83,7 @@ private:
 	AtlasImporter *importer;
 	wxTimer *timer;
 	wxString sqlfile, dbfile;
+	bool close_called;
 
 protected:
     // begin wxGlade: AtlasImportDialog::attributes

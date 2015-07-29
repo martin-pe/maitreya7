@@ -965,14 +965,14 @@ wxPdfDCImpl::DoGetSizeMM(int* width, int* height) const
 }
 
 void
-wxPdfDCImpl::DoDrawLines(int n, wxPoint points[], wxCoord xoffset, wxCoord yoffset)
+wxPdfDCImpl::DoDrawLines(int n, const wxPoint points[], wxCoord xoffset, wxCoord yoffset)
 {
   wxCHECK_RET(m_pdfDocument, wxT("Invalid PDF DC"));
   SetupPen();
   int i;
   for (i = 0; i < n; ++i)
   {
-    wxPoint& point = points[i];
+    const wxPoint& point = points[i];
     double xx = ScaleToPdf(LogicalToDeviceX(xoffset + point.x));
     double yy = ScaleToPdf(LogicalToDeviceY(yoffset + point.y));
     CalcBoundingBox(point.x+xoffset, point.y+yoffset);
@@ -989,7 +989,7 @@ wxPdfDCImpl::DoDrawLines(int n, wxPoint points[], wxCoord xoffset, wxCoord yoffs
 }
 
 void
-wxPdfDCImpl::DoDrawPolygon(int n, wxPoint points[],
+wxPdfDCImpl::DoDrawPolygon(int n, const wxPoint points[],
                            wxCoord xoffset, wxCoord yoffset,
                            wxPolygonFillMode fillStyle /* = wxODDEVEN_RULE*/)
 {
@@ -1001,7 +1001,7 @@ wxPdfDCImpl::DoDrawPolygon(int n, wxPoint points[],
   int i;
   for (i = 0; i < n; ++i)
   {
-    wxPoint& point = points[i];
+    const wxPoint& point = points[i];
     xp.Add(ScaleToPdf(LogicalToDeviceX(xoffset + point.x)));
     yp.Add(ScaleToPdf(LogicalToDeviceY(yoffset + point.y)));
     CalcBoundingBox(point.x + xoffset, point.y + yoffset);

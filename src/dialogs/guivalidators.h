@@ -50,6 +50,10 @@ protected:
 	void OnChar(wxKeyEvent& );
 	void setWindowBackground( const bool& );
 	virtual bool Validate( wxWindow* parent ) = 0;
+
+private:
+	bool isInCharIncludes( const wxString& );
+	bool isNotInCharExcludes( const wxString& );
 };
 
 /*************************************************//**

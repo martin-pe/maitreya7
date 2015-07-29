@@ -392,7 +392,7 @@ void VedicChartPanel::do_layout()
     wxFlexGridSizer* sizer_right = new wxFlexGridSizer(1, 1, 0, 0);
     wxStaticBoxSizer* sizer_preview = new wxStaticBoxSizer(sizer_preview_staticbox, wxVERTICAL);
     wxFlexGridSizer* grid_preview = new wxFlexGridSizer(1, 1, 3, 3);
-    wxFlexGridSizer* sizer_left = new wxFlexGridSizer(4, 1, 0, 0);
+    wxFlexGridSizer* sizer_left = new wxFlexGridSizer(5, 1, 0, 0);
     wxStaticBoxSizer* sizer_sbc = new wxStaticBoxSizer(sizer_sbc_staticbox, wxVERTICAL);
     wxStaticBoxSizer* sizer_varga_chart = new wxStaticBoxSizer(sizer_varga_chart_staticbox, wxVERTICAL);
     wxGridSizer* grid_option_choices = new wxGridSizer(4, 2, 0, 0);

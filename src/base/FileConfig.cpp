@@ -220,6 +220,7 @@ wxString FileConfig::getUranianTextFile( const int &mode )
 bool FileConfig::backupFile( wxString filename, const bool doDelete )
 {
 	if ( config->backupFileMode == 0 ) return true;
+	if ( ! wxFileName::FileExists( filename )) return true;
 
 	wxFileName fn( filename );
 	fn.SetExt( wxT( "bak" ) );

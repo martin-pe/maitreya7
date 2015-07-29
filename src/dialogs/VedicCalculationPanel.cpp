@@ -341,13 +341,13 @@ void VedicCalculationPanel::do_layout()
 {
     // begin wxGlade: VedicCalculationPanel::do_layout
     wxFlexGridSizer* sizer_main = new wxFlexGridSizer(1, 2, 3, 3);
-    wxFlexGridSizer* sizer_right = new wxFlexGridSizer(2, 1, 3, 3);
+    wxFlexGridSizer* sizer_right = new wxFlexGridSizer(3, 1, 3, 3);
     wxStaticBoxSizer* sizer_misc = new wxStaticBoxSizer(sizer_misc_staticbox, wxHORIZONTAL);
-    wxFlexGridSizer* grid_misc = new wxFlexGridSizer(3, 2, 3, 3);
+    wxFlexGridSizer* grid_misc = new wxFlexGridSizer(1, 2, 3, 3);
     wxStaticBoxSizer* sizer_kalavelas = new wxStaticBoxSizer(sizer_kalavelas_staticbox, wxVERTICAL);
     wxFlexGridSizer* grid_kalavelas = new wxFlexGridSizer(3, 2, 3, 3);
     wxStaticBoxSizer* sizer_benefics = new wxStaticBoxSizer(sizer_benefics_staticbox, wxVERTICAL);
-    wxFlexGridSizer* grid_sizer_other = new wxFlexGridSizer(3, 2, 3, 3);
+    wxFlexGridSizer* grid_sizer_other = new wxFlexGridSizer(2, 2, 3, 3);
     wxFlexGridSizer* sizer_left = new wxFlexGridSizer(2, 1, 0, 0);
     wxStaticBoxSizer* sizer_av = new wxStaticBoxSizer(sizer_av_staticbox, wxHORIZONTAL);
     wxFlexGridSizer* grid_av = new wxFlexGridSizer(4, 2, 3, 3);

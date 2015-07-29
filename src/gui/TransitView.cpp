@@ -30,6 +30,7 @@
 #include <wx/spinctrl.h>
 #include <wx/statbox.h>
 #include <wx/timer.h>
+#include <wx/textctrl.h>
 #include <wx/toolbar.h>
 
 #include "Aspect.h"

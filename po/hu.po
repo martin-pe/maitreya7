@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Maitreya 6\n"
 "Report-Msgid-Bugs-To: office2@saravali.de\n"
-"POT-Creation-Date: 2013-12-01 11:11+0100\n"
+"POT-Creation-Date: 2014-12-25 17:00+0100\n"
 "PO-Revision-Date: 2012-07-30 10:47+0100\n"
 "Last-Translator: \n"
 "Language-Team: Translators <LL@li.org>\n"
@@ -57,27 +57,27 @@ msgstr "ismeretlen"
 
 #: src/base/ColorConfig.cpp:85 src/base/Lang.cpp:123 src/base/Lang.cpp:443
 #: src/dialogs/VedicPanel.cpp:80 src/dialogs/WesternPanel.cpp:77
-#: src/gui/MenuProvider.cpp:507 src/gui/ToolPanel.cpp:294
+#: src/gui/MenuProvider.cpp:507 src/gui/ToolPanel.cpp:295
 msgid "Aries"
 msgstr "Kos"
 
-#: src/base/ColorConfig.cpp:86 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:294
+#: src/base/ColorConfig.cpp:86 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:295
 msgid "Taurus"
 msgstr "Bika"
 
-#: src/base/ColorConfig.cpp:87 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:294
+#: src/base/ColorConfig.cpp:87 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:295
 msgid "Gemini"
 msgstr "Ikrek"
 
-#: src/base/ColorConfig.cpp:88 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:294
+#: src/base/ColorConfig.cpp:88 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:295
 msgid "Cancer"
 msgstr "Rák"
 
-#: src/base/ColorConfig.cpp:89 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:294
+#: src/base/ColorConfig.cpp:89 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:295
 msgid "Leo"
 msgstr "Oroszlán"
 
-#: src/base/ColorConfig.cpp:90 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:294
+#: src/base/ColorConfig.cpp:90 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:295
 msgid "Virgo"
 msgstr "Szűz"
 
@@ -85,20 +85,20 @@ msgstr "Szűz"
 msgid "piebald.png"
 msgstr "piebald.png"
 
-#: src/base/ColorConfig.cpp:91 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:294
+#: src/base/ColorConfig.cpp:91 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:295
 msgid "Libra"
 msgstr "Mérleg"
 
-#: src/base/ColorConfig.cpp:92 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:295
+#: src/base/ColorConfig.cpp:92 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:296
 msgid "Scorpio"
 msgstr "Skorpió"
 
-#: src/base/ColorConfig.cpp:93 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:295
+#: src/base/ColorConfig.cpp:93 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:296
 msgid "Sagittarius"
 msgstr "Nyilas"
 
 #: src/base/ColorConfig.cpp:94 src/base/Lang.cpp:444
-#: src/dialogs/ViewPanel.cpp:160 src/gui/ToolPanel.cpp:295
+#: src/dialogs/ViewPanel.cpp:160 src/gui/ToolPanel.cpp:296
 msgid "Capricorn"
 msgstr "Bak"
 
@@ -106,11 +106,11 @@ msgstr "Bak"
 msgid "rainbow.png"
 msgstr "rainbow.png"
 
-#: src/base/ColorConfig.cpp:95 src/base/Lang.cpp:445 src/gui/ToolPanel.cpp:295
+#: src/base/ColorConfig.cpp:95 src/base/Lang.cpp:445 src/gui/ToolPanel.cpp:296
 msgid "Aquarius"
 msgstr "Vízöntő"
 
-#: src/base/ColorConfig.cpp:96 src/base/Lang.cpp:445 src/gui/ToolPanel.cpp:295
+#: src/base/ColorConfig.cpp:96 src/base/Lang.cpp:445 src/gui/ToolPanel.cpp:296
 msgid "Pisces"
 msgstr "Halak"
 
@@ -121,7 +121,7 @@ msgstr "Nap"
 
 #: src/base/ColorConfig.cpp:98 src/base/Lang.cpp:110
 #: src/dialogs/VedicCalculationPanel.cpp:114
-#: src/dialogs/VedicCalculationPanel.cpp:143 src/gui/ToolPanel.cpp:293
+#: src/dialogs/VedicCalculationPanel.cpp:143 src/gui/ToolPanel.cpp:294
 #: src/jyotish/Eclipse.cpp:132 src/jyotish/Ephemeris.cpp:588
 msgid "Moon"
 msgstr "Hold"
@@ -165,7 +165,7 @@ msgstr "Ketu"
 #: src/base/ColorConfig.cpp:106 src/base/Lang.cpp:113
 #: src/dialogs/VedicPanel.cpp:68 src/dialogs/WesternChartPanel.cpp:156
 #: src/dialogs/WesternPanel.cpp:65 src/gui/MenuProvider.cpp:496
-#: src/gui/ToolPanel.cpp:293
+#: src/gui/ToolPanel.cpp:294
 msgid "Ascendant"
 msgstr "Aszcendens"
 
@@ -361,62 +361,63 @@ msgstr "Párkapcsolatok"
 msgid "Ephemeris View"
 msgstr "Efemeridák"
 
-#: src/base/Commands.cpp:253 src/dialogs/ConfigDialog.cpp:71
-#: src/dialogs/ConfigDialog.cpp:117 src/dialogs/ConfigDialog.cpp:224
+#: src/base/Commands.cpp:254 src/base/Commands.cpp:256
+#: src/dialogs/ConfigDialog.cpp:71 src/dialogs/ConfigDialog.cpp:117
+#: src/dialogs/ConfigDialog.cpp:224
 msgid "Configuration"
 msgstr "Beállítások"
 
-#: src/base/Commands.cpp:254 src/gui/YogaEditor.cpp:363
+#: src/base/Commands.cpp:258 src/gui/YogaEditor.cpp:363
 #: src/gui/YogaEditor.cpp:377 src/gui/YogaEditor.cpp:423
 msgid "Yoga Editor"
 msgstr "Yoga szerkesztő"
 
-#: src/base/Commands.cpp:255 src/dialogs/AtlasDialog.cpp:708
+#: src/base/Commands.cpp:259 src/dialogs/AtlasDialog.cpp:708
 #: src/dialogs/ConfigPanel.cpp:73
 msgid "Atlas"
 msgstr "Atlasz"
 
-#: src/base/Commands.cpp:256 src/dialogs/AboutDialog.cpp:270
+#: src/base/Commands.cpp:260 src/dialogs/AboutDialog.cpp:270
 msgid "About"
 msgstr "Névjegy"
 
-#: src/base/Commands.cpp:257
+#: src/base/Commands.cpp:261
 msgid "Documentation (Web)"
 msgstr "Dokumentáció (web)"
 
-#: src/base/Commands.cpp:260
+#: src/base/Commands.cpp:264
 msgid "Animate Chart"
 msgstr "Animáció"
 
-#: src/base/Commands.cpp:261
+#: src/base/Commands.cpp:265
 msgid "Vedic Mode"
 msgstr "Védikus mód"
 
-#: src/base/Commands.cpp:262
+#: src/base/Commands.cpp:266
 msgid "Western Mode"
 msgstr "Nyugati mód"
 
-#: src/base/Commands.cpp:263
+#: src/base/Commands.cpp:267
 msgid "Edit Chart Data"
 msgstr "Születési adatok javítása"
 
-#: src/base/Commands.cpp:264
+#: src/base/Commands.cpp:268
 msgid "Save Text As ..."
 msgstr "Szöveg mentése mint ..."
 
-#: src/base/Commands.cpp:265
+#: src/base/Commands.cpp:269
 msgid "Save Picture As ..."
 msgstr "Kép mentése mint ..."
 
-#: src/base/Commands.cpp:268
+#: src/base/Commands.cpp:272
 msgid "Save Configuration"
 msgstr "Beállítások mentése"
 
-#: src/base/Commands.cpp:269
+#: src/base/Commands.cpp:273
 msgid "Show Toolbar"
 msgstr "Eszköztár mutatása"
 
-#: src/base/Commands.cpp:270
+#: src/base/Commands.cpp:274
 msgid "Show Statusbar"
 msgstr "Állapotsor mutatása"
 
@@ -477,7 +478,7 @@ msgstr "Helyi idő"
 
 #: src/base/DataSet.cpp:380 src/dialogs/AtlasDialog.cpp:286
 #: src/dialogs/AtlasEditDialog.cpp:88 src/dialogs/DataDialog.cpp:69
-#: src/dialogs/DataDialog.cpp:100 src/gui/ToolPanel.cpp:412
+#: src/dialogs/DataDialog.cpp:100 src/gui/ToolPanel.cpp:413
 #: src/jyotish/PrintoutHelper.cpp:98 src/jyotish/TextHelper.cpp:573
 msgid "Time Zone"
 msgstr "Időzóna"
@@ -1941,8 +1942,8 @@ msgid "sec"
 msgstr "mp"
 
 #: src/dialogs/AnimationPanel.cpp:62 src/dialogs/AtlasDialog.cpp:266
-#: src/dialogs/DialogElements.cpp:241 src/gui/ToolPanel.cpp:304
-#: src/gui/ToolPanel.cpp:389 src/gui/ToolPanel.cpp:408
+#: src/dialogs/DialogElements.cpp:241 src/gui/ToolPanel.cpp:305
+#: src/gui/ToolPanel.cpp:390 src/gui/ToolPanel.cpp:409
 msgid "Mode"
 msgstr "Rendezés"
 
@@ -2096,7 +2097,7 @@ msgstr "Aspektus"
 
 #: src/dialogs/AspectPanel.cpp:60 src/dialogs/AspectPanel.cpp:65
 #: src/dialogs/AspectPanel.cpp:71 src/dialogs/DialogElements.cpp:225
-#: src/gui/ToolPanel.cpp:362 src/jyotish/Aspect.cpp:493
+#: src/gui/ToolPanel.cpp:363 src/jyotish/Aspect.cpp:493
 #: src/jyotish/PrintoutHelper.cpp:400 src/jyotish/PrintoutHelper.cpp:405
 #: src/jyotish/PrintoutHelper.cpp:410 src/jyotish/Transit.cpp:258
 #: src/jyotish/Uranian.cpp:94 src/jyotish/UranianHelper.cpp:473
@@ -2267,7 +2268,7 @@ msgstr "Szinonímák szerkesztése ..."
 msgid "Edit Atlas Entry"
 msgstr "Atlasz adat szerkesztése"
 
-#: src/dialogs/AtlasImportDialog.cpp:204
+#: src/dialogs/AtlasImportDialog.cpp:209
 msgid "Atlas Data Import"
 msgstr "Atlasz adat importálása"
 
@@ -2355,7 +2356,7 @@ msgstr "Szövegszínek"
 
 #: src/dialogs/ColorPanel.cpp:53 src/dialogs/ColorPanel.cpp:63
 #: src/dialogs/FontPanel.cpp:59 src/dialogs/FontPanel.cpp:81
-#: src/dialogs/WesternPanel.cpp:84 src/gui/ToolPanel.cpp:286
+#: src/dialogs/WesternPanel.cpp:84 src/gui/ToolPanel.cpp:287
 msgid "Default"
 msgstr "Alapértelmezett"
 
@@ -2572,7 +2573,7 @@ msgstr "Idő"
 msgid "HH:MM[:SS]"
 msgstr "ÓÓ:PP[:MM]"
 
-#: src/dialogs/DataDialog.cpp:79 src/gui/ToolPanel.cpp:453
+#: src/dialogs/DataDialog.cpp:79 src/gui/ToolPanel.cpp:454
 msgid "Now"
 msgstr "Most"
 
@@ -2665,7 +2666,7 @@ msgstr "Tropikus (365.2422)"
 msgid "Custom"
 msgstr "Egyéni"
 
-#: src/dialogs/DialogElements.cpp:192 src/gui/ToolPanel.cpp:416
+#: src/dialogs/DialogElements.cpp:192 src/gui/ToolPanel.cpp:417
 #: src/jyotish/Uranian.cpp:91
 msgid "Circle Type"
 msgstr "Kör típus"
@@ -3017,7 +3018,7 @@ msgstr "Alapértelmezett nézet"
 #: src/dialogs/MultipleViewPanel.cpp:55
 #: src/dialogs/PrintConfigurationDialog.cpp:61
 #: src/dialogs/ToolbarPanel.cpp:354 src/gui/MainWindowControl.cpp:140
-#: src/gui/ToolPanel.cpp:339 src/jyotish/Aspect.cpp:490
+#: src/gui/ToolPanel.cpp:340 src/jyotish/Aspect.cpp:490
 #: src/jyotish/Eclipse.cpp:128
 msgid "Type"
 msgstr "Típus"
@@ -3207,7 +3208,7 @@ msgstr "Kiválasztott elem mozgatása lefelé"
 msgid "Nakshatras and Dasas"
 msgstr "Nakshatrák és Dasák"
 
-#: src/dialogs/VargaPanel.cpp:60 src/gui/ToolPanel.cpp:274
+#: src/dialogs/VargaPanel.cpp:60 src/gui/ToolPanel.cpp:275
 #: src/gui/VargaView.cpp:326 src/gui/VargaView.cpp:365
 #: src/jyotish/Varga.cpp:361
 msgid "Vargas"
@@ -3222,7 +3223,7 @@ msgid "Always Rasi"
 msgstr "Mindig Rasi"
 
 #: src/dialogs/VargaPanel.cpp:64 src/gui/MenuProvider.cpp:148
-#: src/gui/MenuProvider.cpp:562 src/gui/ToolPanel.cpp:317
+#: src/gui/MenuProvider.cpp:562 src/gui/ToolPanel.cpp:318
 #: src/jyotish/Jaimini.cpp:187
 msgid "Varga"
 msgstr "Varga"
@@ -3308,7 +3309,7 @@ msgid "Custom Length"
 msgstr "Egyedi hossz"
 
 #: src/dialogs/VedicCalculationPanel.cpp:58 src/gui/AshtakaVargaView.cpp:409
-#: src/gui/ToolPanel.cpp:265
+#: src/gui/ToolPanel.cpp:266
 msgid "Ashtaka Varga"
 msgstr "Ashtaka Varga"
 
@@ -3556,7 +3557,7 @@ msgstr "Ábra típusa"
 
 #: src/dialogs/VedicChartPanel.cpp:203 src/gui/MenuProvider.cpp:370
 #: src/gui/MenuProvider.cpp:610 src/gui/PartnerView.cpp:285
-#: src/gui/SbcView.cpp:75 src/gui/TransitView.cpp:194
+#: src/gui/SbcView.cpp:75 src/gui/TransitView.cpp:195
 msgid "Sarvatobhadra"
 msgstr "Sarvatobhadra"
 
@@ -3634,7 +3635,7 @@ msgid "Partly Displayed Points"
 msgstr "Részben mutatott pontok"
 
 #: src/dialogs/VedicPanel.cpp:61 src/dialogs/WesternPanel.cpp:58
-#: src/gui/MenuProvider.cpp:516 src/gui/ToolPanel.cpp:264
+#: src/gui/MenuProvider.cpp:516 src/gui/ToolPanel.cpp:265
 msgid "Arabic Parts"
 msgstr "Arab pontok"
 
@@ -3994,7 +3995,7 @@ msgid "Order"
 msgstr "Rendezés"
 
 #: src/dialogs/WesternPanel.cpp:85 src/gui/PartnerView.cpp:307
-#: src/gui/TransitView.cpp:214 src/gui/UranianView.cpp:272
+#: src/gui/TransitView.cpp:215 src/gui/UranianView.cpp:272
 #: src/jyotish/PrintoutHelper.cpp:122
 msgid "Uranian"
 msgstr "White-féle planéták"
@@ -4047,72 +4048,72 @@ msgstr "Kiértékel"
 msgid "Clear Chart"
 msgstr "Ábra törlése"
 
-#: src/dialogs/YogaEditorPanel.cpp:413
+#: src/dialogs/YogaEditorPanel.cpp:414
 #, c-format
 msgid "Do you want to delete the Yoga %s?"
 msgstr "Akarod a(z) %s Yoga törlését?"
 
-#: src/dialogs/YogaEditorPanel.cpp:545
+#: src/dialogs/YogaEditorPanel.cpp:546
 msgid "Move current Yoga up"
 msgstr "Yoga mozgatása felfelé"
 
-#: src/dialogs/YogaEditorPanel.cpp:547
+#: src/dialogs/YogaEditorPanel.cpp:548
 msgid "Move current Yoga down"
 msgstr "Jelenlegi Yoga mozgatása lefelé"
 
-#: src/dialogs/YogaEditorPanel.cpp:549
+#: src/dialogs/YogaEditorPanel.cpp:550
 msgid "Insert new Yoga at current position"
 msgstr "Új Yoga beillesztése a jelenlegi helyre"
 
-#: src/dialogs/YogaEditorPanel.cpp:551
+#: src/dialogs/YogaEditorPanel.cpp:552
 msgid "Delete current Yoga"
 msgstr "Jelenlegi Yoga törlése"
 
-#: src/dialogs/YogaEditorPanel.cpp:553
+#: src/dialogs/YogaEditorPanel.cpp:554
 msgid "Copy current Yoga"
 msgstr "Jelenlegi Yoga másolása"
 
-#: src/dialogs/YogaEditorPanel.cpp:559
+#: src/dialogs/YogaEditorPanel.cpp:560
 msgid "Create a new group"
 msgstr "Új csoport létrehozása"
 
-#: src/dialogs/YogaEditorPanel.cpp:563
+#: src/dialogs/YogaEditorPanel.cpp:564
 msgid "Create a new source"
 msgstr "Új forrás létrehozása"
 
-#: src/dialogs/YogaEditorPanel.cpp:564
+#: src/dialogs/YogaEditorPanel.cpp:565
 msgid "Check this to include the Yoga only in Rasi chart"
 msgstr "A Yoga csak Rasi diagrammba legyen beillesztve"
 
-#: src/dialogs/YogaEditorPanel.cpp:568
+#: src/dialogs/YogaEditorPanel.cpp:569
 msgid "Parse the current rule for syntactical correctness"
 msgstr "Aktuális szabály sszintaktikai vizsgálata"
 
-#: src/dialogs/YogaEditorPanel.cpp:569
+#: src/dialogs/YogaEditorPanel.cpp:570
 msgid "Evaluate the rule in the chart"
 msgstr "Szabály kiértékelése a diagrammban"
 
-#: src/dialogs/YogaEditorPanel.cpp:570
+#: src/dialogs/YogaEditorPanel.cpp:571
 msgid "Remove all objects from the chart"
 msgstr "Minden objektum eltávolítása a diagrammból"
 
-#: src/gui/ApplicationWindow.cpp:389
+#: src/gui/ApplicationWindow.cpp:398
 msgid "Open file"
 msgstr "Fájl megnyitása"
 
-#: src/gui/ApplicationWindow.cpp:420
+#: src/gui/ApplicationWindow.cpp:429
 msgid "Cannot open file"
 msgstr "A fájlt nem lehet megnyitni"
 
-#: src/gui/ApplicationWindow.cpp:567
+#: src/gui/ApplicationWindow.cpp:576
 msgid "Do you want to quit?"
 msgstr "Ki akarsz lépni?"
 
-#: src/gui/ApplicationWindow.cpp:592
+#: src/gui/ApplicationWindow.cpp:601
 msgid "Configuration saved."
 msgstr "Beállítások elmentve."
 
-#: src/gui/ApplicationWindow.cpp:639
+#: src/gui/ApplicationWindow.cpp:648
 msgid "Cannot launch Browser."
 msgstr "A böngészőt nem lehet elindítani"
 
@@ -4186,7 +4187,7 @@ msgid "Choose Dasas"
 msgstr "Dasa választása"
 
 #: src/gui/DasaGraphicView.cpp:264 src/gui/DasaView.cpp:503
-#: src/gui/ToolPanel.cpp:324 src/jyotish/Dasa.cpp:109 src/jyotish/Dasa.cpp:192
+#: src/gui/ToolPanel.cpp:325 src/jyotish/Dasa.cpp:109 src/jyotish/Dasa.cpp:192
 #: src/jyotish/Dasa.cpp:298 src/jyotish/TextHelper.cpp:757
 msgid "Dasa"
 msgstr "Dasa"
@@ -4410,7 +4411,7 @@ msgstr "Új nézet"
 msgid "Dignity"
 msgstr "Dignitás"
 
-#: src/gui/MenuProvider.cpp:425 src/gui/ToolPanel.cpp:273
+#: src/gui/MenuProvider.cpp:425 src/gui/ToolPanel.cpp:274
 #: src/jyotish/Nakshatra.cpp:184 src/jyotish/Nakshatra.cpp:271
 #: src/jyotish/Partner.cpp:286 src/jyotish/Partner.cpp:311
 #: src/jyotish/PrintoutHelper.cpp:249 src/jyotish/TextHelper.cpp:302
@@ -4430,7 +4431,7 @@ msgstr "Shastiamsa (D60)"
 msgid "Dasa Varga Dignity"
 msgstr "Dasa Varga dignitás"
 
-#: src/gui/MenuProvider.cpp:439 src/gui/ToolPanel.cpp:267
+#: src/gui/MenuProvider.cpp:439 src/gui/ToolPanel.cpp:268
 #: src/gui/VedicChart.cpp:188 src/gui/VedicChart.cpp:192
 #: src/gui/VedicChart.cpp:196 src/jyotish/TextHelper.cpp:312
 #: src/jyotish/TextHelper.cpp:699 src/jyotish/TextHelper.cpp:719
@@ -4514,7 +4515,7 @@ msgstr "Diagramm nincs betöltve"
 msgid "Charts identical"
 msgstr "A diagrammok azonosak"
 
-#: src/gui/PartnerView.cpp:263 src/gui/TransitView.cpp:189
+#: src/gui/PartnerView.cpp:263 src/gui/TransitView.cpp:190
 msgid "Double Chart"
 msgstr "Dulpa diagramm"
 
@@ -4526,15 +4527,15 @@ msgstr "Védikus párkapcsolat horoszkóp"
 msgid "Composite Chart"
 msgstr "Összetett diagramm"
 
-#: src/gui/PartnerView.cpp:290 src/gui/TransitView.cpp:199
+#: src/gui/PartnerView.cpp:290 src/gui/TransitView.cpp:200
 msgid "Shadvarga"
 msgstr "Shadvarga"
 
-#: src/gui/PartnerView.cpp:295 src/gui/TransitView.cpp:204
+#: src/gui/PartnerView.cpp:295 src/gui/TransitView.cpp:205
 msgid "Varga (2)"
 msgstr "Varga (2)"
 
-#: src/gui/PartnerView.cpp:300 src/gui/TransitView.cpp:209
+#: src/gui/PartnerView.cpp:300 src/gui/TransitView.cpp:210
 msgid "Varga (3)"
 msgstr "Varga (3)"
 
@@ -4598,7 +4599,7 @@ msgid "Tajaka"
 msgstr "Tajaka"
 
 #: src/gui/SolarView.cpp:206 src/gui/SolarView.cpp:265
-#: src/gui/ToolPanel.cpp:280 src/jyotish/Eclipse.cpp:138
+#: src/gui/ToolPanel.cpp:281 src/jyotish/Eclipse.cpp:138
 msgid "Solar"
 msgstr "Szoláris"
 
@@ -4627,153 +4628,153 @@ msgstr "Szöveg mentése"
 msgid "Text exported to %s"
 msgstr "Szöveg exportálva ide: %s"
 
-#: src/gui/ToolPanel.cpp:263 src/jyotish/PrintoutHelper.cpp:76
+#: src/gui/ToolPanel.cpp:264 src/jyotish/PrintoutHelper.cpp:76
 #: src/jyotish/PrintoutHelper.cpp:120 src/jyotish/TextHelper.cpp:548
 msgid "Base Data"
 msgstr "Alapadatok"
 
-#: src/gui/ToolPanel.cpp:266
+#: src/gui/ToolPanel.cpp:267
 msgid "Astronomical"
 msgstr "Asztronómiai"
 
-#: src/gui/ToolPanel.cpp:268
+#: src/gui/ToolPanel.cpp:269
 msgid "Dasa (Short)"
 msgstr "Dasa (rövid)"
 
-#: src/gui/ToolPanel.cpp:269
+#: src/gui/ToolPanel.cpp:270
 msgid "Dasa (Compact)"
 msgstr "Dasa (összefoglaló)"
 
-#: src/gui/ToolPanel.cpp:270
+#: src/gui/ToolPanel.cpp:271
 msgid "Dasa (Long)"
 msgstr "Dasa (részletes)"
 
-#: src/gui/ToolPanel.cpp:271 src/jyotish/Jaimini.cpp:186
+#: src/gui/ToolPanel.cpp:272 src/jyotish/Jaimini.cpp:186
 msgid "Jaimini"
 msgstr "Jaimini"
 
-#: src/gui/ToolPanel.cpp:272 src/jyotish/TextHelper.cpp:756
+#: src/gui/ToolPanel.cpp:273 src/jyotish/TextHelper.cpp:756
 msgid "Krishnamurti Paddhati"
 msgstr "Krishnamurti Paddhati"
 
-#: src/gui/ToolPanel.cpp:275 src/jyotish/Aspect.cpp:452
+#: src/gui/ToolPanel.cpp:276 src/jyotish/Aspect.cpp:452
 msgid "Vedic Aspectarium"
 msgstr "Védikus aspektárium"
 
-#: src/gui/ToolPanel.cpp:276 src/jyotish/TextHelper.cpp:850
+#: src/gui/ToolPanel.cpp:277 src/jyotish/TextHelper.cpp:850
 msgid "Vedic Planets"
 msgstr "Védikus asztrológia planétái"
 
-#: src/gui/ToolPanel.cpp:277
+#: src/gui/ToolPanel.cpp:278
 msgid "Western Aspectarium"
 msgstr "Nyugati aspektárium"
 
-#: src/gui/ToolPanel.cpp:278 src/jyotish/TextHelper.cpp:941
+#: src/gui/ToolPanel.cpp:279 src/jyotish/TextHelper.cpp:941
 msgid "Western Planets"
 msgstr "Nyugati asztrologia planétái"
 
-#: src/gui/ToolPanel.cpp:280
+#: src/gui/ToolPanel.cpp:281
 msgid "All"
 msgstr "Mind"
 
-#: src/gui/ToolPanel.cpp:280 src/gui/ToolPanel.cpp:287
+#: src/gui/ToolPanel.cpp:281 src/gui/ToolPanel.cpp:288
 #: src/jyotish/Eclipse.cpp:139
 msgid "Lunar"
 msgstr "Lunáris"
 
-#: src/gui/ToolPanel.cpp:281 src/jyotish/Uranian.cpp:90
+#: src/gui/ToolPanel.cpp:282 src/jyotish/Uranian.cpp:90
 msgid "Midpoint Summary"
 msgstr "Felezőpont összegzés"
 
-#: src/gui/ToolPanel.cpp:281
+#: src/gui/ToolPanel.cpp:282
 msgid "Yearly Preview"
 msgstr "Éves előrejelzés"
 
-#: src/gui/ToolPanel.cpp:286
+#: src/gui/ToolPanel.cpp:287
 msgid "Graphical"
 msgstr "Grafikus"
 
-#: src/gui/ToolPanel.cpp:286
+#: src/gui/ToolPanel.cpp:287
 msgid "Sunrise/Tithi"
 msgstr "Napkelte/Tithi"
 
-#: src/gui/ToolPanel.cpp:287
+#: src/gui/ToolPanel.cpp:288
 msgid "Ingress"
 msgstr "Ingress"
 
-#: src/gui/ToolPanel.cpp:287
+#: src/gui/ToolPanel.cpp:288
 msgid "KP"
 msgstr "KP"
 
-#: src/gui/ToolPanel.cpp:289
+#: src/gui/ToolPanel.cpp:290
 msgid "Local"
 msgstr "Helyi"
 
-#: src/gui/ToolPanel.cpp:293
+#: src/gui/ToolPanel.cpp:294
 msgid "Arudha Lagna"
 msgstr "Arudha Lagna"
 
-#: src/gui/ToolPanel.cpp:330
+#: src/gui/ToolPanel.cpp:331
 msgid "Year"
 msgstr "Év"
 
-#: src/gui/ToolPanel.cpp:335
+#: src/gui/ToolPanel.cpp:336
 msgid "Number of Years"
 msgstr "Évek száma"
 
-#: src/gui/ToolPanel.cpp:344
+#: src/gui/ToolPanel.cpp:345
 msgid "Progress Transit Date"
 msgstr "Tranzit adatok..."
 
-#: src/gui/ToolPanel.cpp:393
+#: src/gui/ToolPanel.cpp:394
 msgid "Zoom"
 msgstr "Nyújtás"
 
-#: src/gui/ToolPanel.cpp:398
+#: src/gui/ToolPanel.cpp:399
 msgid "Dasa Level"
 msgstr "Dasa szint"
 
-#: src/gui/ToolPanel.cpp:404
+#: src/gui/ToolPanel.cpp:405
 msgid "Month"
 msgstr "Hónap"
 
-#: src/gui/ToolPanel.cpp:420
+#: src/gui/ToolPanel.cpp:421
 msgid "Partner 1"
 msgstr "Partner 1"
 
-#: src/gui/ToolPanel.cpp:424
+#: src/gui/ToolPanel.cpp:425
 msgid "Partner 2"
 msgstr "Partner 2"
 
-#: src/gui/ToolPanel.cpp:456
+#: src/gui/ToolPanel.cpp:457
 msgid "Select Dasas"
 msgstr "Dasák választása"
 
-#: src/gui/ToolPanel.cpp:459
+#: src/gui/ToolPanel.cpp:460
 msgid "Goto Year"
 msgstr "Évhez ugrás"
 
-#: src/gui/ToolPanel.cpp:462
+#: src/gui/ToolPanel.cpp:463
 msgid "New File"
 msgstr "Új fájl"
 
-#: src/gui/ToolPanel.cpp:465
+#: src/gui/ToolPanel.cpp:466
 msgid "Open File"
 msgstr "Fájl megnyitása"
 
-#: src/gui/ToolPanel.cpp:468
+#: src/gui/ToolPanel.cpp:469
 msgid "Save File"
 msgstr "Fájl mentése"
 
-#: src/gui/ToolPanel.cpp:471
+#: src/gui/ToolPanel.cpp:472
 msgid "Save File As"
 msgstr "Fájl mentése mint"
 
-#: src/gui/ToolPanel.cpp:474
+#: src/gui/ToolPanel.cpp:475
 msgid "Close Child"
 msgstr "Bezárás - alpont"
 
-#: src/gui/TransitView.cpp:840 src/jyotish/Transit.cpp:208
+#: src/gui/TransitView.cpp:841 src/jyotish/Transit.cpp:208
 msgid "Transit"
 msgstr "Tranzit"
 
@@ -6220,7 +6221,8 @@ msgid "Partner2"
 msgstr "Partner2"
 
 #: src/jyotish/Uranian.cpp:264
-msgid "Yearly Preview for Solar Chart"
+#, fuzzy
+msgid "Yearly Preview for Solar Arc"
 msgstr "Nap diagramm éves előrejelzés"
 
 #: src/jyotish/UranianHelper.cpp:297

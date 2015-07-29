@@ -8,7 +8,7 @@
 
 
 Name:           maitreya
-Version:        7.0.5
+Version:        7.1
 Release:        1%{?dist}
 Summary:        Software for Vedic and western astrology
 Group:          Productivity/Other

@@ -303,7 +303,8 @@ void YogaEditorPanel::updateFieldStatus()
 {
 	int size = list_yogas->GetItemCount();
 
-	const long item = list_yogas->GetNextItem( 0, wxLIST_NEXT_ALL, wxLIST_STATE_SELECTED );
+	//const long item = list_yogas->GetNextItem( 0, wxLIST_NEXT_ALL, wxLIST_STATE_SELECTED );
+	const long item = size > 0 ? list_yogas->GetNextItem( 0, wxLIST_NEXT_ALL, wxLIST_STATE_SELECTED ) : -1;
 
 	// only if selected item is not first
 	button_up->Enable( size > 0 && item > 0 );

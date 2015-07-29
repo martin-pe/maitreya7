@@ -247,7 +247,11 @@ void CommandHandler::init()
 	cmds[APP_SHOWECLIPSE] = new MaitreyaCommand( BITMAP_ECLIPSE, _( "Eclipse View" ), new MaitreyaShortcut( 'E', 0, 1 ));
 	cmds[APP_NEW_PARTNER] = new MaitreyaCommand( BITMAP_PARTNER, _( "Partner View" ), new MaitreyaShortcut( 'P', 0, 0 ));
 	cmds[APP_SHOWEPHEM] = new MaitreyaCommand( BITMAP_EPHEM, _( "Ephemeris View" ), new MaitreyaShortcut( 'E', 0, 0 ));
+#if defined(__WXMAC__)
+	cmds[APP_CONFIGURE] = new MaitreyaCommand( BITMAP_CONFIG, _( "Configuration" ), new MaitreyaShortcut( ',', 0, 1 ));
+#else
 	cmds[APP_CONFIGURE] = new MaitreyaCommand( BITMAP_CONFIG, _( "Configuration" ), new MaitreyaShortcut( 'C', 0, 0 ));
+#endif
 	cmds[APP_YOGAEDITOR] = new MaitreyaCommand( BITMAP_YOGAEDITOR, _( "Yoga Editor" ), new MaitreyaShortcut( 'Y', 0, 1 ));
 	cmds[APP_LOCATION] = new MaitreyaCommand( BITMAP_WORLD, _( "Atlas" ), new MaitreyaShortcut( 'L', 0, 0 ));
 	cmds[APP_ABOUT] = new MaitreyaCommand( BITMAP_ABOUT, _( "About" ), new MaitreyaShortcut( WXK_F1, 1, 0 ));

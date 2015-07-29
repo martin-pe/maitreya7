@@ -22,7 +22,7 @@ maitreya7_bin_SOURCES = ApplicationWindow.cpp ApplicationWindow.h AshtakaVargaVi
 
 
 maitreya7_bin_LDADD =  ../jyotish/libjyotish.a ../dialogs/libmaitreya_dialogs.a ../base/libmaitreya_base.a \
-	../swe/libswe.a ../db/libmaitreya_db.a  ../pdf/libmaitreya_pdf.a $(WX_LIBS) -lm -ldl $(LIBFONTCONFIG)
+	../swe/libswe.a ../db/libmaitreya_db.a  ../pdf/libmaitreya_pdf.a $(WX_LIBS) -lm $(LIBFONTCONFIG)
 
 all-am: maitreya7
 

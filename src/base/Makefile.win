@@ -6,7 +6,7 @@ RM = rm -f
 
 BASE_LIB = libmaitreya_base.a
 
-CPPFLAGS = -g -I. -I.. -I../../ -I../swe -I../pics -I../db  `wx-config --cppflags`
+CPPFLAGS = -g -w -I. -I.. -I../../ -I../swe -I../pics -I../db  `wx-config --cppflags`
 
 LDLIBS = `wx-config --libs` 
 

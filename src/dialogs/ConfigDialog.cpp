@@ -246,13 +246,11 @@ void ConfigDialog::showPanel( const int &sel )
 **   ConfigDialog   ---   OnTreebook
 **
 ******************************************************/
-/*#ifdef _WX29
+#ifdef _WX29
 void ConfigDialog::OnTreebook( wxBookCtrlEvent &event )
 #else
 void ConfigDialog::OnTreebook( wxTreebookEvent &event )
 #endif
-*/
-void ConfigDialog::OnTreebook( wxTreebookEvent &event )
 {
 	showPanel( event.GetSelection());
 	if ( event.GetOldSelection() != -1 && configpanel[event.GetOldSelection()] != 0 )

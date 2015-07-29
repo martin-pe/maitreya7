@@ -288,7 +288,7 @@ void AboutDialog::set_properties()
 void AboutDialog::do_layout()
 {
     // begin wxGlade: AboutDialog::do_layout
-    wxFlexGridSizer* sizer_about = new wxFlexGridSizer(3, 1, 0, 0);
+    wxFlexGridSizer* sizer_about = new wxFlexGridSizer(4, 1, 0, 0);
     wxStaticBoxSizer* sizer_software = new wxStaticBoxSizer(sizer_software_staticbox, wxVERTICAL);
     wxStaticBoxSizer* sizer_author = new wxStaticBoxSizer(sizer_author_staticbox, wxVERTICAL);
     wxBoxSizer* sizer_logo = new wxBoxSizer(wxHORIZONTAL);

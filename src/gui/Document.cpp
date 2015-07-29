@@ -260,6 +260,10 @@ void Document::editData()
 ******************************************************/
 void Document::doQuickPrint()
 {
+#if defined(__WXMAC__)
+	doMessageBox( 0, wxT( "Sorry, this feature doesn't work on OS x." ));
+	return;
+#endif 
 	PdfPrinter( this ).print( config->printDefaultPrintout, wxEmptyString, true );
 }
 
@@ -270,6 +274,10 @@ void Document::doQuickPrint()
 ******************************************************/
 void Document::doPrint()
 {
+#if defined(__WXMAC__)
+	doMessageBox( 0, wxT( "Sorry, this feature doesn't work on OS x." ));
+	return;
+#endif 
 	PrintConfigurationDialog dialog( mainwindow, this );
 	if ( dialog.ShowModal() == wxID_OK )
 		PdfPrinter( this ).print( dialog.getSelectedPrintout(), dialog.getFilename(), false );

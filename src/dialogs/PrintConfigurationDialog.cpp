@@ -192,12 +192,12 @@ void PrintConfigurationDialog::set_properties()
 void PrintConfigurationDialog::do_layout()
 {
     // begin wxGlade: PrintConfigurationDialog::do_layout
-    wxFlexGridSizer* sizer_main = new wxFlexGridSizer(2, 1, 0, 0);
+    wxFlexGridSizer* sizer_main = new wxFlexGridSizer(3, 1, 0, 0);
     wxBoxSizer* sizer_buttons = new wxBoxSizer(wxHORIZONTAL);
     wxStaticBoxSizer* sizer_file2 = new wxStaticBoxSizer(sizer_file2_staticbox, wxHORIZONTAL);
     wxFlexGridSizer* sizer_file = new wxFlexGridSizer(1, 2, 0, 0);
     wxStaticBoxSizer* sizer_type = new wxStaticBoxSizer(sizer_type_staticbox, wxVERTICAL);
-    wxFlexGridSizer* sizer_type2 = new wxFlexGridSizer(3, 1, 0, 0);
+    wxFlexGridSizer* sizer_type2 = new wxFlexGridSizer(2, 1, 0, 0);
     sizer_type2->Add(choice_type, 0, wxALL|wxEXPAND, 3);
     sizer_type2->Add(text_description, 0, wxALL|wxEXPAND, 3);
     sizer_type2->AddGrowableRow(1);

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Maitreya6\n"
 "Report-Msgid-Bugs-To: office2@saravali.de\n"
-"POT-Creation-Date: 2013-12-01 11:11+0100\n"
+"POT-Creation-Date: 2014-12-25 17:00+0100\n"
 "PO-Revision-Date: 2011-02-08 23:09-0300\n"
 "Last-Translator: Andrei Ivanov <andrei.astrologia@gmail.com>\n"
 "Language-Team: Spanish <andrei.astrologia@gmail.com>\n"
@@ -63,27 +63,27 @@ msgstr "desconocido"
 
 #: src/base/ColorConfig.cpp:85 src/base/Lang.cpp:123 src/base/Lang.cpp:443
 #: src/dialogs/VedicPanel.cpp:80 src/dialogs/WesternPanel.cpp:77
-#: src/gui/MenuProvider.cpp:507 src/gui/ToolPanel.cpp:294
+#: src/gui/MenuProvider.cpp:507 src/gui/ToolPanel.cpp:295
 msgid "Aries"
 msgstr "Aries"
 
-#: src/base/ColorConfig.cpp:86 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:294
+#: src/base/ColorConfig.cpp:86 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:295
 msgid "Taurus"
 msgstr "Tauro"
 
-#: src/base/ColorConfig.cpp:87 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:294
+#: src/base/ColorConfig.cpp:87 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:295
 msgid "Gemini"
 msgstr "Géminis"
 
-#: src/base/ColorConfig.cpp:88 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:294
+#: src/base/ColorConfig.cpp:88 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:295
 msgid "Cancer"
 msgstr "Cáncer"
 
-#: src/base/ColorConfig.cpp:89 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:294
+#: src/base/ColorConfig.cpp:89 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:295
 msgid "Leo"
 msgstr "Leo"
 
-#: src/base/ColorConfig.cpp:90 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:294
+#: src/base/ColorConfig.cpp:90 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:295
 msgid "Virgo"
 msgstr "Virgo"
 
@@ -91,20 +91,20 @@ msgstr "Virgo"
 msgid "piebald.png"
 msgstr "piebald.png"
 
-#: src/base/ColorConfig.cpp:91 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:294
+#: src/base/ColorConfig.cpp:91 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:295
 msgid "Libra"
 msgstr "Libra"
 
-#: src/base/ColorConfig.cpp:92 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:295
+#: src/base/ColorConfig.cpp:92 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:296
 msgid "Scorpio"
 msgstr "Escorpio"
 
-#: src/base/ColorConfig.cpp:93 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:295
+#: src/base/ColorConfig.cpp:93 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:296
 msgid "Sagittarius"
 msgstr "Sagitario"
 
 #: src/base/ColorConfig.cpp:94 src/base/Lang.cpp:444
-#: src/dialogs/ViewPanel.cpp:160 src/gui/ToolPanel.cpp:295
+#: src/dialogs/ViewPanel.cpp:160 src/gui/ToolPanel.cpp:296
 msgid "Capricorn"
 msgstr "Capricornio"
 
@@ -112,11 +112,11 @@ msgstr "Capricornio"
 msgid "rainbow.png"
 msgstr "rainbow.png"
 
-#: src/base/ColorConfig.cpp:95 src/base/Lang.cpp:445 src/gui/ToolPanel.cpp:295
+#: src/base/ColorConfig.cpp:95 src/base/Lang.cpp:445 src/gui/ToolPanel.cpp:296
 msgid "Aquarius"
 msgstr "Acuario"
 
-#: src/base/ColorConfig.cpp:96 src/base/Lang.cpp:445 src/gui/ToolPanel.cpp:295
+#: src/base/ColorConfig.cpp:96 src/base/Lang.cpp:445 src/gui/ToolPanel.cpp:296
 msgid "Pisces"
 msgstr "Piscis"
 
@@ -127,7 +127,7 @@ msgstr "Sol"
 
 #: src/base/ColorConfig.cpp:98 src/base/Lang.cpp:110
 #: src/dialogs/VedicCalculationPanel.cpp:114
-#: src/dialogs/VedicCalculationPanel.cpp:143 src/gui/ToolPanel.cpp:293
+#: src/dialogs/VedicCalculationPanel.cpp:143 src/gui/ToolPanel.cpp:294
 #: src/jyotish/Eclipse.cpp:132 src/jyotish/Ephemeris.cpp:588
 msgid "Moon"
 msgstr "Luna"
@@ -171,7 +171,7 @@ msgstr "Ketu"
 #: src/base/ColorConfig.cpp:106 src/base/Lang.cpp:113
 #: src/dialogs/VedicPanel.cpp:68 src/dialogs/WesternChartPanel.cpp:156
 #: src/dialogs/WesternPanel.cpp:65 src/gui/MenuProvider.cpp:496
-#: src/gui/ToolPanel.cpp:293
+#: src/gui/ToolPanel.cpp:294
 msgid "Ascendant"
 msgstr "Ascendente"
 
@@ -368,62 +368,63 @@ msgstr "Vista de Pareja"
 msgid "Ephemeris View"
 msgstr "Vista de Efemérides"
 
-#: src/base/Commands.cpp:253 src/dialogs/ConfigDialog.cpp:71
-#: src/dialogs/ConfigDialog.cpp:117 src/dialogs/ConfigDialog.cpp:224
+#: src/base/Commands.cpp:254 src/base/Commands.cpp:256
+#: src/dialogs/ConfigDialog.cpp:71 src/dialogs/ConfigDialog.cpp:117
+#: src/dialogs/ConfigDialog.cpp:224
 msgid "Configuration"
 msgstr "Ajustes"
 
-#: src/base/Commands.cpp:254 src/gui/YogaEditor.cpp:363
+#: src/base/Commands.cpp:258 src/gui/YogaEditor.cpp:363
 #: src/gui/YogaEditor.cpp:377 src/gui/YogaEditor.cpp:423
 msgid "Yoga Editor"
 msgstr "Editor de Yogas"
 
-#: src/base/Commands.cpp:255 src/dialogs/AtlasDialog.cpp:708
+#: src/base/Commands.cpp:259 src/dialogs/AtlasDialog.cpp:708
 #: src/dialogs/ConfigPanel.cpp:73
 msgid "Atlas"
 msgstr ""
 
-#: src/base/Commands.cpp:256 src/dialogs/AboutDialog.cpp:270
+#: src/base/Commands.cpp:260 src/dialogs/AboutDialog.cpp:270
 msgid "About"
 msgstr "Sobre el Programa"
 
-#: src/base/Commands.cpp:257
+#: src/base/Commands.cpp:261
 msgid "Documentation (Web)"
 msgstr "Manual (en Internet)"
 
-#: src/base/Commands.cpp:260
+#: src/base/Commands.cpp:264
 msgid "Animate Chart"
 msgstr "Animación de la Carta"
 
-#: src/base/Commands.cpp:261
+#: src/base/Commands.cpp:265
 msgid "Vedic Mode"
 msgstr "Tradición Védica"
 
-#: src/base/Commands.cpp:262
+#: src/base/Commands.cpp:266
 msgid "Western Mode"
 msgstr "Tradición Occidental"
 
-#: src/base/Commands.cpp:263
+#: src/base/Commands.cpp:267
 msgid "Edit Chart Data"
 msgstr "Editar Datos de la Carta"
 
-#: src/base/Commands.cpp:264
+#: src/base/Commands.cpp:268
 msgid "Save Text As ..."
 msgstr "Guardar Texto Como ..."
 
-#: src/base/Commands.cpp:265
+#: src/base/Commands.cpp:269
 msgid "Save Picture As ..."
 msgstr "Guardar Imagen Como ..."
 
-#: src/base/Commands.cpp:268
+#: src/base/Commands.cpp:272
 msgid "Save Configuration"
 msgstr "Guardar Ajustes"
 
-#: src/base/Commands.cpp:269
+#: src/base/Commands.cpp:273
 msgid "Show Toolbar"
 msgstr "Mostrar Barra de Herramientas"
 
-#: src/base/Commands.cpp:270
+#: src/base/Commands.cpp:274
 msgid "Show Statusbar"
 msgstr "Mostrar Barra de Estado"
 
@@ -484,7 +485,7 @@ msgstr "Hora Local"
 
 #: src/base/DataSet.cpp:380 src/dialogs/AtlasDialog.cpp:286
 #: src/dialogs/AtlasEditDialog.cpp:88 src/dialogs/DataDialog.cpp:69
-#: src/dialogs/DataDialog.cpp:100 src/gui/ToolPanel.cpp:412
+#: src/dialogs/DataDialog.cpp:100 src/gui/ToolPanel.cpp:413
 #: src/jyotish/PrintoutHelper.cpp:98 src/jyotish/TextHelper.cpp:573
 msgid "Time Zone"
 msgstr "Huso horario"
@@ -1954,8 +1955,8 @@ msgid "sec"
 msgstr "seg"
 
 #: src/dialogs/AnimationPanel.cpp:62 src/dialogs/AtlasDialog.cpp:266
-#: src/dialogs/DialogElements.cpp:241 src/gui/ToolPanel.cpp:304
-#: src/gui/ToolPanel.cpp:389 src/gui/ToolPanel.cpp:408
+#: src/dialogs/DialogElements.cpp:241 src/gui/ToolPanel.cpp:305
+#: src/gui/ToolPanel.cpp:390 src/gui/ToolPanel.cpp:409
 msgid "Mode"
 msgstr "Modo"
 
@@ -2109,7 +2110,7 @@ msgstr "Aspecto"
 
 #: src/dialogs/AspectPanel.cpp:60 src/dialogs/AspectPanel.cpp:65
 #: src/dialogs/AspectPanel.cpp:71 src/dialogs/DialogElements.cpp:225
-#: src/gui/ToolPanel.cpp:362 src/jyotish/Aspect.cpp:493
+#: src/gui/ToolPanel.cpp:363 src/jyotish/Aspect.cpp:493
 #: src/jyotish/PrintoutHelper.cpp:400 src/jyotish/PrintoutHelper.cpp:405
 #: src/jyotish/PrintoutHelper.cpp:410 src/jyotish/Transit.cpp:258
 #: src/jyotish/Uranian.cpp:94 src/jyotish/UranianHelper.cpp:473
@@ -2289,7 +2290,7 @@ msgstr ""
 msgid "Edit Atlas Entry"
 msgstr ""
 
-#: src/dialogs/AtlasImportDialog.cpp:204
+#: src/dialogs/AtlasImportDialog.cpp:209
 msgid "Atlas Data Import"
 msgstr ""
 
@@ -2382,7 +2383,7 @@ msgstr "Colores de Adelante"
 
 #: src/dialogs/ColorPanel.cpp:53 src/dialogs/ColorPanel.cpp:63
 #: src/dialogs/FontPanel.cpp:59 src/dialogs/FontPanel.cpp:81
-#: src/dialogs/WesternPanel.cpp:84 src/gui/ToolPanel.cpp:286
+#: src/dialogs/WesternPanel.cpp:84 src/gui/ToolPanel.cpp:287
 msgid "Default"
 msgstr "Predeterminado"
 
@@ -2601,7 +2602,7 @@ msgstr "Hora"
 msgid "HH:MM[:SS]"
 msgstr "HH:MM:SS"
 
-#: src/dialogs/DataDialog.cpp:79 src/gui/ToolPanel.cpp:453
+#: src/dialogs/DataDialog.cpp:79 src/gui/ToolPanel.cpp:454
 msgid "Now"
 msgstr "Ahora"
 
@@ -2697,7 +2698,7 @@ msgstr "Tropical (365.2422)"
 msgid "Custom"
 msgstr "Personalizado"
 
-#: src/dialogs/DialogElements.cpp:192 src/gui/ToolPanel.cpp:416
+#: src/dialogs/DialogElements.cpp:192 src/gui/ToolPanel.cpp:417
 #: src/jyotish/Uranian.cpp:91
 msgid "Circle Type"
 msgstr "Tipo de Círculo"
@@ -3049,7 +3050,7 @@ msgstr "Tipo de Vista Predeterminado"
 #: src/dialogs/MultipleViewPanel.cpp:55
 #: src/dialogs/PrintConfigurationDialog.cpp:61
 #: src/dialogs/ToolbarPanel.cpp:354 src/gui/MainWindowControl.cpp:140
-#: src/gui/ToolPanel.cpp:339 src/jyotish/Aspect.cpp:490
+#: src/gui/ToolPanel.cpp:340 src/jyotish/Aspect.cpp:490
 #: src/jyotish/Eclipse.cpp:128
 msgid "Type"
 msgstr "Tipo"
@@ -3240,7 +3241,7 @@ msgstr "Mover la herramienta seleccionada hacia abajo"
 msgid "Nakshatras and Dasas"
 msgstr "Nakshatras y Dashas"
 
-#: src/dialogs/VargaPanel.cpp:60 src/gui/ToolPanel.cpp:274
+#: src/dialogs/VargaPanel.cpp:60 src/gui/ToolPanel.cpp:275
 #: src/gui/VargaView.cpp:326 src/gui/VargaView.cpp:365
 #: src/jyotish/Varga.cpp:361
 msgid "Vargas"
@@ -3255,7 +3256,7 @@ msgid "Always Rasi"
 msgstr "Siempre Rashi"
 
 #: src/dialogs/VargaPanel.cpp:64 src/gui/MenuProvider.cpp:148
-#: src/gui/MenuProvider.cpp:562 src/gui/ToolPanel.cpp:317
+#: src/gui/MenuProvider.cpp:562 src/gui/ToolPanel.cpp:318
 #: src/jyotish/Jaimini.cpp:187
 msgid "Varga"
 msgstr "Varga"
@@ -3341,7 +3342,7 @@ msgid "Custom Length"
 msgstr "Duración Personalizada"
 
 #: src/dialogs/VedicCalculationPanel.cpp:58 src/gui/AshtakaVargaView.cpp:409
-#: src/gui/ToolPanel.cpp:265
+#: src/gui/ToolPanel.cpp:266
 msgid "Ashtaka Varga"
 msgstr "Ashtaka Varga"
 
@@ -3592,7 +3593,7 @@ msgstr "Tipo de Carta"
 
 #: src/dialogs/VedicChartPanel.cpp:203 src/gui/MenuProvider.cpp:370
 #: src/gui/MenuProvider.cpp:610 src/gui/PartnerView.cpp:285
-#: src/gui/SbcView.cpp:75 src/gui/TransitView.cpp:194
+#: src/gui/SbcView.cpp:75 src/gui/TransitView.cpp:195
 msgid "Sarvatobhadra"
 msgstr "Sarvatobjadra"
 
@@ -3671,7 +3672,7 @@ msgid "Partly Displayed Points"
 msgstr "Puntos Parcialmente Mostrados"
 
 #: src/dialogs/VedicPanel.cpp:61 src/dialogs/WesternPanel.cpp:58
-#: src/gui/MenuProvider.cpp:516 src/gui/ToolPanel.cpp:264
+#: src/gui/MenuProvider.cpp:516 src/gui/ToolPanel.cpp:265
 msgid "Arabic Parts"
 msgstr "Partes Árabes"
 
@@ -4050,7 +4051,7 @@ msgid "Order"
 msgstr "Orden"
 
 #: src/dialogs/WesternPanel.cpp:85 src/gui/PartnerView.cpp:307
-#: src/gui/TransitView.cpp:214 src/gui/UranianView.cpp:272
+#: src/gui/TransitView.cpp:215 src/gui/UranianView.cpp:272
 #: src/jyotish/PrintoutHelper.cpp:122
 msgid "Uranian"
 msgstr "Uraniana"
@@ -4103,72 +4104,72 @@ msgstr "Evaluar"
 msgid "Clear Chart"
 msgstr "Vaciar la Carta"
 
-#: src/dialogs/YogaEditorPanel.cpp:413
+#: src/dialogs/YogaEditorPanel.cpp:414
 #, c-format
 msgid "Do you want to delete the Yoga %s?"
 msgstr "¿Quiere eliminar la Yoga %s?"
 
-#: src/dialogs/YogaEditorPanel.cpp:545
+#: src/dialogs/YogaEditorPanel.cpp:546
 msgid "Move current Yoga up"
 msgstr "Mover la Yoga actual hacia arriba"
 
-#: src/dialogs/YogaEditorPanel.cpp:547
+#: src/dialogs/YogaEditorPanel.cpp:548
 msgid "Move current Yoga down"
 msgstr "Mover la Yoga actual hacia abajo"
 
-#: src/dialogs/YogaEditorPanel.cpp:549
+#: src/dialogs/YogaEditorPanel.cpp:550
 msgid "Insert new Yoga at current position"
 msgstr "Insertar una nueva Yoga en la posición actual"
 
-#: src/dialogs/YogaEditorPanel.cpp:551
+#: src/dialogs/YogaEditorPanel.cpp:552
 msgid "Delete current Yoga"
 msgstr "Eliminar la Yoga actual"
 
-#: src/dialogs/YogaEditorPanel.cpp:553
+#: src/dialogs/YogaEditorPanel.cpp:554
 msgid "Copy current Yoga"
 msgstr "Copiar la Yoga actual"
 
-#: src/dialogs/YogaEditorPanel.cpp:559
+#: src/dialogs/YogaEditorPanel.cpp:560
 msgid "Create a new group"
 msgstr "Crear un nuevo grupo"
 
-#: src/dialogs/YogaEditorPanel.cpp:563
+#: src/dialogs/YogaEditorPanel.cpp:564
 msgid "Create a new source"
 msgstr "Crear una nueva fuente"
 
-#: src/dialogs/YogaEditorPanel.cpp:564
+#: src/dialogs/YogaEditorPanel.cpp:565
 msgid "Check this to include the Yoga only in Rasi chart"
 msgstr "Revisar esto para incluir la Yoga sólo a la carta Rashi"
 
-#: src/dialogs/YogaEditorPanel.cpp:568
+#: src/dialogs/YogaEditorPanel.cpp:569
 msgid "Parse the current rule for syntactical correctness"
 msgstr "Analizar la regla actual para regularidad sintáctica"
 
-#: src/dialogs/YogaEditorPanel.cpp:569
+#: src/dialogs/YogaEditorPanel.cpp:570
 msgid "Evaluate the rule in the chart"
 msgstr "Evaluar la regla en la carta"
 
-#: src/dialogs/YogaEditorPanel.cpp:570
+#: src/dialogs/YogaEditorPanel.cpp:571
 msgid "Remove all objects from the chart"
 msgstr "Remover todos los objetos de la carta"
 
-#: src/gui/ApplicationWindow.cpp:389
+#: src/gui/ApplicationWindow.cpp:398
 msgid "Open file"
 msgstr "Abrir archivo"
 
-#: src/gui/ApplicationWindow.cpp:420
+#: src/gui/ApplicationWindow.cpp:429
 msgid "Cannot open file"
 msgstr "Apertura del archivo falló"
 
-#: src/gui/ApplicationWindow.cpp:567
+#: src/gui/ApplicationWindow.cpp:576
 msgid "Do you want to quit?"
 msgstr "¿Quiere salir del programa?"
 
-#: src/gui/ApplicationWindow.cpp:592
+#: src/gui/ApplicationWindow.cpp:601
 msgid "Configuration saved."
 msgstr "Los ajustes están guardados."
 
-#: src/gui/ApplicationWindow.cpp:639
+#: src/gui/ApplicationWindow.cpp:648
 msgid "Cannot launch Browser."
 msgstr "Apertura del navegador falló."
 
@@ -4242,7 +4243,7 @@ msgid "Choose Dasas"
 msgstr "Elija Dashas"
 
 #: src/gui/DasaGraphicView.cpp:264 src/gui/DasaView.cpp:503
-#: src/gui/ToolPanel.cpp:324 src/jyotish/Dasa.cpp:109 src/jyotish/Dasa.cpp:192
+#: src/gui/ToolPanel.cpp:325 src/jyotish/Dasa.cpp:109 src/jyotish/Dasa.cpp:192
 #: src/jyotish/Dasa.cpp:298 src/jyotish/TextHelper.cpp:757
 msgid "Dasa"
 msgstr "Dasha"
@@ -4469,7 +4470,7 @@ msgstr "Nueva Vista"
 msgid "Dignity"
 msgstr "Dignidad"
 
-#: src/gui/MenuProvider.cpp:425 src/gui/ToolPanel.cpp:273
+#: src/gui/MenuProvider.cpp:425 src/gui/ToolPanel.cpp:274
 #: src/jyotish/Nakshatra.cpp:184 src/jyotish/Nakshatra.cpp:271
 #: src/jyotish/Partner.cpp:286 src/jyotish/Partner.cpp:311
 #: src/jyotish/PrintoutHelper.cpp:249 src/jyotish/TextHelper.cpp:302
@@ -4489,7 +4490,7 @@ msgstr "Shashtiamsha (D-60)"
 msgid "Dasa Varga Dignity"
 msgstr "Dignidad de Dasha Varga"
 
-#: src/gui/MenuProvider.cpp:439 src/gui/ToolPanel.cpp:267
+#: src/gui/MenuProvider.cpp:439 src/gui/ToolPanel.cpp:268
 #: src/gui/VedicChart.cpp:188 src/gui/VedicChart.cpp:192
 #: src/gui/VedicChart.cpp:196 src/jyotish/TextHelper.cpp:312
 #: src/jyotish/TextHelper.cpp:699 src/jyotish/TextHelper.cpp:719
@@ -4576,7 +4577,7 @@ msgstr "No se cargó ninguna carta"
 msgid "Charts identical"
 msgstr "Las cartas son idénticas"
 
-#: src/gui/PartnerView.cpp:263 src/gui/TransitView.cpp:189
+#: src/gui/PartnerView.cpp:263 src/gui/TransitView.cpp:190
 msgid "Double Chart"
 msgstr "Carta Doble"
 
@@ -4588,15 +4589,15 @@ msgstr "Carta de Pareja Védica"
 msgid "Composite Chart"
 msgstr "Carta Compuesta"
 
-#: src/gui/PartnerView.cpp:290 src/gui/TransitView.cpp:199
+#: src/gui/PartnerView.cpp:290 src/gui/TransitView.cpp:200
 msgid "Shadvarga"
 msgstr "Shadvarga"
 
-#: src/gui/PartnerView.cpp:295 src/gui/TransitView.cpp:204
+#: src/gui/PartnerView.cpp:295 src/gui/TransitView.cpp:205
 msgid "Varga (2)"
 msgstr "Varga (2)"
 
-#: src/gui/PartnerView.cpp:300 src/gui/TransitView.cpp:209
+#: src/gui/PartnerView.cpp:300 src/gui/TransitView.cpp:210
 msgid "Varga (3)"
 msgstr "Varga (3)"
 
@@ -4660,7 +4661,7 @@ msgid "Tajaka"
 msgstr "Tajaka"
 
 #: src/gui/SolarView.cpp:206 src/gui/SolarView.cpp:265
-#: src/gui/ToolPanel.cpp:280 src/jyotish/Eclipse.cpp:138
+#: src/gui/ToolPanel.cpp:281 src/jyotish/Eclipse.cpp:138
 msgid "Solar"
 msgstr "Solar"
 
@@ -4689,154 +4690,154 @@ msgstr "Guardar Texto"
 msgid "Text exported to %s"
 msgstr "El texto ha sido exportado a %s"
 
-#: src/gui/ToolPanel.cpp:263 src/jyotish/PrintoutHelper.cpp:76
+#: src/gui/ToolPanel.cpp:264 src/jyotish/PrintoutHelper.cpp:76
 #: src/jyotish/PrintoutHelper.cpp:120 src/jyotish/TextHelper.cpp:548
 msgid "Base Data"
 msgstr "Datos Principales"
 
-#: src/gui/ToolPanel.cpp:266
+#: src/gui/ToolPanel.cpp:267
 msgid "Astronomical"
 msgstr "Astronómica"
 
-#: src/gui/ToolPanel.cpp:268
+#: src/gui/ToolPanel.cpp:269
 msgid "Dasa (Short)"
 msgstr "Dasha (Corta)"
 
-#: src/gui/ToolPanel.cpp:269
+#: src/gui/ToolPanel.cpp:270
 #, fuzzy
 msgid "Dasa (Compact)"
 msgstr "Dasha (Corta)"
 
-#: src/gui/ToolPanel.cpp:270
+#: src/gui/ToolPanel.cpp:271
 msgid "Dasa (Long)"
 msgstr "Dasha (Larga)"
 
-#: src/gui/ToolPanel.cpp:271 src/jyotish/Jaimini.cpp:186
+#: src/gui/ToolPanel.cpp:272 src/jyotish/Jaimini.cpp:186
 msgid "Jaimini"
 msgstr "Jaimini"
 
-#: src/gui/ToolPanel.cpp:272 src/jyotish/TextHelper.cpp:756
+#: src/gui/ToolPanel.cpp:273 src/jyotish/TextHelper.cpp:756
 msgid "Krishnamurti Paddhati"
 msgstr "Krishnamurti Paddhati"
 
-#: src/gui/ToolPanel.cpp:275 src/jyotish/Aspect.cpp:452
+#: src/gui/ToolPanel.cpp:276 src/jyotish/Aspect.cpp:452
 msgid "Vedic Aspectarium"
 msgstr "Aspectario Védico"
 
-#: src/gui/ToolPanel.cpp:276 src/jyotish/TextHelper.cpp:850
+#: src/gui/ToolPanel.cpp:277 src/jyotish/TextHelper.cpp:850
 msgid "Vedic Planets"
 msgstr "Planetas Védicos"
 
-#: src/gui/ToolPanel.cpp:277
+#: src/gui/ToolPanel.cpp:278
 msgid "Western Aspectarium"
 msgstr "Aspectario Occidental"
 
-#: src/gui/ToolPanel.cpp:278 src/jyotish/TextHelper.cpp:941
+#: src/gui/ToolPanel.cpp:279 src/jyotish/TextHelper.cpp:941
 msgid "Western Planets"
 msgstr "Planetas Occidentales"
 
-#: src/gui/ToolPanel.cpp:280
+#: src/gui/ToolPanel.cpp:281
 msgid "All"
 msgstr "Todos"
 
-#: src/gui/ToolPanel.cpp:280 src/gui/ToolPanel.cpp:287
+#: src/gui/ToolPanel.cpp:281 src/gui/ToolPanel.cpp:288
 #: src/jyotish/Eclipse.cpp:139
 msgid "Lunar"
 msgstr "Lunar"
 
-#: src/gui/ToolPanel.cpp:281 src/jyotish/Uranian.cpp:90
+#: src/gui/ToolPanel.cpp:282 src/jyotish/Uranian.cpp:90
 msgid "Midpoint Summary"
 msgstr "Resumen de los Puntos Médios"
 
-#: src/gui/ToolPanel.cpp:281
+#: src/gui/ToolPanel.cpp:282
 msgid "Yearly Preview"
 msgstr "Vista Previa Anual"
 
-#: src/gui/ToolPanel.cpp:286
+#: src/gui/ToolPanel.cpp:287
 msgid "Graphical"
 msgstr "Gráfica"
 
-#: src/gui/ToolPanel.cpp:286
+#: src/gui/ToolPanel.cpp:287
 msgid "Sunrise/Tithi"
 msgstr "Salida del Sol/Titji"
 
-#: src/gui/ToolPanel.cpp:287
+#: src/gui/ToolPanel.cpp:288
 msgid "Ingress"
 msgstr "Ingreso"
 
-#: src/gui/ToolPanel.cpp:287
+#: src/gui/ToolPanel.cpp:288
 msgid "KP"
 msgstr "KP"
 
-#: src/gui/ToolPanel.cpp:289
+#: src/gui/ToolPanel.cpp:290
 msgid "Local"
 msgstr "Local"
 
-#: src/gui/ToolPanel.cpp:293
+#: src/gui/ToolPanel.cpp:294
 msgid "Arudha Lagna"
 msgstr "Arudja Lagna"
 
-#: src/gui/ToolPanel.cpp:330
+#: src/gui/ToolPanel.cpp:331
 msgid "Year"
 msgstr "Año"
 
-#: src/gui/ToolPanel.cpp:335
+#: src/gui/ToolPanel.cpp:336
 msgid "Number of Years"
 msgstr "Cantidad de años"
 
-#: src/gui/ToolPanel.cpp:344
+#: src/gui/ToolPanel.cpp:345
 msgid "Progress Transit Date"
 msgstr "Progresar la Fecha de Tránsito"
 
-#: src/gui/ToolPanel.cpp:393
+#: src/gui/ToolPanel.cpp:394
 msgid "Zoom"
 msgstr "Ampliación"
 
-#: src/gui/ToolPanel.cpp:398
+#: src/gui/ToolPanel.cpp:399
 msgid "Dasa Level"
 msgstr "Nivel de Dasha"
 
-#: src/gui/ToolPanel.cpp:404
+#: src/gui/ToolPanel.cpp:405
 msgid "Month"
 msgstr "Mes"
 
-#: src/gui/ToolPanel.cpp:420
+#: src/gui/ToolPanel.cpp:421
 msgid "Partner 1"
 msgstr "Pareja 1"
 
-#: src/gui/ToolPanel.cpp:424
+#: src/gui/ToolPanel.cpp:425
 msgid "Partner 2"
 msgstr "Pareja 2"
 
-#: src/gui/ToolPanel.cpp:456
+#: src/gui/ToolPanel.cpp:457
 msgid "Select Dasas"
 msgstr "Seleccionar Dashas"
 
-#: src/gui/ToolPanel.cpp:459
+#: src/gui/ToolPanel.cpp:460
 msgid "Goto Year"
 msgstr "Ir al año"
 
-#: src/gui/ToolPanel.cpp:462
+#: src/gui/ToolPanel.cpp:463
 msgid "New File"
 msgstr "Nuevo Archivo"
 
-#: src/gui/ToolPanel.cpp:465
+#: src/gui/ToolPanel.cpp:466
 msgid "Open File"
 msgstr "Abrir Archivo"
 
-#: src/gui/ToolPanel.cpp:468
+#: src/gui/ToolPanel.cpp:469
 msgid "Save File"
 msgstr "Guardar Archivo"
 
-#: src/gui/ToolPanel.cpp:471
+#: src/gui/ToolPanel.cpp:472
 msgid "Save File As"
 msgstr "Guardar Archivo Como"
 
-#: src/gui/ToolPanel.cpp:474
+#: src/gui/ToolPanel.cpp:475
 msgid "Close Child"
 msgstr "Cerrar Ventana Derivada"
 
-#: src/gui/TransitView.cpp:840 src/jyotish/Transit.cpp:208
+#: src/gui/TransitView.cpp:841 src/jyotish/Transit.cpp:208
 msgid "Transit"
 msgstr "Tránsito"
 
@@ -6286,7 +6287,8 @@ msgid "Partner2"
 msgstr "Pareja2"
 
 #: src/jyotish/Uranian.cpp:264
-msgid "Yearly Preview for Solar Chart"
+#, fuzzy
+msgid "Yearly Preview for Solar Arc"
 msgstr "Vista Previa Anual para la Revolución Solar"
 
 #: src/jyotish/UranianHelper.cpp:297

@@ -42,6 +42,8 @@ class wxGridEvent;
 class wxStaticBox;
 class wxStaticText;
 class wxTextCtrl;
+class wxTimer;
+class wxTimerEvent;
 class wxGrid;
 class MultiLineStaticText;
 
@@ -108,7 +110,7 @@ private:
 	void OnEditEntry( wxCommandEvent& );
 	void OnDeleteEntry( wxCommandEvent& );
 	void OnKeyDown( wxKeyEvent& );
-	void OnTimer( class wxTimerEvent& );
+	void OnTimer( wxTimerEvent& );
 
 	void editEntry();
 	void updateFilterMatchLabel( const int& );
@@ -124,7 +126,7 @@ private:
 
 	AtlasLogic *logic;
 	AtlasGridTable *gridTable;
-	class wxTimer *timer;
+	wxTimer *timer;
 
 protected:
     // begin wxGlade: AtlasDialog::attributes

@@ -5,7 +5,7 @@ CP = cp
 CPR = cp -r
 
 MAKEFILE = Makefile.win
-MAIN_PROG = maitreya7.exe
+MAIN_PROG = maitreya71.exe
 RELEASE_DIR = ../release
 
 SRC_DIR = src
@@ -29,7 +29,7 @@ release: all
 	$(CP) $(LOCATION_DIR)/geonames1000.sql $(RELEASE_DIR)
 	$(CP) COPYING Copying.txt
 	unix2dos Copying.txt
-	$(CP) Copying.txt $(RELEASEDIR)
+	$(CP) Copying.txt $(RELEASE_DIR)
 	$(RMR) $(RELEASE_DIR)/pics
 	$(MKDIR) $(RELEASE_DIR)/pics
 	$(CP) $(PICS_DIR)/*.jpg $(RELEASE_DIR)/pics

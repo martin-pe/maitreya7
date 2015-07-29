@@ -3,9 +3,9 @@
  *  for Vedic and western astrology.
 
  *  File       src/gui/TreeWidget.cpp
- *  Release    7.0
+ *  Release    8.0
  *  Author     Martin Pettau
- *  Copyright  2003-2012 by the author
+ *  Copyright  2003-2014 by the author
 
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -64,10 +64,6 @@
 #include "Conf.h"
 
 extern Config *config;
-
-#ifdef __WXMAC__
-#include "wx/mac/private.h"
-#endif
 
 #define wxTR_AQUA_BUTTONS            0
 
@@ -889,7 +885,7 @@ bool MyGenericTreeCtrl::Create(wxWindow *parent,
 	int major,minor;
 	wxGetOsVersion( &major, &minor );
 
-	if (style & wxTR_HAS_BUTTONS) style |= wxTR_MAC_BUTTONS;
+	//if (style & wxTR_HAS_BUTTONS) style |= wxTR_MAC_BUTTONS;
 	if (style & wxTR_HAS_BUTTONS) style &= ~wxTR_HAS_BUTTONS;
 	style &= ~wxTR_LINES_AT_ROOT;
 	style |= wxTR_NO_LINES;

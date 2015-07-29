@@ -62,6 +62,7 @@ AtlasImportDialog::AtlasImportDialog(wxWindow* parent, wxString title )
     do_layout();
     // end wxGlade
 
+	close_called = false;
 	timer = new wxTimer( this, AI_TIMER );
 	timer->Start( TIMER_PERIOD_MILLISEC );
 
@@ -156,15 +157,18 @@ void AtlasImportDialog::OnTimer( wxTimerEvent &event )
 
 	if ( importer->hasErrors())
 	{
-		EndModal( wxID_ABORT );
+		if ( ! close_called ) EndModal( wxID_ABORT );
+		close_called = true;
 	}
 	else if ( importer->isCanceled())
 	{
-		EndModal( wxID_CANCEL );
+		if ( ! close_called ) EndModal( wxID_CANCEL );
+		close_called = true;
 	}
 	else if ( importer->isFinished())
 	{
-		EndModal( wxID_OK );
+		if ( ! close_called ) EndModal( wxID_OK );
+		close_called = true;
 	}
 	else
 	{
@@ -190,7 +194,8 @@ void AtlasImportDialog::OnRun( wxCommandEvent &event )
 void AtlasImportDialog::OnCancel( wxCommandEvent &event )
 {
 	importer->abort();
-	EndModal( wxID_CANCEL );
+	if ( ! close_called ) EndModal( wxID_CANCEL );
+	close_called = true;
 }
 
 /*************************************************//**

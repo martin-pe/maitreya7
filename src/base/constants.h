@@ -50,7 +50,7 @@
 #define Cout( s ) printf( "%s", str2char( s ));
 #define PrintLn( s ) printf( "%s\n", str2char( s ));
 
-#if ( wxMAJOR_VERSION == 2 && wxMINOR_VERSION == 9 )
+#if ( wxCHECK_VERSION( 2, 9, 0 ))
 #define _WX29
 #endif
 

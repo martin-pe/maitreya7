@@ -1,4 +1,25 @@
-maitreya (7.0.5) unstable; urgency=low
+maitreya (7.1) unstable; urgency=low
+
+  * minor changes for wxWidgets 3.0 packages on Windows and OS x.
+
+ -- Martin Pettau <http://www.saravali.de/contact.html>  Fri, 26 Dec 2014 10:35:06 +0100
+
+
+maitreya (7.0.7) stable; urgency=low
+
+  * Bug fixes
+  * several wx error messages removed
+  * Link error on FreeBSD fixed (trying to link libdl.so)
+
+ -- Martin Pettau <http://www.saravali.de/contact.html>  Wed, 23 Jul 2014 13:xs3542:02 +0200
+
+maitreya (7.0.6) stable; urgency=low
+
+  * wxWidgets 3.0.0 support for Debian testing
+
+ -- Martin Pettau <http://www.saravali.de/contact.html>  Sun, 01 Jun 2014 10:52:32 +0200
+
+maitreya (7.0.5) stable; urgency=low
 
   * Bug Fix: display of aspects in western chart graphic.
 

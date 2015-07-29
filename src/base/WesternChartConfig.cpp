@@ -159,7 +159,8 @@ void WesternChartConfigLoader::readSpecificAttributes( BaseXmlConfig *cfg, wxXml
 
 	while ( cur )
 	{
-		key = cur->GetName().Trim();
+		key = cur->GetName();
+		key = key.Trim();
 		if ( ! key.CmpNoCase( XML_NODE_USE_TEXT_COLORS )) XMLNODE2BOOLEAN( cur->GetNodeContent(), wconf->useTextColors )
 
 		else if ( ! key.CmpNoCase( XML_NODE_WIDGET_BACKGROUND )) parseWidgetBackground( cur, wconf->widgetBackground );
