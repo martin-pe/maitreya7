@@ -1,0 +1,37 @@
+FONTLOG
+Maitreyasymbols v1.01
+==========================================================
+
+
+This file provides information on the Maitreya font. This information should be distributed along with the Maitreya font and any derivative works, including the file SFont_License.txt.
+
+
+Basic Font Information
+----------------------
+MaitreyaSymbols has been developed for the Astrology program named Maitreya developed by Dr. Martin Pettau (http://www.saravali.de).
+
+
+Known Problems
+--------------
+We know of the following problems. Please report any other problems you encounter.
+
+- Cap Height, reverse contour block of 1 EM placed at 1806 to force a Cap Height at this value. 
+
+
+ChangeLog
+---------
+(This should list both major and minor changes, most recent first.)
+
+Jul 27 2008 (Kenneth Hirst)  StarFisher version 1.01
+- First public release
+- FontLab, automatic hinting applied to the font.
+
+November 28, 2013 (Kenneth Hirst) Maitreyasymbols version 1.0
+- Added symbols unique to Maitreya software
+
+
+Character Range Coverage
+------------------------
+
+ASCII range 33 through 127.
+

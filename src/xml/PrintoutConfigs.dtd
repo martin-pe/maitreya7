@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT PrintoutConfigs (Config)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Config (WesternChart|Dasa|VedicChartPair|ChartData|Pages)*>
+<!ATTLIST Config
+    Description CDATA #IMPLIED
+    Name CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Pages (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ChartData (Style)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Style (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT VedicChartPair (Varga2|Varga1)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Varga1 (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Varga2 (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Dasa (Style|DasaType)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT DasaType (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT WesternChart EMPTY>

@@ -1,0 +1,6824 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: maitreya 4.1\n"
+"Report-Msgid-Bugs-To: office2@saravali.de\n"
+"POT-Creation-Date: 2013-12-01 11:11+0100\n"
+"PO-Revision-Date: 2012-05-19 08:16+0530\n"
+"Last-Translator: c.panneerselvam <cps54@hotmail.com>\n"
+"Language-Team: te <info@onlinejyotish.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/base/AtlasImporter.cpp:500 src/base/BaseDao.cpp:216
+msgid "No error"
+msgstr ""
+
+#: src/base/AtlasImporter.cpp:519
+msgid "Read"
+msgstr ""
+
+#: src/base/AtlasImporter.cpp:523
+msgid "Insert"
+msgstr ""
+
+#: src/base/AtlasImporter.cpp:527
+msgid "Commit"
+msgstr ""
+
+#: src/base/Calculator.cpp:767 src/jyotish/Partner.cpp:270
+msgid "Total"
+msgstr "Total"
+
+#: src/base/Calculator.cpp:768
+msgid "Annular"
+msgstr "Annular"
+
+#: src/base/Calculator.cpp:769
+msgid "Partial"
+msgstr "Partial"
+
+#: src/base/Calculator.cpp:770
+msgid "Penumbral"
+msgstr "Penumbral"
+
+#: src/base/Calculator.cpp:771
+msgid "Annular Total"
+msgstr "Annular Total"
+
+#: src/base/Calculator.cpp:772
+msgid "unknown"
+msgstr "unknown"
+
+#: src/base/ColorConfig.cpp:85 src/base/Lang.cpp:123 src/base/Lang.cpp:443
+#: src/dialogs/VedicPanel.cpp:80 src/dialogs/WesternPanel.cpp:77
+#: src/gui/MenuProvider.cpp:507 src/gui/ToolPanel.cpp:294
+msgid "Aries"
+msgstr "மேஷம் \t"
+
+#: src/base/ColorConfig.cpp:86 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:294
+msgid "Taurus"
+msgstr "ரிஷபம்"
+
+#: src/base/ColorConfig.cpp:87 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:294
+msgid "Gemini"
+msgstr "மிதுனம்"
+
+#: src/base/ColorConfig.cpp:88 src/base/Lang.cpp:443 src/gui/ToolPanel.cpp:294
+msgid "Cancer"
+msgstr "கடகம்"
+
+#: src/base/ColorConfig.cpp:89 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:294
+msgid "Leo"
+msgstr "சிம்மம்"
+
+#: src/base/ColorConfig.cpp:90 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:294
+msgid "Virgo"
+msgstr "கன்னி"
+
+#: src/base/ColorConfig.cpp:90
+msgid "piebald.png"
+msgstr ""
+
+#: src/base/ColorConfig.cpp:91 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:294
+msgid "Libra"
+msgstr "துலாம்"
+
+#: src/base/ColorConfig.cpp:92 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:295
+msgid "Scorpio"
+msgstr "விருசிச்சிகம் \t \t \t"
+
+#: src/base/ColorConfig.cpp:93 src/base/Lang.cpp:444 src/gui/ToolPanel.cpp:295
+msgid "Sagittarius"
+msgstr "தனுசு \t"
+
+#: src/base/ColorConfig.cpp:94 src/base/Lang.cpp:444
+#: src/dialogs/ViewPanel.cpp:160 src/gui/ToolPanel.cpp:295
+msgid "Capricorn"
+msgstr "மகரம்"
+
+#: src/base/ColorConfig.cpp:94 src/base/ColorConfig.cpp:100
+msgid "rainbow.png"
+msgstr ""
+
+#: src/base/ColorConfig.cpp:95 src/base/Lang.cpp:445 src/gui/ToolPanel.cpp:295
+msgid "Aquarius"
+msgstr "கும்பம் \t"
+
+#: src/base/ColorConfig.cpp:96 src/base/Lang.cpp:445 src/gui/ToolPanel.cpp:295
+msgid "Pisces"
+msgstr "மீனம்"
+
+#: src/base/ColorConfig.cpp:97 src/dialogs/VedicCalculationPanel.cpp:142
+#: src/jyotish/Eclipse.cpp:131 src/jyotish/Ephemeris.cpp:587
+msgid "Sun"
+msgstr "சூரியன்"
+
+#: src/base/ColorConfig.cpp:98 src/base/Lang.cpp:110
+#: src/dialogs/VedicCalculationPanel.cpp:114
+#: src/dialogs/VedicCalculationPanel.cpp:143 src/gui/ToolPanel.cpp:293
+#: src/jyotish/Eclipse.cpp:132 src/jyotish/Ephemeris.cpp:588
+msgid "Moon"
+msgstr "சந்திரன்"
+
+#: src/base/ColorConfig.cpp:99 src/base/Lang.cpp:110
+#: src/dialogs/VedicCalculationPanel.cpp:122
+#: src/dialogs/VedicCalculationPanel.cpp:145
+msgid "Mercury"
+msgstr "புதன்"
+
+#: src/base/ColorConfig.cpp:100 src/base/Lang.cpp:110
+#: src/dialogs/VedicCalculationPanel.cpp:147
+msgid "Venus"
+msgstr "சுக்கிரன்"
+
+#: src/base/ColorConfig.cpp:101 src/base/Lang.cpp:110
+#: src/dialogs/VedicCalculationPanel.cpp:144
+msgid "Mars"
+msgstr "செவ்வாய்"
+
+#: src/base/ColorConfig.cpp:102 src/base/Lang.cpp:110
+#: src/dialogs/VedicCalculationPanel.cpp:146
+msgid "Jupiter"
+msgstr "வியாழன்"
+
+#: src/base/ColorConfig.cpp:103 src/base/Lang.cpp:110
+#: src/dialogs/VedicCalculationPanel.cpp:148
+msgid "Saturn"
+msgstr "சனி"
+
+#: src/base/ColorConfig.cpp:104 src/base/Lang.cpp:134
+#: src/dialogs/VedicPanel.cpp:66
+msgid "Rahu"
+msgstr "ராகு \t"
+
+#: src/base/ColorConfig.cpp:105 src/base/Lang.cpp:135
+#: src/dialogs/VedicPanel.cpp:67
+msgid "Ketu"
+msgstr "கேது \t"
+
+#: src/base/ColorConfig.cpp:106 src/base/Lang.cpp:113
+#: src/dialogs/VedicPanel.cpp:68 src/dialogs/WesternChartPanel.cpp:156
+#: src/dialogs/WesternPanel.cpp:65 src/gui/MenuProvider.cpp:496
+#: src/gui/ToolPanel.cpp:293
+msgid "Ascendant"
+msgstr "லக்னம்"
+
+#: src/base/Commands.cpp:198
+msgid "New"
+msgstr "New"
+
+#: src/base/Commands.cpp:199
+msgid "New Simple Child View"
+msgstr "New Simple Child View"
+
+#: src/base/Commands.cpp:200
+msgid "New Multiple Child View"
+msgstr "New Multiple Child View"
+
+#: src/base/Commands.cpp:201
+msgid "Open"
+msgstr "Open"
+
+#: src/base/Commands.cpp:202
+msgid "Quit Application"
+msgstr "Quit Application"
+
+#: src/base/Commands.cpp:204
+msgid "Close"
+msgstr "Close"
+
+#: src/base/Commands.cpp:205
+msgid "Close Document"
+msgstr "Close Document"
+
+#: src/base/Commands.cpp:206
+msgid "Save"
+msgstr "Save"
+
+#: src/base/Commands.cpp:207
+msgid "Save As"
+msgstr "Save As"
+
+#: src/base/Commands.cpp:208
+msgid "Print Chart"
+msgstr "Print Chart"
+
+#: src/base/Commands.cpp:209
+msgid "Quick Print Chart"
+msgstr "Quick Print Chart"
+
+#: src/base/Commands.cpp:212 src/gui/TextView.cpp:201
+msgid "Text View"
+msgstr "Text View"
+
+#: src/base/Commands.cpp:213
+msgid "Transit View"
+msgstr "Transit View"
+
+#: src/base/Commands.cpp:214
+msgid "Yoga View"
+msgstr "Yoga View"
+
+#: src/base/Commands.cpp:215
+msgid "Sarvatobhadra View"
+msgstr "Sarvatobhadra View"
+
+#: src/base/Commands.cpp:216
+msgid "Solar View"
+msgstr "Solar View"
+
+#: src/base/Commands.cpp:217
+msgid "Uranian View"
+msgstr "Uranian View"
+
+#: src/base/Commands.cpp:218
+msgid "Varga Summary View"
+msgstr "Varga Summary View"
+
+#: src/base/Commands.cpp:220
+msgid "Shadbala View"
+msgstr "Shadbala View"
+
+#: src/base/Commands.cpp:222 src/gui/GraphicView.cpp:93
+msgid "Western Chart"
+msgstr "Western Chart"
+
+#: src/base/Commands.cpp:223
+#, fuzzy
+msgid "Ashtakavarga View"
+msgstr "Ashatakavarga View"
+
+#: src/base/Commands.cpp:224
+msgid "Dasa View (Tree)"
+msgstr "Dasa View (Tree)"
+
+#: src/base/Commands.cpp:225
+msgid "Dasa View (Graphical)"
+msgstr "Dasa View (Graphical)"
+
+#: src/base/Commands.cpp:226
+msgid "Rasi (D-1)"
+msgstr "ராசி(D-1)"
+
+#: src/base/Commands.cpp:227 src/gui/MenuProvider.cpp:423
+msgid "Navamsa (D-9)"
+msgstr "நவாம்சம்(D-9)"
+
+#: src/base/Commands.cpp:228
+msgid "Hora (D-2)"
+msgstr "ஹோரா(D-2)"
+
+#: src/base/Commands.cpp:229
+msgid "Drekkana (D-3)"
+msgstr "திரேக்காணம்(D-3)"
+
+#: src/base/Commands.cpp:230
+msgid "Chaturthamsa (D-4)"
+msgstr "சதுர்தாம்சம்(D-4)"
+
+#: src/base/Commands.cpp:231
+msgid "Sastamsa (D-6)"
+msgstr "ஷஷ்டாம்சம்(D-6)"
+
+#: src/base/Commands.cpp:232
+#, fuzzy
+msgid "Saptamamsa (D-7)"
+msgstr "సప్తాంశ"
+
+#: src/base/Commands.cpp:233
+#, fuzzy
+msgid "Ashtamsa (D-8)"
+msgstr "అష్టాంశ"
+
+#: src/base/Commands.cpp:234
+#, fuzzy
+msgid "Dasamsa (D-10)"
+msgstr "దశాంశ"
+
+#: src/base/Commands.cpp:235
+#, fuzzy
+msgid "Dvadasamsa (D-12)"
+msgstr "ద్వాదశాంశ"
+
+#: src/base/Commands.cpp:236
+#, fuzzy
+msgid "Shodasamsa (D-16)"
+msgstr "షోడశాంశ"
+
+#: src/base/Commands.cpp:237
+#, fuzzy
+msgid "Vimsamsa (D-20)"
+msgstr "వింశాంశ"
+
+#: src/base/Commands.cpp:238
+#, fuzzy
+msgid "Siddhamsa (D-24)"
+msgstr "సిద్ధాంశ"
+
+#: src/base/Commands.cpp:239
+#, fuzzy
+msgid "Bhamsa (D-27)"
+msgstr "భాంశ"
+
+#: src/base/Commands.cpp:240
+#, fuzzy
+msgid "Trimsamsa (D-30)"
+msgstr "త్రింశాంశ"
+
+#: src/base/Commands.cpp:241
+#, fuzzy
+msgid "Chatvarimsamsa (D-40)"
+msgstr "చతుర్వింశాంశ"
+
+#: src/base/Commands.cpp:242
+#, fuzzy
+msgid "Akshavedamsa (D-45)"
+msgstr "అక్షవేదాంశ"
+
+#: src/base/Commands.cpp:243
+#, fuzzy
+msgid "Shashtiamsa (D-60)"
+msgstr "షష్ట్యంశ"
+
+#: src/base/Commands.cpp:244
+#, fuzzy
+msgid "Ashtottaramsa (D-108)"
+msgstr "అష్టాంశ"
+
+#: src/base/Commands.cpp:245
+#, fuzzy
+msgid "Dvadas-Davadamsa (D-144)"
+msgstr "ద్వాదశాంశ"
+
+#: src/base/Commands.cpp:246
+msgid "Bhava Chart"
+msgstr "பாவ சக்கரம்"
+
+#: src/base/Commands.cpp:249
+msgid "Hora View"
+msgstr "ஹோரா சக்கரம்"
+
+#: src/base/Commands.cpp:250
+msgid "Eclipse View"
+msgstr "Eclipse View"
+
+#: src/base/Commands.cpp:251 src/gui/PartnerView.cpp:448
+msgid "Partner View"
+msgstr "Partner View"
+
+#: src/base/Commands.cpp:252
+msgid "Ephemeris View"
+msgstr "Ephemeris View"
+
+#: src/base/Commands.cpp:253 src/dialogs/ConfigDialog.cpp:71
+#: src/dialogs/ConfigDialog.cpp:117 src/dialogs/ConfigDialog.cpp:224
+msgid "Configuration"
+msgstr "Configuration"
+
+#: src/base/Commands.cpp:254 src/gui/YogaEditor.cpp:363
+#: src/gui/YogaEditor.cpp:377 src/gui/YogaEditor.cpp:423
+msgid "Yoga Editor"
+msgstr "Yoga Editor"
+
+#: src/base/Commands.cpp:255 src/dialogs/AtlasDialog.cpp:708
+#: src/dialogs/ConfigPanel.cpp:73
+msgid "Atlas"
+msgstr ""
+
+#: src/base/Commands.cpp:256 src/dialogs/AboutDialog.cpp:270
+msgid "About"
+msgstr "About"
+
+#: src/base/Commands.cpp:257
+msgid "Documentation (Web)"
+msgstr "Documentation (Web)"
+
+#: src/base/Commands.cpp:260
+msgid "Animate Chart"
+msgstr "Animate Char"
+
+#: src/base/Commands.cpp:261
+msgid "Vedic Mode"
+msgstr "Vedic Mode"
+
+#: src/base/Commands.cpp:262
+msgid "Western Mode"
+msgstr "Western Mode"
+
+#: src/base/Commands.cpp:263
+msgid "Edit Chart Data"
+msgstr "Edit Chart Data"
+
+#: src/base/Commands.cpp:264
+msgid "Save Text As ..."
+msgstr "Save Text As ..."
+
+#: src/base/Commands.cpp:265
+msgid "Save Picture As ..."
+msgstr "Save Picture As ..."
+
+#: src/base/Commands.cpp:268
+msgid "Save Configuration"
+msgstr "Save Configuration"
+
+#: src/base/Commands.cpp:269
+msgid "Show Toolbar"
+msgstr "Show Toolbar"
+
+#: src/base/Commands.cpp:270
+msgid "Show Statusbar"
+msgstr "Show Statusbar"
+
+#: src/base/DataSet.cpp:144 src/dialogs/DataDialog.cpp:73
+#: src/dialogs/DateTimeCtrl.cpp:210 src/gui/MainWindowControl.cpp:149
+#: src/jyotish/Eclipse.cpp:129 src/jyotish/PrintoutHelper.cpp:81
+#: src/jyotish/TextHelper.cpp:555 src/jyotish/UranianHelper.cpp:473
+#: src/jyotish/UranianHelper.cpp:510 src/jyotish/UranianHelper.cpp:600
+msgid "Date"
+msgstr "தே\tதி"
+
+#: src/base/DataSet.cpp:145 src/dialogs/DefaultLocationPanel.cpp:84
+#: src/jyotish/TextHelper.cpp:582
+msgid "Universal Time"
+msgstr "Universal Time"
+
+#: src/base/DataSet.cpp:206 src/dialogs/AtlasDialog.cpp:253
+#: src/dialogs/DataDialog.cpp:68 src/gui/MainWindowControl.cpp:153
+#: src/jyotish/PrintoutHelper.cpp:89 src/jyotish/TextHelper.cpp:564
+#: src/jyotish/Transit.cpp:238
+msgid "Location"
+msgstr "பிறந்தஇடம்"
+
+#: src/base/DataSet.cpp:207 src/dialogs/AtlasDialog.cpp:229
+#: src/dialogs/AtlasDialog.cpp:278 src/dialogs/AtlasEditDialog.cpp:74
+#: src/dialogs/DataDialog.cpp:82 src/dialogs/DefaultLocationPanel.cpp:67
+#: src/jyotish/Partner.cpp:401 src/jyotish/PrintoutHelper.cpp:92
+#: src/jyotish/TextHelper.cpp:567 src/jyotish/TextHelper.cpp:643
+msgid "Longitude"
+msgstr "தீர்க்கரேகை \t"
+
+#: src/base/DataSet.cpp:208 src/dialogs/AtlasDialog.cpp:226
+#: src/dialogs/AtlasDialog.cpp:282 src/dialogs/AtlasEditDialog.cpp:81
+#: src/dialogs/DataDialog.cpp:90 src/dialogs/DefaultLocationPanel.cpp:74
+#: src/jyotish/PrintoutHelper.cpp:95 src/jyotish/TextHelper.cpp:570
+msgid "Latitude"
+msgstr "அட்சரேகை "
+
+#: src/base/DataSet.cpp:218 src/base/DataSet.cpp:230
+msgid "nn"
+msgstr "nn"
+
+#: src/base/DataSet.cpp:375 src/dialogs/AtlasAliasDialog.cpp:57
+#: src/dialogs/AtlasAliasDialog.cpp:173 src/dialogs/AtlasDialog.cpp:256
+#: src/dialogs/AtlasDialog.cpp:268 src/dialogs/AtlasDialog.cpp:276
+#: src/dialogs/AtlasEditDialog.cpp:62 src/dialogs/DataDialog.cpp:71
+#: src/dialogs/DataDialog.cpp:80 src/gui/MainWindowControl.cpp:145
+#: src/jyotish/ArabicParts.cpp:589 src/jyotish/PrintoutHelper.cpp:78
+#: src/jyotish/TextHelper.cpp:552 src/jyotish/TextHelper.cpp:669
+msgid "Name"
+msgstr "தமிழ்மொழி "
+
+#: src/base/DataSet.cpp:379 src/dialogs/DataDialog.cpp:111
+#: src/dialogs/DefaultLocationPanel.cpp:82 src/jyotish/PrintoutHelper.cpp:85
+#: src/jyotish/TextHelper.cpp:560
+msgid "Local Time"
+msgstr "பிறந்தநேரம்"
+
+#: src/base/DataSet.cpp:380 src/dialogs/AtlasDialog.cpp:286
+#: src/dialogs/AtlasEditDialog.cpp:88 src/dialogs/DataDialog.cpp:69
+#: src/dialogs/DataDialog.cpp:100 src/gui/ToolPanel.cpp:412
+#: src/jyotish/PrintoutHelper.cpp:98 src/jyotish/TextHelper.cpp:573
+msgid "Time Zone"
+msgstr "நேரமண்டலம்"
+
+#: src/base/DataSet.cpp:381 src/dialogs/DataDialog.cpp:108
+#: src/jyotish/PrintoutHelper.cpp:103
+msgid "DST"
+msgstr "DST"
+
+#: src/base/Lang.cpp:72 src/base/Lang.cpp:79
+msgid "Aswini"
+msgstr "அஸ்வினி"
+
+#: src/base/Lang.cpp:72 src/base/Lang.cpp:79
+msgid "Bharani"
+msgstr "பரணி"
+
+#: src/base/Lang.cpp:72 src/base/Lang.cpp:79
+msgid "Krittika"
+msgstr "கார்த்திகை"
+
+#: src/base/Lang.cpp:72 src/base/Lang.cpp:79
+msgid "Rohini"
+msgstr "ரோகிணி"
+
+#: src/base/Lang.cpp:73 src/base/Lang.cpp:79
+msgid "Mrigasira"
+msgstr "மிருகசீரிடம்"
+
+#: src/base/Lang.cpp:73 src/base/Lang.cpp:79 src/base/Lang.cpp:503
+msgid "Ardra"
+msgstr "திருவாதிரை"
+
+#: src/base/Lang.cpp:73 src/base/Lang.cpp:80
+msgid "Punarvasu"
+msgstr "புனர்பூசம்"
+
+#: src/base/Lang.cpp:73 src/base/Lang.cpp:80
+msgid "Pushyami"
+msgstr "பூசம்"
+
+#: src/base/Lang.cpp:73 src/base/Lang.cpp:80
+msgid "Aslesha"
+msgstr "ஆயில்யம்"
+
+#: src/base/Lang.cpp:73 src/base/Lang.cpp:80
+msgid "Magha"
+msgstr "மகம்"
+
+#: src/base/Lang.cpp:74
+msgid "Poorvaphalguni"
+msgstr "பூரம்"
+
+#: src/base/Lang.cpp:74
+msgid "Uttaraphalguni"
+msgstr "உத்திரம்"
+
+#: src/base/Lang.cpp:74 src/base/Lang.cpp:81
+msgid "Hasta"
+msgstr "அஸ்தம்"
+
+#: src/base/Lang.cpp:74 src/base/Lang.cpp:81
+msgid "Chitra"
+msgstr "சித்திரை"
+
+#: src/base/Lang.cpp:74 src/base/Lang.cpp:81
+msgid "Swati"
+msgstr "சுவாதி"
+
+#: src/base/Lang.cpp:74 src/base/Lang.cpp:81
+msgid "Visakha"
+msgstr "விசாகம்"
+
+#: src/base/Lang.cpp:75 src/base/Lang.cpp:81
+msgid "Anuradha"
+msgstr "அனுஷம்"
+
+#: src/base/Lang.cpp:75 src/base/Lang.cpp:81
+msgid "Jyeshta"
+msgstr "கேட்டை"
+
+#: src/base/Lang.cpp:75 src/base/Lang.cpp:82
+msgid "Moola"
+msgstr "மூலம்"
+
+#: src/base/Lang.cpp:75
+msgid "Poorvashadha"
+msgstr "பூராடம்"
+
+#: src/base/Lang.cpp:75
+msgid "Uttarashadha"
+msgstr "உத்திராடம்"
+
+#: src/base/Lang.cpp:75 src/base/Lang.cpp:82
+msgid "Abhijit"
+msgstr "அபிஜித் \t \t"
+
+#: src/base/Lang.cpp:76 src/base/Lang.cpp:82
+msgid "Sravana"
+msgstr "திருவோணம்"
+
+#: src/base/Lang.cpp:76 src/base/Lang.cpp:82
+msgid "Dhanista"
+msgstr "அவிட்டம்"
+
+#: src/base/Lang.cpp:76
+msgid "Satabhisha"
+msgstr "சதயம்"
+
+#: src/base/Lang.cpp:76
+msgid "Poorvabhadra"
+msgstr "பூரட்டாதி"
+
+#: src/base/Lang.cpp:76
+msgid "Uttarabhadra"
+msgstr "உத்திரட்டாதி"
+
+#: src/base/Lang.cpp:76 src/base/Lang.cpp:83
+msgid "Revati"
+msgstr "ரேவதி"
+
+#: src/base/Lang.cpp:80
+msgid "P.Phalguni"
+msgstr "பூரம்"
+
+#: src/base/Lang.cpp:80
+msgid "U.Phalguni"
+msgstr "உத்திரம்"
+
+#: src/base/Lang.cpp:82
+msgid "P.Shadha"
+msgstr "பூராடம்"
+
+#: src/base/Lang.cpp:82
+msgid "U.Shadha"
+msgstr "உத்திராடம்"
+
+#: src/base/Lang.cpp:83
+msgid "Satabisha"
+msgstr "சதயம்"
+
+#: src/base/Lang.cpp:83
+msgid "P.Bhadra"
+msgstr "பூரட்டாதி"
+
+#: src/base/Lang.cpp:83
+msgid "U.Bhadra"
+msgstr "உத்திரட்டாதி"
+
+#: src/base/Lang.cpp:85
+msgid "Asw"
+msgstr "அஸ்"
+
+#: src/base/Lang.cpp:85
+msgid "Bhr"
+msgstr "பர"
+
+#: src/base/Lang.cpp:85
+msgid "Kri"
+msgstr "கார்"
+
+#: src/base/Lang.cpp:85
+msgid "Roh"
+msgstr "ரோ"
+
+#: src/base/Lang.cpp:86
+msgid "Mri"
+msgstr "மிரு"
+
+#: src/base/Lang.cpp:86
+msgid "Ard"
+msgstr "திரு"
+
+#: src/base/Lang.cpp:86
+msgid "Pun"
+msgstr "புனர்"
+
+#: src/base/Lang.cpp:86
+msgid "Pus"
+msgstr "பூச"
+
+#: src/base/Lang.cpp:86
+msgid "Asl"
+msgstr "ஆயில்"
+
+#: src/base/Lang.cpp:86
+msgid "Mak"
+msgstr "மக"
+
+#: src/base/Lang.cpp:86
+msgid "PPl"
+msgstr "பூர"
+
+#: src/base/Lang.cpp:87
+msgid "UPl"
+msgstr "உத்"
+
+#: src/base/Lang.cpp:87
+msgid "Hst"
+msgstr "அஸ்"
+
+#: src/base/Lang.cpp:87
+msgid "Cit"
+msgstr "சித்"
+
+#: src/base/Lang.cpp:87
+msgid "Sva"
+msgstr "சுவா"
+
+#: src/base/Lang.cpp:87
+msgid "Vis"
+msgstr "விசா"
+
+#: src/base/Lang.cpp:87
+msgid "Anu"
+msgstr "அனு"
+
+#: src/base/Lang.cpp:87
+msgid "Jye"
+msgstr "கேட்"
+
+#: src/base/Lang.cpp:88
+msgid "Mul"
+msgstr "மூல"
+
+#: src/base/Lang.cpp:88
+msgid "PSa"
+msgstr "பூரா"
+
+#: src/base/Lang.cpp:88
+msgid "USa"
+msgstr "உத் \t"
+
+#: src/base/Lang.cpp:88
+msgid "Abh"
+msgstr "அபி"
+
+#: src/base/Lang.cpp:88
+msgid "Sra"
+msgstr "திரு"
+
+#: src/base/Lang.cpp:88
+msgid "Dha"
+msgstr "அவி"
+
+#: src/base/Lang.cpp:88
+msgid "Sat"
+msgstr "சத"
+
+#: src/base/Lang.cpp:89
+msgid "PBa"
+msgstr "பூர"
+
+#: src/base/Lang.cpp:89
+msgid "UBa"
+msgstr "உத்"
+
+#: src/base/Lang.cpp:89
+msgid "Rev"
+msgstr "ரே"
+
+#: src/base/Lang.cpp:110
+msgid "Sun "
+msgstr "சூரியன்"
+
+#: src/base/Lang.cpp:111 src/dialogs/ViewPanel.cpp:148
+msgid "Uranus"
+msgstr "யுரேனஸ்"
+
+#: src/base/Lang.cpp:111
+msgid "Neptune"
+msgstr "நெப்டியூன்"
+
+#: src/base/Lang.cpp:111 src/dialogs/ViewPanel.cpp:154
+msgid "Pluto"
+msgstr "புளூட்டோ"
+
+#: src/base/Lang.cpp:112 src/dialogs/WesternPanel.cpp:63
+#: src/gui/MenuProvider.cpp:492
+msgid "Dragon Head"
+msgstr ""
+
+#: src/base/Lang.cpp:112 src/dialogs/WesternPanel.cpp:64
+#: src/gui/MenuProvider.cpp:493
+msgid "Dragon Tail"
+msgstr ""
+
+#: src/base/Lang.cpp:113 src/dialogs/VedicPanel.cpp:69
+#: src/dialogs/WesternPanel.cpp:66 src/gui/MenuProvider.cpp:497
+msgid "Meridian"
+msgstr "Meridian"
+
+#: src/base/Lang.cpp:114
+msgid "Cupido"
+msgstr "Cupido"
+
+#: src/base/Lang.cpp:114
+msgid "Hades"
+msgstr "Hades"
+
+#: src/base/Lang.cpp:114
+msgid "Zeus"
+msgstr "Zeus"
+
+#: src/base/Lang.cpp:114
+msgid "Kronos"
+msgstr "Kronos"
+
+#: src/base/Lang.cpp:114
+msgid "Apollon"
+msgstr "Apollon"
+
+#: src/base/Lang.cpp:114
+msgid "Admetos"
+msgstr "Admetos"
+
+#: src/base/Lang.cpp:114
+msgid "Vulkanus"
+msgstr "Vulkanus"
+
+#: src/base/Lang.cpp:114
+msgid "Poseidon"
+msgstr "Poseidon"
+
+#: src/base/Lang.cpp:115 src/dialogs/VedicPanel.cpp:71
+#: src/dialogs/WesternPanel.cpp:68 src/gui/MenuProvider.cpp:500
+#, fuzzy
+msgid "Chiron"
+msgstr "చిత్త"
+
+#: src/base/Lang.cpp:115 src/dialogs/VedicPanel.cpp:72
+#: src/dialogs/WesternPanel.cpp:69 src/gui/MenuProvider.cpp:501
+#, fuzzy
+msgid "Pholus"
+msgstr "గంటలు"
+
+#: src/base/Lang.cpp:115
+#, fuzzy
+msgid "Ceres"
+msgstr "అంశలు"
+
+#: src/base/Lang.cpp:115
+#, fuzzy
+msgid "Pallas"
+msgstr "పాదములు"
+
+#: src/base/Lang.cpp:115
+#, fuzzy
+msgid "Juno"
+msgstr "జూన్"
+
+#: src/base/Lang.cpp:115
+#, fuzzy
+msgid "Vesta"
+msgstr "జ్యేష్ట"
+
+#: src/base/Lang.cpp:115
+msgid "Lilith"
+msgstr ""
+
+#: src/base/Lang.cpp:119
+msgid "Surya"
+msgstr "சூரியன் "
+
+#: src/base/Lang.cpp:119
+msgid "Chandra"
+msgstr "சந்திரன்"
+
+#: src/base/Lang.cpp:119
+msgid "Budha"
+msgstr "புதன்"
+
+#: src/base/Lang.cpp:119
+msgid "Shukra"
+msgstr "சுக்கிரன் "
+
+#: src/base/Lang.cpp:119
+msgid "Kuja"
+msgstr "செவ்வாய்"
+
+#: src/base/Lang.cpp:119
+msgid "Guru"
+msgstr "வியாழன்"
+
+#: src/base/Lang.cpp:119
+msgid "Shani"
+msgstr "சனி"
+
+#: src/base/Lang.cpp:119 src/base/Lang.cpp:522
+msgid "Lagna"
+msgstr "லக்னம் \t"
+
+#: src/base/Lang.cpp:124
+msgid "Dhuma"
+msgstr "தூமன்"
+
+#: src/base/Lang.cpp:124
+msgid "Vyatipata"
+msgstr "வியதீபாதன் \t \t"
+
+#: src/base/Lang.cpp:124
+msgid "Parivesha"
+msgstr "பரிவேடன் \t"
+
+#: src/base/Lang.cpp:124
+msgid "Chapa"
+msgstr "சாபன் \t"
+
+#: src/base/Lang.cpp:124
+msgid "Upaketu"
+msgstr "உபகேது \t \t"
+
+#: src/base/Lang.cpp:125 src/dialogs/VedicCalculationPanel.cpp:131
+msgid "Kala"
+msgstr "காலன் \t"
+
+#: src/base/Lang.cpp:125 src/dialogs/VedicCalculationPanel.cpp:132
+msgid "Mrityu"
+msgstr "மிருத்யூ \t"
+
+#: src/base/Lang.cpp:125 src/dialogs/VedicCalculationPanel.cpp:133
+msgid "Ardhaprahara"
+msgstr "அர்தபிரகாரா"
+
+#: src/base/Lang.cpp:125
+msgid "Yamaghantaka"
+msgstr "யமகண்டகா"
+
+#: src/base/Lang.cpp:125 src/base/Lang.cpp:503
+#: src/dialogs/VedicCalculationPanel.cpp:135
+msgid "Gulika"
+msgstr "குளிகன் \t"
+
+#: src/base/Lang.cpp:125 src/dialogs/VedicCalculationPanel.cpp:136
+msgid "Mandi"
+msgstr "மாந்தி"
+
+#: src/base/Lang.cpp:126
+msgid "Bhava Lagna"
+msgstr "பாவலக்னம்"
+
+#: src/base/Lang.cpp:126
+msgid "Hora Lagna"
+msgstr "ஹோரலக்னம்"
+
+#: src/base/Lang.cpp:126
+msgid "Ghatika Lagna"
+msgstr "கடிகலக்னம்"
+
+#: src/base/Lang.cpp:126
+msgid "D9Lagna"
+msgstr "D9லக்னம்"
+
+#: src/base/Lang.cpp:154
+msgid "MC"
+msgstr ""
+
+#: src/base/Lang.cpp:157
+#, fuzzy
+msgid "NNo"
+msgstr "Now"
+
+#: src/base/Lang.cpp:158
+#, fuzzy
+msgid "SNo"
+msgstr "Now"
+
+#: src/base/Lang.cpp:178
+msgid "Horse"
+msgstr "అశ్వ"
+
+#: src/base/Lang.cpp:178
+msgid "Buffalo"
+msgstr "మహిష"
+
+#: src/base/Lang.cpp:178
+msgid "Lion"
+msgstr "సింహ"
+
+#: src/base/Lang.cpp:178
+msgid "Elephant"
+msgstr "గజ"
+
+#: src/base/Lang.cpp:179
+msgid "Goat"
+msgstr "అజ"
+
+#: src/base/Lang.cpp:179
+msgid "Monkey"
+msgstr "వానర"
+
+#: src/base/Lang.cpp:179
+msgid "Mongoose"
+msgstr "ముంగీస"
+
+#: src/base/Lang.cpp:179
+msgid "Serpent"
+msgstr "సర్ప"
+
+#: src/base/Lang.cpp:179
+msgid "Deer"
+msgstr "మృగ"
+
+#: src/base/Lang.cpp:179
+msgid "Dog"
+msgstr "శ్వాన"
+
+#: src/base/Lang.cpp:179
+msgid "Cat"
+msgstr "మార్జాల"
+
+#: src/base/Lang.cpp:180
+msgid "Rat"
+msgstr "మూషక"
+
+#: src/base/Lang.cpp:180
+msgid "Tiger"
+msgstr "వ్యాఘ్ర"
+
+#: src/base/Lang.cpp:180
+msgid "Cow"
+msgstr "గో"
+
+#: src/base/Lang.cpp:192 src/base/Lang.cpp:498 src/base/Lang.cpp:502
+msgid "Deva"
+msgstr "దేవ"
+
+#: src/base/Lang.cpp:192
+msgid "Manuj"
+msgstr "మనుష్య"
+
+#: src/base/Lang.cpp:192
+msgid "Rakshas"
+msgstr "రాక్షస"
+
+#: src/base/Lang.cpp:205
+msgid "none"
+msgstr ""
+
+#: src/base/Lang.cpp:207 src/jyotish/Nakshatra.cpp:297
+msgid "Janma"
+msgstr "జన్మ"
+
+#: src/base/Lang.cpp:207
+msgid "Sampat"
+msgstr "సంపత్"
+
+#: src/base/Lang.cpp:207
+msgid "Vipat"
+msgstr "విపత్"
+
+#: src/base/Lang.cpp:207
+msgid "Kshema"
+msgstr "క్షేమ"
+
+#: src/base/Lang.cpp:208
+msgid "Pratyak"
+msgstr "ప్రత్యక్"
+
+#: src/base/Lang.cpp:208
+msgid "Sadhaka"
+msgstr "సాధన"
+
+#: src/base/Lang.cpp:208
+msgid "Vadha"
+msgstr "వధ"
+
+#: src/base/Lang.cpp:208 src/base/Lang.cpp:259
+msgid "Mitra"
+msgstr "మిత్ర"
+
+#: src/base/Lang.cpp:208
+msgid "Parma Mitra"
+msgstr "పరమ మిత్ర"
+
+#: src/base/Lang.cpp:221
+msgid "Adi (Vata)"
+msgstr "ఆది (వాత)"
+
+#: src/base/Lang.cpp:221
+msgid "Madhya (Pitta)"
+msgstr "మధ్య (పిత్త)"
+
+#: src/base/Lang.cpp:221
+msgid "Antya (Kapha)"
+msgstr "అంత్య (కఫ)"
+
+#: src/base/Lang.cpp:233
+msgid "Shudra"
+msgstr "శూద్ర"
+
+#: src/base/Lang.cpp:233
+msgid "Vaishya"
+msgstr "వైశ్య"
+
+#: src/base/Lang.cpp:233
+msgid "Kshattriya"
+msgstr "క్షత్రియ"
+
+#: src/base/Lang.cpp:233
+msgid "Brahmin"
+msgstr "బ్రాహ్మణ"
+
+#: src/base/Lang.cpp:258
+msgid "Uchcha"
+msgstr ""
+
+#: src/base/Lang.cpp:258
+msgid "Nicha"
+msgstr ""
+
+#: src/base/Lang.cpp:258 src/base/Lang.cpp:260
+msgid "Moolatrikona"
+msgstr "மூலதிரிகோணம்"
+
+#: src/base/Lang.cpp:259
+#, fuzzy
+msgid "Svakshetra"
+msgstr "Nakshatra"
+
+#: src/base/Lang.cpp:259
+#, fuzzy
+msgid "Adhimitra"
+msgstr "சித்திரை"
+
+#: src/base/Lang.cpp:259
+msgid "Sama"
+msgstr ""
+
+#: src/base/Lang.cpp:259 src/base/Lang.cpp:523
+msgid "Satru"
+msgstr "Satru"
+
+#: src/base/Lang.cpp:259
+#, fuzzy
+msgid "Adhisatru"
+msgstr "Bhratru"
+
+#: src/base/Lang.cpp:260
+msgid "Exalted"
+msgstr ""
+
+#: src/base/Lang.cpp:260
+msgid "Debilated"
+msgstr "நீச்சம்"
+
+#: src/base/Lang.cpp:261 src/base/Lang.cpp:262
+msgid "Own"
+msgstr "ஆட்சி"
+
+#: src/base/Lang.cpp:261
+msgid "Great friend"
+msgstr "அதிநட்பு"
+
+#: src/base/Lang.cpp:261
+msgid "Friend"
+msgstr "நட்பு"
+
+#: src/base/Lang.cpp:261
+msgid "Neutral"
+msgstr "சமம்"
+
+#: src/base/Lang.cpp:261
+msgid "Enemy"
+msgstr "பகை"
+
+#: src/base/Lang.cpp:261
+msgid "Great enemy"
+msgstr "அதிபகை"
+
+#: src/base/Lang.cpp:262
+msgid "Exal"
+msgstr "உச்சம்"
+
+#: src/base/Lang.cpp:262
+msgid "Deb"
+msgstr "நீச்சம்"
+
+#: src/base/Lang.cpp:262
+msgid "Mool"
+msgstr "மூலதிரிகோணம்"
+
+#: src/base/Lang.cpp:263
+msgid "Gr.Fr"
+msgstr ""
+
+#: src/base/Lang.cpp:263
+msgid "Frnd"
+msgstr "நட்பு"
+
+#: src/base/Lang.cpp:263
+msgid "Neutr"
+msgstr "சமம்"
+
+#: src/base/Lang.cpp:263
+msgid "Enem"
+msgstr "பகை"
+
+#: src/base/Lang.cpp:263
+msgid "Gr.En"
+msgstr ""
+
+#: src/base/Lang.cpp:278 src/base/Lang.cpp:279
+msgid "Kimsuka"
+msgstr ""
+
+#: src/base/Lang.cpp:278 src/base/Lang.cpp:279
+#, fuzzy
+msgid "Vyanjana"
+msgstr "ఆయనాంశ"
+
+#: src/base/Lang.cpp:278 src/base/Lang.cpp:279
+#, fuzzy
+msgid "Chamara"
+msgstr "చంద్రముఖి"
+
+#: src/base/Lang.cpp:278 src/base/Lang.cpp:279
+#, fuzzy
+msgid "Chatra"
+msgstr "చిత్త"
+
+#: src/base/Lang.cpp:278 src/base/Lang.cpp:280
+#, fuzzy
+msgid "Kundala"
+msgstr "కాల"
+
+#: src/base/Lang.cpp:280
+msgid "Mukuta"
+msgstr ""
+
+#: src/base/Lang.cpp:281
+msgid "Parijata"
+msgstr "పారిజాత"
+
+#: src/base/Lang.cpp:281
+msgid "Uttama"
+msgstr "ఉత్తమ"
+
+#: src/base/Lang.cpp:281
+msgid "Gopura"
+msgstr "గోపుర"
+
+#: src/base/Lang.cpp:281
+msgid "Simhasana"
+msgstr "సింహాసన"
+
+#: src/base/Lang.cpp:282
+msgid "Paravata"
+msgstr "పర్వత"
+
+#: src/base/Lang.cpp:282
+msgid "Devaloka"
+msgstr "దేవలోక"
+
+#: src/base/Lang.cpp:282
+msgid "Brahmaloka"
+msgstr "బ్రహ్మలోక"
+
+#: src/base/Lang.cpp:282
+msgid "Sakravahana"
+msgstr "శక్రవాహన"
+
+#: src/base/Lang.cpp:282
+msgid "Sridhama"
+msgstr "శ్రీధామ"
+
+#: src/base/Lang.cpp:283
+#, fuzzy
+msgid "Bhedaka"
+msgstr "భావ"
+
+#: src/base/Lang.cpp:283
+#, fuzzy
+msgid "Kusumia"
+msgstr "క్షేమ"
+
+#: src/base/Lang.cpp:283
+msgid "Nagapushpa"
+msgstr ""
+
+#: src/base/Lang.cpp:283
+#, fuzzy
+msgid "Kanduka"
+msgstr "కంటక"
+
+#: src/base/Lang.cpp:284
+#, fuzzy
+msgid "Kerala"
+msgstr "కాల"
+
+#: src/base/Lang.cpp:284
+#, fuzzy
+msgid "Kalpa Vriksha"
+msgstr "కల"
+
+#: src/base/Lang.cpp:284
+#, fuzzy
+msgid "Chandana Vana"
+msgstr "చంద్ర రేఖ"
+
+#: src/base/Lang.cpp:284
+#, fuzzy
+msgid "PoornaChandra"
+msgstr "పూర్ణచంద్ర"
+
+#: src/base/Lang.cpp:284
+msgid "Uchchaisrava"
+msgstr ""
+
+#: src/base/Lang.cpp:285
+#, fuzzy
+msgid "Dhanvantari"
+msgstr "ధనిష్ట"
+
+#: src/base/Lang.cpp:285
+#, fuzzy
+msgid "Suryakanta"
+msgstr "శ్రవణం"
+
+#: src/base/Lang.cpp:285
+msgid "Vidruma"
+msgstr ""
+
+#: src/base/Lang.cpp:285
+#, fuzzy
+msgid "Chakra Simhasana"
+msgstr "సింహాసన"
+
+#: src/base/Lang.cpp:285
+msgid "Goloki"
+msgstr ""
+
+#: src/base/Lang.cpp:285
+msgid "Sri Vallabha"
+msgstr ""
+
+#: src/base/Lang.cpp:323
+msgid "Sukla - Pratipad"
+msgstr "சுக்ல-பிரதமை \t \t"
+
+#: src/base/Lang.cpp:324
+msgid "Sukla - Dviteeya"
+msgstr "சுக்ல-துதியை \t"
+
+#: src/base/Lang.cpp:325
+msgid "Sukla - Triteeya"
+msgstr "சுக்ல-திரிதியை"
+
+#: src/base/Lang.cpp:326
+msgid "Sukla - Chaturthi"
+msgstr "சுக்ல-சதுர்த்தி \t"
+
+#: src/base/Lang.cpp:327
+msgid "Sukla - Panchami"
+msgstr "சுக்ல-பஞ்சமி"
+
+#: src/base/Lang.cpp:328
+msgid "Sukla - Shasti"
+msgstr "சுக்ல-ஷஷ்டி"
+
+#: src/base/Lang.cpp:329
+msgid "Sukla - Saptami"
+msgstr "சுக்ல-சப்தமி"
+
+#: src/base/Lang.cpp:330
+msgid "Sukla - Asthami"
+msgstr "சுக்ல-அஷ்டமி"
+
+#: src/base/Lang.cpp:331
+msgid "Sukla - Navami"
+msgstr "சுக்ல-நவமி"
+
+#: src/base/Lang.cpp:332
+msgid "Sukla - Dasami"
+msgstr "சுக்ல-தசமி"
+
+#: src/base/Lang.cpp:333
+msgid "Sukla - Ekadasi"
+msgstr "சுக்ல-ஏகாதசி"
+
+#: src/base/Lang.cpp:334
+msgid "Sukla - Dvadasi"
+msgstr "சுக்ல-துவாதசி"
+
+#: src/base/Lang.cpp:335
+msgid "Sukla - Trayodasi"
+msgstr "சுக்ல-திரயோதசி"
+
+#: src/base/Lang.cpp:336
+msgid "Sukla - Chaturdasi"
+msgstr "சுக்ல-சதுர்தசி"
+
+#: src/base/Lang.cpp:337
+msgid "Sukla - Purnima"
+msgstr "சுக்ல-பௌர்ணமி"
+
+#: src/base/Lang.cpp:338
+msgid "Krishna - Pratipad"
+msgstr "கிருஷ்ண-பிரதமை"
+
+#: src/base/Lang.cpp:339
+msgid "Krishna - Dviteeya"
+msgstr "கிருஷ்ண-துதியை "
+
+#: src/base/Lang.cpp:340
+msgid "Krishna - Triteeya"
+msgstr "கிருஷ்ண-திரிதியை"
+
+#: src/base/Lang.cpp:341
+msgid "Krishna - Chaturthi"
+msgstr "கிருஷ்ண-சதுர்த்தி"
+
+#: src/base/Lang.cpp:342
+msgid "Krishna - Panchami"
+msgstr "கிருஷ்ண-பஞ்சமி"
+
+#: src/base/Lang.cpp:343
+msgid "Krishna - Shasti"
+msgstr "கிருஷ்ண-ஷஷ்டி"
+
+#: src/base/Lang.cpp:344
+msgid "Krishna - Saptami"
+msgstr "கிருஷ்ண-சப்தமி"
+
+#: src/base/Lang.cpp:345
+msgid "Krishna - Asthami"
+msgstr "கிருஷ்ண-அஷ்டமி"
+
+#: src/base/Lang.cpp:346
+msgid "Krishna - Navami"
+msgstr "கிருஷ்ண-நவமி"
+
+#: src/base/Lang.cpp:347
+msgid "Krishna - Dasami"
+msgstr "கிருஷ்ண-தசமி"
+
+#: src/base/Lang.cpp:348
+msgid "Krishna - Ekadasi"
+msgstr "கிருஷ்ண-ஏகாதசி"
+
+#: src/base/Lang.cpp:349
+msgid "Krishna - Dvadasi"
+msgstr "கிருஷ்ண-துவாதசி"
+
+#: src/base/Lang.cpp:350
+msgid "Krishna - Trayodasi"
+msgstr "கிருஷ்ண-திரயோதசி"
+
+#: src/base/Lang.cpp:351
+msgid "Krishna - Chaturdasi"
+msgstr "கிருஷ்ண-சதுர்தசி"
+
+#: src/base/Lang.cpp:352
+msgid "Krishna - Amavasya"
+msgstr "கிருஷ்ண-அமாவாசை"
+
+#: src/base/Lang.cpp:365
+msgid "Sunday"
+msgstr "ஞாயிற்றுக்கிழமை"
+
+#: src/base/Lang.cpp:365
+msgid "Monday"
+msgstr "திங்கட்கிழமை"
+
+#: src/base/Lang.cpp:365
+msgid "Tuesday"
+msgstr "செவ்வாய்க்கிழமை"
+
+#: src/base/Lang.cpp:365
+msgid "Wednesday"
+msgstr "புதன்கிழமை"
+
+#: src/base/Lang.cpp:366
+msgid "Thursday"
+msgstr "வியாழக்கிழமை"
+
+#: src/base/Lang.cpp:366
+msgid "Friday"
+msgstr "வெள்ளிக்கிழமை"
+
+#: src/base/Lang.cpp:366
+msgid "Saturday"
+msgstr "சனிக்கிழமை"
+
+#: src/base/Lang.cpp:440
+msgid "Ar"
+msgstr "\tமே"
+
+#: src/base/Lang.cpp:440
+msgid "Ta"
+msgstr "ரி"
+
+#: src/base/Lang.cpp:440
+msgid "Ge"
+msgstr "மி"
+
+#: src/base/Lang.cpp:440
+msgid "Cn"
+msgstr "கட"
+
+#: src/base/Lang.cpp:440
+msgid "Le"
+msgstr "சி"
+
+#: src/base/Lang.cpp:440
+msgid "Vi"
+msgstr "கன்"
+
+#: src/base/Lang.cpp:441
+msgid "Li"
+msgstr "து"
+
+#: src/base/Lang.cpp:441
+msgid "Sc"
+msgstr "வி"
+
+#: src/base/Lang.cpp:441
+msgid "Sa"
+msgstr "த"
+
+#: src/base/Lang.cpp:441
+msgid "Cp"
+msgstr "ம"
+
+#: src/base/Lang.cpp:441
+msgid "Aq"
+msgstr "கு"
+
+#: src/base/Lang.cpp:441
+msgid "Pi"
+msgstr "மீ"
+
+#: src/base/Lang.cpp:483
+msgid "Atma"
+msgstr "Atma"
+
+#: src/base/Lang.cpp:483
+msgid "Amatya"
+msgstr "Amatya"
+
+#: src/base/Lang.cpp:483
+msgid "Bhratru"
+msgstr "Bhratru"
+
+#: src/base/Lang.cpp:484
+msgid "Matru"
+msgstr "Matru"
+
+#: src/base/Lang.cpp:484
+msgid "Pitru"
+msgstr "Pitru"
+
+#: src/base/Lang.cpp:484 src/base/Lang.cpp:522
+msgid "Putra"
+msgstr "Putra"
+
+#: src/base/Lang.cpp:484
+msgid "Gnati"
+msgstr "Gnati"
+
+#: src/base/Lang.cpp:484 src/jyotish/GenericDasa.cpp:288
+msgid "Dhanya"
+msgstr "Dhanya"
+
+#: src/base/Lang.cpp:498 src/base/Lang.cpp:504
+msgid "Ghora"
+msgstr "Ghora"
+
+#: src/base/Lang.cpp:498
+msgid "Rakshasa"
+msgstr "Rakshasa"
+
+#: src/base/Lang.cpp:498
+msgid "Kubera"
+msgstr "Kubera"
+
+#: src/base/Lang.cpp:498
+msgid "Yaksha"
+msgstr "Yaksha"
+
+#: src/base/Lang.cpp:499
+msgid "Kinnara"
+msgstr "Kinnara"
+
+#: src/base/Lang.cpp:499
+msgid "Bhrashta"
+msgstr "Bhrashta"
+
+#: src/base/Lang.cpp:499
+msgid "Kulaghna"
+msgstr "Kulaghna"
+
+#: src/base/Lang.cpp:499
+msgid "Garala"
+msgstr "Garala"
+
+#: src/base/Lang.cpp:499
+msgid "Vahni"
+msgstr "Vahni"
+
+#: src/base/Lang.cpp:500
+msgid "Maya"
+msgstr "Maya"
+
+#: src/base/Lang.cpp:500
+msgid "Purishaka"
+msgstr "Purishaka"
+
+#: src/base/Lang.cpp:500
+msgid "Apampathi"
+msgstr "Apampathi"
+
+#: src/base/Lang.cpp:500
+msgid "Marut"
+msgstr "Marut"
+
+#: src/base/Lang.cpp:500 src/base/Lang.cpp:504 src/base/Lang.cpp:506
+msgid "Kaala"
+msgstr "Kaala"
+
+#: src/base/Lang.cpp:501
+msgid "Sarpa"
+msgstr "Sarpa"
+
+#: src/base/Lang.cpp:501 src/base/Lang.cpp:505 src/base/Lang.cpp:509
+msgid "Amrita"
+msgstr "Amrita"
+
+#: src/base/Lang.cpp:501
+msgid "Indu"
+msgstr "Indu"
+
+#: src/base/Lang.cpp:501
+msgid "Mridu"
+msgstr "Mridu"
+
+#: src/base/Lang.cpp:501 src/base/Lang.cpp:507
+msgid "Komala"
+msgstr "Komala"
+
+#: src/base/Lang.cpp:502
+msgid "Heramba"
+msgstr "Heramba"
+
+#: src/base/Lang.cpp:502
+msgid "Brahma"
+msgstr "Brahma"
+
+#: src/base/Lang.cpp:502
+msgid "Vishnu"
+msgstr "Vishnu"
+
+#: src/base/Lang.cpp:502
+msgid "Maheswara"
+msgstr "Maheswara"
+
+#: src/base/Lang.cpp:503
+msgid "Kalinasa"
+msgstr "Kalinasa"
+
+#: src/base/Lang.cpp:503
+msgid "Kshiteesa"
+msgstr "Kshiteesa"
+
+#: src/base/Lang.cpp:503
+msgid "Kamalakara"
+msgstr "Kamalakara"
+
+#: src/base/Lang.cpp:504
+msgid "Mrithyu"
+msgstr "Mrithyu"
+
+#: src/base/Lang.cpp:504
+msgid "Davagani"
+msgstr "Davagani"
+
+#: src/base/Lang.cpp:504
+msgid "Yama"
+msgstr "Yama"
+
+#: src/base/Lang.cpp:505
+msgid "Kantaka"
+msgstr "Kantaka"
+
+#: src/base/Lang.cpp:505
+msgid "Sudha"
+msgstr "Sudha"
+
+#: src/base/Lang.cpp:505
+msgid "Poornachandra"
+msgstr "Poornachandra"
+
+#: src/base/Lang.cpp:505
+msgid "Vishadagdha"
+msgstr "Vishadagdha"
+
+#: src/base/Lang.cpp:506
+msgid "Kulanasa"
+msgstr "Kulanasa"
+
+#: src/base/Lang.cpp:506
+msgid "Vamsakshaya"
+msgstr "Vamsakshaya"
+
+#: src/base/Lang.cpp:506
+msgid "Utpata"
+msgstr "Utpata"
+
+#: src/base/Lang.cpp:506 src/base/Lang.cpp:508
+msgid "Saumya"
+msgstr "Saumya"
+
+#: src/base/Lang.cpp:507
+msgid "Seetala"
+msgstr "Seetala"
+
+#: src/base/Lang.cpp:507
+msgid "Karaladamshtra"
+msgstr "Karaladamshtra"
+
+#: src/base/Lang.cpp:507
+msgid "Chandramukhi"
+msgstr "Chandramukhi"
+
+#: src/base/Lang.cpp:507
+msgid "Praveena"
+msgstr "Praveena"
+
+#: src/base/Lang.cpp:508
+msgid "Kaala Pavaka"
+msgstr "Kaala Pavaka"
+
+#: src/base/Lang.cpp:508
+msgid "Dandayudha"
+msgstr "Dandayudha"
+
+#: src/base/Lang.cpp:508
+msgid "Nirmala"
+msgstr "Nirmala"
+
+#: src/base/Lang.cpp:508
+msgid "Kroora"
+msgstr "Kroora"
+
+#: src/base/Lang.cpp:509
+msgid "Atiseetala"
+msgstr "Atiseetala"
+
+#: src/base/Lang.cpp:509
+msgid "Payodhi"
+msgstr "Payodhi"
+
+#: src/base/Lang.cpp:509
+msgid "Bhramana"
+msgstr "Bhramana"
+
+#: src/base/Lang.cpp:509
+msgid "Chandra Rekha"
+msgstr "Chandra Rekha"
+
+#: src/base/Lang.cpp:522
+msgid "Dhana"
+msgstr "Dhana"
+
+#: src/base/Lang.cpp:522
+msgid "Sahaja"
+msgstr "Sahaja"
+
+#: src/base/Lang.cpp:522
+msgid "Bandhu"
+msgstr "Bandhu"
+
+#: src/base/Lang.cpp:523
+msgid "Yuvati"
+msgstr "Yuvati"
+
+#: src/base/Lang.cpp:523
+msgid "Randhra"
+msgstr "Randhra"
+
+#: src/base/Lang.cpp:523
+msgid "Dharma"
+msgstr "Dharma"
+
+#: src/base/Lang.cpp:523
+msgid "Karma"
+msgstr "Karma"
+
+#: src/base/Lang.cpp:523
+msgid "Labha"
+msgstr "Labha"
+
+#: src/base/Lang.cpp:523
+msgid "Vyaya"
+msgstr "Vyaya"
+
+#: src/base/Lang.cpp:536
+msgid "January"
+msgstr "January"
+
+#: src/base/Lang.cpp:536
+msgid "February"
+msgstr "February"
+
+#: src/base/Lang.cpp:536
+msgid "March"
+msgstr "March"
+
+#: src/base/Lang.cpp:536
+msgid "April"
+msgstr "April"
+
+#: src/base/Lang.cpp:536
+msgid "May"
+msgstr "May"
+
+#: src/base/Lang.cpp:537
+msgid "June"
+msgstr "June"
+
+#: src/base/Lang.cpp:537
+msgid "July"
+msgstr "July"
+
+#: src/base/Lang.cpp:537
+msgid "August"
+msgstr "August"
+
+#: src/base/Lang.cpp:537
+msgid "September"
+msgstr "September"
+
+#: src/base/Lang.cpp:537
+msgid "October"
+msgstr "October"
+
+#: src/base/Lang.cpp:537
+msgid "November"
+msgstr "November"
+
+#: src/base/Lang.cpp:537
+msgid "December"
+msgstr "December"
+
+#: src/base/Lang.cpp:552 src/dialogs/DialogElements.cpp:319
+#: src/dialogs/VedicCalculationPanel.cpp:141
+msgid "None"
+msgstr "None"
+
+#: src/base/Lang.cpp:555 src/dialogs/DialogElements.cpp:320
+msgid "Lahiri"
+msgstr "Lahiri"
+
+#: src/base/Lang.cpp:558 src/dialogs/DialogElements.cpp:321
+#: src/dialogs/VedicCalculationPanel.cpp:163
+msgid "Raman"
+msgstr "Raman"
+
+#: src/base/Lang.cpp:561 src/dialogs/DialogElements.cpp:322
+msgid "Krishnamurti"
+msgstr "Krishnamurti"
+
+#: src/base/LanguageConfig.cpp:106 src/base/LanguageConfig.cpp:172
+msgid "English"
+msgstr "English"
+
+#: src/base/LanguageConfig.cpp:107 src/base/LanguageConfig.cpp:175
+msgid "German"
+msgstr "German"
+
+#: src/base/LanguageConfig.cpp:108 src/base/LanguageConfig.cpp:187
+msgid "Italian"
+msgstr ""
+
+#: src/base/LanguageConfig.cpp:109 src/base/LanguageConfig.cpp:184
+msgid "Polish"
+msgstr "Polish"
+
+#: src/base/LanguageConfig.cpp:110 src/base/LanguageConfig.cpp:178
+msgid "Russian"
+msgstr "Russian"
+
+#: src/base/LanguageConfig.cpp:111 src/base/LanguageConfig.cpp:181
+msgid "Telugu"
+msgstr "Telugu"
+
+#: src/base/LanguageConfig.cpp:112 src/base/LanguageConfig.cpp:190
+msgid "Hungarian"
+msgstr ""
+
+#: src/base/LanguageConfig.cpp:113 src/base/LanguageConfig.cpp:193
+msgid "Romanian"
+msgstr "Romanian"
+
+#: src/base/LanguageConfig.cpp:114 src/base/LanguageConfig.cpp:196
+msgid "Spanish"
+msgstr ""
+
+#: src/base/LanguageConfig.cpp:115 src/base/LanguageConfig.cpp:199
+msgid "French"
+msgstr ""
+
+#: src/base/LanguageConfig.cpp:116 src/base/LanguageConfig.cpp:202
+msgid "Tamil"
+msgstr ""
+
+#: src/dialogs/AboutDialog.cpp:185 src/dialogs/AboutDialog.cpp:189
+msgid "Author"
+msgstr "Author"
+
+#: src/dialogs/AboutDialog.cpp:186
+msgid "Software"
+msgstr "Software"
+
+#: src/dialogs/AboutDialog.cpp:190
+msgid "Url"
+msgstr "Url"
+
+#: src/dialogs/AboutDialog.cpp:191
+msgid "Dedicated to Paramapadma Dhirananda"
+msgstr ""
+
+#: src/dialogs/AboutDialog.cpp:192 src/dialogs/AboutDialog.cpp:239
+msgid "Version"
+msgstr "Version"
+
+#: src/dialogs/AboutDialog.cpp:193 src/dialogs/AboutDialog.cpp:243
+msgid "Build Date"
+msgstr "Build Date"
+
+#: src/dialogs/AboutDialog.cpp:194
+msgid "Compiler"
+msgstr "Compiler"
+
+#: src/dialogs/AboutDialog.cpp:195
+msgid "Gui Framework"
+msgstr ""
+
+#: src/dialogs/AboutDialog.cpp:196 src/dialogs/AboutDialog.cpp:265
+msgid "Unicode Support"
+msgstr "Unicode Support"
+
+#: src/dialogs/AboutDialog.cpp:197
+msgid "Operating System"
+msgstr ""
+
+#: src/dialogs/AboutDialog.cpp:198 src/dialogs/AtlasAliasDialog.cpp:64
+#: src/dialogs/AtlasDialog.cpp:302 src/dialogs/AtlasEditDialog.cpp:96
+#: src/dialogs/ConfigDialog.cpp:120 src/dialogs/DataDialog.cpp:113
+#: src/dialogs/ExportDialog.cpp:58 src/dialogs/PrintConfigurationDialog.cpp:71
+#: src/gui/guibase.cpp:374
+msgid "OK"
+msgstr "OK"
+
+#: src/dialogs/AboutDialog.cpp:247
+msgid "Compiled by"
+msgstr "Compiled by"
+
+#: src/dialogs/AboutDialog.cpp:257
+msgid "wxWidgets Version"
+msgstr ""
+
+#: src/dialogs/AboutDialog.cpp:260
+msgid "yes"
+msgstr "yes"
+
+#: src/dialogs/AboutDialog.cpp:262
+msgid "no"
+msgstr "no"
+
+#: src/dialogs/AboutDialog.cpp:267
+#, c-format
+msgid "Currently running on %s"
+msgstr "Currently running on %s"
+
+#: src/dialogs/AnimationPanel.cpp:58 src/dialogs/ConfigPanel.cpp:74
+msgid "Animation"
+msgstr "Animation"
+
+#: src/dialogs/AnimationPanel.cpp:59
+msgid "Frequency"
+msgstr "Frequency"
+
+#: src/dialogs/AnimationPanel.cpp:61
+msgid "sec"
+msgstr "sec"
+
+#: src/dialogs/AnimationPanel.cpp:62 src/dialogs/AtlasDialog.cpp:266
+#: src/dialogs/DialogElements.cpp:241 src/gui/ToolPanel.cpp:304
+#: src/gui/ToolPanel.cpp:389 src/gui/ToolPanel.cpp:408
+msgid "Mode"
+msgstr "Mode"
+
+#: src/dialogs/AnimationPanel.cpp:64
+msgid "System Time"
+msgstr "System Time"
+
+#: src/dialogs/AnimationPanel.cpp:65
+msgid "Custom Steps"
+msgstr "Custom Steps"
+
+#: src/dialogs/AnimationPanel.cpp:68
+msgid "Step Length"
+msgstr "Step Length"
+
+#: src/dialogs/AnimationPanel.cpp:71
+msgid "seconds"
+msgstr "seconds"
+
+#: src/dialogs/AnimationPanel.cpp:72
+msgid "minutes"
+msgstr "minutes"
+
+#: src/dialogs/AnimationPanel.cpp:73
+msgid "hours"
+msgstr "hours"
+
+#: src/dialogs/AnimationPanel.cpp:74
+msgid "days"
+msgstr "days"
+
+#: src/dialogs/AnimationPanel.cpp:75
+msgid "months"
+msgstr "months"
+
+#: src/dialogs/AnimationPanel.cpp:76
+msgid "years"
+msgstr "years"
+
+#: src/dialogs/AspectColorPanel.cpp:203 src/dialogs/DasaColorPanel.cpp:113
+#: src/dialogs/VedicChartPanel.cpp:188 src/dialogs/ViewPanel.cpp:116
+#: src/dialogs/WesternChartPanel.cpp:144
+msgid "Preview"
+msgstr "Preview"
+
+#: src/dialogs/AspectColorPanel.cpp:204
+msgid "Styles"
+msgstr "Styles"
+
+#: src/dialogs/AspectColorPanel.cpp:206 src/dialogs/AspectColorPanel.cpp:207
+#: src/dialogs/AspectColorPanel.cpp:208 src/dialogs/AspectColorPanel.cpp:209
+#: src/dialogs/AspectColorPanel.cpp:210 src/dialogs/AtlasDialog.cpp:260
+#: src/dialogs/AtlasDialog.cpp:261 src/dialogs/AtlasDialog.cpp:262
+#: src/dialogs/AtlasDialog.cpp:263 src/dialogs/AtlasDialog.cpp:274
+#: src/dialogs/AtlasDialog.cpp:277 src/dialogs/AtlasDialog.cpp:279
+#: src/dialogs/AtlasDialog.cpp:281 src/dialogs/AtlasDialog.cpp:283
+#: src/dialogs/AtlasDialog.cpp:285 src/dialogs/AtlasDialog.cpp:287
+#: src/dialogs/AtlasDialog.cpp:289 src/dialogs/AtlasDialog.cpp:291
+#: src/dialogs/AtlasDialog.cpp:293 src/dialogs/AtlasDialog.cpp:295
+#: src/dialogs/AtlasEditDialog.cpp:92 src/dialogs/AtlasImportDialog.cpp:58
+#: src/dialogs/DasaColorPanel.cpp:120 src/dialogs/DasaColorPanel.cpp:121
+#: src/dialogs/DasaColorPanel.cpp:122 src/dialogs/DasaColorPanel.cpp:123
+#: src/dialogs/DasaColorPanel.cpp:124 src/dialogs/DasaColorPanel.cpp:125
+#: src/dialogs/DasaColorPanel.cpp:126 src/dialogs/DasaColorPanel.cpp:127
+#: src/dialogs/DasaColorPanel.cpp:128 src/dialogs/DasaColorPanel.cpp:129
+#: src/dialogs/DasaColorPanel.cpp:163 src/dialogs/DasaColorPanel.cpp:164
+#: src/dialogs/DasaColorPanel.cpp:165 src/dialogs/DasaColorPanel.cpp:166
+#: src/dialogs/DasaColorPanel.cpp:167 src/dialogs/GeneralPanel.cpp:67
+#: src/dialogs/GeneralPanel.cpp:68 src/dialogs/GeneralPanel.cpp:69
+#: src/dialogs/GeneralPanel.cpp:70 src/dialogs/MultipleViewPanel.cpp:63
+#: src/dialogs/MultipleViewPanel.cpp:64 src/dialogs/MultipleViewPanel.cpp:65
+#: src/dialogs/MultipleViewPanel.cpp:66 src/dialogs/MultipleViewPanel.cpp:69
+#: src/dialogs/ObjectColorPanel.cpp:214 src/dialogs/ObjectColorPanel.cpp:215
+#: src/dialogs/ObjectColorPanel.cpp:216 src/dialogs/ObjectColorPanel.cpp:217
+#: src/dialogs/ObjectColorPanel.cpp:218
+#: src/dialogs/PrintConfigurationDialog.cpp:63
+#: src/dialogs/PrintConfigurationDialog.cpp:64
+#: src/dialogs/PrintConfigurationDialog.cpp:65
+#: src/dialogs/PrintoutPanel.cpp:69 src/dialogs/PrintoutPanel.cpp:70
+#: src/dialogs/PrintoutPanel.cpp:71 src/dialogs/PrintoutPanel.cpp:74
+#: src/dialogs/PrintoutPanel.cpp:77 src/dialogs/PrintoutPanel.cpp:78
+#: src/dialogs/PrintoutPanel.cpp:79 src/dialogs/PrintoutPanel.cpp:80
+#: src/dialogs/PrintoutPanel.cpp:81 src/dialogs/PrintoutPanel.cpp:86
+#: src/dialogs/PrintoutPanel.cpp:87 src/dialogs/PrintoutPanel.cpp:88
+#: src/dialogs/PrintoutPanel.cpp:89 src/dialogs/PrintoutPanel.cpp:90
+#: src/dialogs/VedicChartPanel.cpp:191 src/dialogs/VedicChartPanel.cpp:192
+#: src/dialogs/VedicChartPanel.cpp:193 src/dialogs/VedicChartPanel.cpp:194
+#: src/dialogs/VedicChartPanel.cpp:195 src/dialogs/WesternChartPanel.cpp:147
+#: src/dialogs/WesternChartPanel.cpp:148 src/dialogs/WesternChartPanel.cpp:149
+#: src/dialogs/WesternChartPanel.cpp:150 src/dialogs/WesternChartPanel.cpp:151
+#: src/gui/DasaView.cpp:72 src/gui/DasaView.cpp:74 src/gui/DasaView.cpp:75
+#: src/gui/DasaView.cpp:76 src/gui/DasaView.cpp:77
+msgid "dummy"
+msgstr "dummy"
+
+#: src/dialogs/AspectColorPanel.cpp:213 src/dialogs/DasaColorPanel.cpp:133
+#: src/dialogs/DasaColorPanel.cpp:146
+msgid "Color"
+msgstr "Color"
+
+#: src/dialogs/AspectColorPanel.cpp:215 src/dialogs/DasaColorPanel.cpp:135
+msgid "Width"
+msgstr "Width"
+
+#: src/dialogs/AspectColorPanel.cpp:217
+msgid "Line Style"
+msgstr "Line Style"
+
+#: src/dialogs/AspectColorPanel.cpp:219 src/dialogs/DasaColorPanel.cpp:139
+#: src/dialogs/DasaColorPanel.cpp:150
+msgid "Solid"
+msgstr "Solid"
+
+#: src/dialogs/AspectColorPanel.cpp:220 src/dialogs/DasaColorPanel.cpp:140
+#: src/dialogs/VedicCalculationPanel.cpp:99
+msgid "Dot"
+msgstr "Dot"
+
+#: src/dialogs/AspectColorPanel.cpp:221 src/dialogs/DasaColorPanel.cpp:141
+msgid "Long Dash"
+msgstr ""
+
+#: src/dialogs/AspectColorPanel.cpp:222 src/dialogs/DasaColorPanel.cpp:142
+msgid "Short Dash"
+msgstr "Short Dash"
+
+#: src/dialogs/AspectColorPanel.cpp:223 src/dialogs/DasaColorPanel.cpp:143
+msgid "Dot Dash"
+msgstr ""
+
+#: src/dialogs/AspectColorPanel.cpp:226 src/dialogs/AspectPanel.cpp:158
+#: src/dialogs/ColorPanel.cpp:71 src/dialogs/DasaColorPanel.cpp:172
+#: src/dialogs/EphemerisPanel.cpp:73 src/dialogs/EphemerisPanel.cpp:97
+#: src/dialogs/FontPanel.cpp:100 src/dialogs/ObjectColorPanel.cpp:250
+#: src/dialogs/ToolbarPanel.cpp:62 src/dialogs/VedicCalculationPanel.cpp:159
+msgid "Restore Defaults"
+msgstr "Restore Defaults"
+
+#: src/dialogs/AspectColorPanel.cpp:406 src/dialogs/ColorPanel.cpp:153
+#: src/dialogs/DasaColorPanel.cpp:363 src/dialogs/EphemerisPanel.cpp:288
+#: src/dialogs/FontPanel.cpp:324 src/dialogs/ObjectColorPanel.cpp:442
+#: src/dialogs/ToolbarPanel.cpp:377
+msgid "Restore default settings"
+msgstr "Restore default settings"
+
+#: src/dialogs/AspectPanel.cpp:58 src/dialogs/AspectPanel.cpp:63
+#: src/jyotish/PrintoutHelper.cpp:399 src/jyotish/PrintoutHelper.cpp:404
+#: src/jyotish/PrintoutHelper.cpp:409
+msgid "Aspect"
+msgstr "Aspect"
+
+#: src/dialogs/AspectPanel.cpp:60 src/dialogs/AspectPanel.cpp:65
+#: src/dialogs/AspectPanel.cpp:71 src/dialogs/DialogElements.cpp:225
+#: src/gui/ToolPanel.cpp:362 src/jyotish/Aspect.cpp:493
+#: src/jyotish/PrintoutHelper.cpp:400 src/jyotish/PrintoutHelper.cpp:405
+#: src/jyotish/PrintoutHelper.cpp:410 src/jyotish/Transit.cpp:258
+#: src/jyotish/Uranian.cpp:94 src/jyotish/UranianHelper.cpp:473
+#: src/jyotish/UranianHelper.cpp:510 src/jyotish/UranianHelper.cpp:521
+#: src/jyotish/UranianHelper.cpp:600 src/jyotish/UranianHelper.cpp:615
+msgid "Orbis"
+msgstr "Orbis"
+
+#: src/dialogs/AspectPanel.cpp:156
+msgid "Aspects and Orbes"
+msgstr ""
+
+#: src/dialogs/AtlasAliasDialog.cpp:52 src/dialogs/AtlasAliasDialog.cpp:168
+msgid "Edit Aliases"
+msgstr ""
+
+#: src/dialogs/AtlasAliasDialog.cpp:56 src/dialogs/AtlasEditDialog.cpp:93
+msgid "Aliases"
+msgstr ""
+
+#: src/dialogs/AtlasAliasDialog.cpp:60 src/dialogs/AtlasAliasDialog.cpp:84
+#, fuzzy
+msgid "Add Entry"
+msgstr "Add Country"
+
+#: src/dialogs/AtlasAliasDialog.cpp:61 src/dialogs/AtlasAliasDialog.cpp:108
+#: src/dialogs/AtlasDialog.cpp:299
+#, fuzzy
+msgid "Edit Entry"
+msgstr "Entry"
+
+#: src/dialogs/AtlasAliasDialog.cpp:62 src/dialogs/AtlasDialog.cpp:300
+#, fuzzy
+msgid "Delete Entry"
+msgstr "Delete Country"
+
+#: src/dialogs/AtlasAliasDialog.cpp:65 src/dialogs/AtlasDialog.cpp:303
+#: src/dialogs/AtlasEditDialog.cpp:97 src/dialogs/AtlasImportDialog.cpp:59
+#: src/dialogs/ConfigDialog.cpp:122 src/dialogs/DataDialog.cpp:115
+#: src/dialogs/ExportDialog.cpp:59 src/dialogs/PrintConfigurationDialog.cpp:72
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/dialogs/AtlasAliasDialog.cpp:84 src/dialogs/AtlasAliasDialog.cpp:108
+#: src/dialogs/AtlasDialog.cpp:270
+msgid "Alias"
+msgstr ""
+
+#: src/dialogs/AtlasAliasDialog.cpp:130
+#, fuzzy, c-format
+msgid "Do you want to delete the item %s?"
+msgstr "Do you want to delete the item"
+
+#: src/dialogs/AtlasDialog.cpp:97
+msgid "First Time Import of Atlas Data"
+msgstr ""
+
+#: src/dialogs/AtlasDialog.cpp:217
+msgid "City"
+msgstr ""
+
+#: src/dialogs/AtlasDialog.cpp:220 src/dialogs/AtlasDialog.cpp:258
+#: src/dialogs/AtlasDialog.cpp:284 src/dialogs/AtlasEditDialog.cpp:66
+msgid "Country"
+msgstr "Country"
+
+#: src/dialogs/AtlasDialog.cpp:223
+#, fuzzy
+msgid "Admin Division"
+msgstr "Division"
+
+#: src/dialogs/AtlasDialog.cpp:254
+msgid "Actions"
+msgstr "Actions"
+
+#: src/dialogs/AtlasDialog.cpp:255
+msgid "Filter"
+msgstr "Filter"
+
+#: src/dialogs/AtlasDialog.cpp:269
+msgid "ASCII"
+msgstr ""
+
+#: src/dialogs/AtlasDialog.cpp:280 src/dialogs/AtlasEditDialog.cpp:64
+#, fuzzy
+msgid "ASCII Name"
+msgstr "Sign Names"
+
+#: src/dialogs/AtlasDialog.cpp:288 src/dialogs/AtlasEditDialog.cpp:69
+msgid "Admin Code"
+msgstr ""
+
+#: src/dialogs/AtlasDialog.cpp:290 src/dialogs/AtlasEditDialog.cpp:91
+#, fuzzy
+msgid "TZ Hours"
+msgstr "Hours"
+
+#: src/dialogs/AtlasDialog.cpp:292 src/dialogs/AtlasEditDialog.cpp:72
+#, fuzzy
+msgid "Population"
+msgstr "గణితము"
+
+#: src/dialogs/AtlasDialog.cpp:294
+msgid "Internal ID"
+msgstr ""
+
+#: src/dialogs/AtlasDialog.cpp:296
+#, fuzzy
+msgid "Alias Names"
+msgstr "Sign Names"
+
+#: src/dialogs/AtlasDialog.cpp:298
+#, fuzzy
+msgid "New Entry"
+msgstr "Entry"
+
+#: src/dialogs/AtlasDialog.cpp:376
+#, fuzzy
+msgid "All Countries"
+msgstr "Add Country"
+
+#: src/dialogs/AtlasDialog.cpp:476
+#, fuzzy, c-format
+msgid "%d entries"
+msgstr "%d Entries match"
+
+#: src/dialogs/AtlasDialog.cpp:477
+#, fuzzy
+msgid "No match"
+msgstr "Match"
+
+#: src/dialogs/AtlasDialog.cpp:611 src/dialogs/AtlasDialog.cpp:612
+#, c-format
+msgid "Copy of %s"
+msgstr ""
+
+#: src/dialogs/AtlasDialog.cpp:655
+#, fuzzy, c-format
+msgid "Delete %s?"
+msgstr "Delete"
+
+#: src/dialogs/AtlasDialog.cpp:710
+msgid ""
+"\"*\" or \"%\" can be used for multiple character wildcards, \"?\" or \"_\" "
+"for single character wildcards"
+msgstr ""
+
+#: src/dialogs/AtlasEditDialog.cpp:61
+msgid "Attributes"
+msgstr ""
+
+#: src/dialogs/AtlasEditDialog.cpp:77 src/dialogs/DataDialog.cpp:86
+#: src/dialogs/DataDialog.cpp:104 src/dialogs/DefaultLocationPanel.cpp:70
+msgid "East"
+msgstr "East"
+
+#: src/dialogs/AtlasEditDialog.cpp:78 src/dialogs/DataDialog.cpp:87
+#: src/dialogs/DataDialog.cpp:105 src/dialogs/DefaultLocationPanel.cpp:71
+msgid "West"
+msgstr "West"
+
+#: src/dialogs/AtlasEditDialog.cpp:84 src/dialogs/DataDialog.cpp:94
+#: src/dialogs/DefaultLocationPanel.cpp:77
+msgid "North"
+msgstr "North"
+
+#: src/dialogs/AtlasEditDialog.cpp:85 src/dialogs/DataDialog.cpp:95
+#: src/dialogs/DefaultLocationPanel.cpp:78
+msgid "South"
+msgstr "South"
+
+#: src/dialogs/AtlasEditDialog.cpp:94
+msgid "Edit Aliases ..."
+msgstr ""
+
+#: src/dialogs/AtlasEditDialog.cpp:311
+msgid "Edit Atlas Entry"
+msgstr ""
+
+#: src/dialogs/AtlasImportDialog.cpp:204
+msgid "Atlas Data Import"
+msgstr ""
+
+#: src/dialogs/AtlasPanel.cpp:71
+#, fuzzy
+msgid "Database File"
+msgstr "Save File"
+
+#: src/dialogs/AtlasPanel.cpp:72
+msgid "Database  Import"
+msgstr ""
+
+#: src/dialogs/AtlasPanel.cpp:73
+msgid "Manage Favourite Countries"
+msgstr ""
+
+#: src/dialogs/AtlasPanel.cpp:75 src/dialogs/AtlasPanel.cpp:78
+#: src/dialogs/EphemerisPanel.cpp:74
+#: src/dialogs/PrintConfigurationDialog.cpp:69
+msgid "Choose ..."
+msgstr "Choose ..."
+
+#: src/dialogs/AtlasPanel.cpp:77 src/dialogs/AtlasPanel.cpp:80
+#, fuzzy
+msgid "Status"
+msgstr "State"
+
+#: src/dialogs/AtlasPanel.cpp:81
+#, fuzzy
+msgid "Start Import"
+msgstr "Start Date"
+
+#: src/dialogs/AtlasPanel.cpp:84
+msgid "Change Countries ..."
+msgstr ""
+
+#: src/dialogs/AtlasPanel.cpp:149
+#, fuzzy
+msgid "Select database file"
+msgstr "Select Dasas"
+
+#: src/dialogs/AtlasPanel.cpp:195
+msgid "File not found"
+msgstr ""
+
+#: src/dialogs/AtlasPanel.cpp:200
+msgid "File not readable"
+msgstr ""
+
+#: src/dialogs/AtlasPanel.cpp:205
+msgid "File size zero"
+msgstr ""
+
+#: src/dialogs/AtlasPanel.cpp:209
+msgid "Ok"
+msgstr ""
+
+#: src/dialogs/AtlasPanel.cpp:229
+msgid "Database error"
+msgstr ""
+
+#: src/dialogs/AtlasPanel.cpp:245
+msgid "Select import file"
+msgstr ""
+
+#: src/dialogs/AtlasPanel.cpp:270
+msgid "Import was successfull"
+msgstr ""
+
+#: src/dialogs/AtlasPanel.cpp:274
+msgid "Import was canceled"
+msgstr ""
+
+#: src/dialogs/AtlasPanel.cpp:279
+msgid "Import had errors"
+msgstr ""
+
+#: src/dialogs/AtlasPanel.cpp:355
+msgid "Choose Favourite Countries"
+msgstr ""
+
+#: src/dialogs/ColorPanel.cpp:51
+msgid "Background Colors"
+msgstr "Background Colors"
+
+#: src/dialogs/ColorPanel.cpp:52 src/dialogs/WesternChartPanel.cpp:143
+msgid "Foreground Colors"
+msgstr "Foreground Colors"
+
+#: src/dialogs/ColorPanel.cpp:53 src/dialogs/ColorPanel.cpp:63
+#: src/dialogs/FontPanel.cpp:59 src/dialogs/FontPanel.cpp:81
+#: src/dialogs/WesternPanel.cpp:84 src/gui/ToolPanel.cpp:286
+msgid "Default"
+msgstr "Default"
+
+#: src/dialogs/ColorPanel.cpp:55
+msgid "Sbc Planets"
+msgstr "Sbc Planets"
+
+#: src/dialogs/ColorPanel.cpp:57
+msgid "Sbc Transits"
+msgstr "Sbc Transits"
+
+#: src/dialogs/ColorPanel.cpp:59 src/dialogs/VedicCalculationPanel.cpp:59
+msgid "Benefics"
+msgstr "சுபர்"
+
+#: src/dialogs/ColorPanel.cpp:61
+msgid "Malefics"
+msgstr "பாபி"
+
+#: src/dialogs/ColorPanel.cpp:65 src/dialogs/FontPanel.cpp:62
+#: src/dialogs/FontPanel.cpp:84
+msgid "Table Header"
+msgstr "Table Header"
+
+#: src/dialogs/ColorPanel.cpp:67
+msgid "Marked"
+msgstr "Marked"
+
+#: src/dialogs/ColorPanel.cpp:69
+msgid "Errors"
+msgstr ""
+
+#: src/dialogs/ConfigDialog.cpp:121 src/dialogs/DataDialog.cpp:114
+msgid "Apply"
+msgstr "Apply"
+
+#: src/dialogs/ConfigPanel.cpp:73 src/dialogs/GeneralPanel.cpp:58
+msgid "General"
+msgstr "General"
+
+#: src/dialogs/ConfigPanel.cpp:73 src/dialogs/DataDialog.cpp:98
+#: src/dialogs/DefaultLocationPanel.cpp:65
+msgid "Default Location"
+msgstr "Default Location"
+
+#: src/dialogs/ConfigPanel.cpp:73
+msgid "Multiple Views"
+msgstr "Multiple Views"
+
+#: src/dialogs/ConfigPanel.cpp:74 src/dialogs/EphemerisPanel.cpp:79
+#: src/gui/EphemView.cpp:477
+msgid "Ephemeris"
+msgstr "Ephemeris"
+
+#: src/dialogs/ConfigPanel.cpp:74 src/dialogs/PrintConfigurationDialog.cpp:176
+msgid "Print"
+msgstr "Print"
+
+#: src/dialogs/ConfigPanel.cpp:77 src/dialogs/MultipleViewPanel.cpp:61
+msgid "View"
+msgstr "View"
+
+#: src/dialogs/ConfigPanel.cpp:77
+msgid "Fonts"
+msgstr "Fonts"
+
+#: src/dialogs/ConfigPanel.cpp:77
+msgid "Colors"
+msgstr "Colors"
+
+#: src/dialogs/ConfigPanel.cpp:77
+msgid "Object Colors"
+msgstr "Object Colors"
+
+#: src/dialogs/ConfigPanel.cpp:78 src/dialogs/DasaColorPanel.cpp:116
+msgid "Dasa Colors"
+msgstr "Dasa Colors"
+
+#: src/dialogs/ConfigPanel.cpp:78
+msgid "Aspect Display"
+msgstr "Aspect Display"
+
+#: src/dialogs/ConfigPanel.cpp:78
+msgid "Toolbar"
+msgstr "Toolbar"
+
+#: src/dialogs/ConfigPanel.cpp:81
+msgid "Vedic Astrology"
+msgstr "Vedic Astrology"
+
+#: src/dialogs/ConfigPanel.cpp:81 src/dialogs/ConfigPanel.cpp:84
+#: src/gui/GraphicView.cpp:93
+msgid "Chart"
+msgstr "Chart"
+
+#: src/dialogs/ConfigPanel.cpp:81 src/dialogs/ConfigPanel.cpp:84
+#: src/dialogs/EphemerisPanel.cpp:62
+msgid "Calculation"
+msgstr "Calculation"
+
+#: src/dialogs/ConfigPanel.cpp:81
+msgid "Vargas and Dasas"
+msgstr "Vargas and Dasas"
+
+#: src/dialogs/ConfigPanel.cpp:84
+msgid "Western Astrology"
+msgstr "Western Astrology"
+
+#: src/dialogs/ConfigPanel.cpp:84 src/dialogs/DialogElements.cpp:228
+#: src/dialogs/WesternChartPanel.cpp:174 src/dialogs/WesternChartPanel.cpp:180
+msgid "Aspects"
+msgstr "Aspects"
+
+#: src/dialogs/DasaColorPanel.cpp:114 src/dialogs/ObjectColorPanel.cpp:221
+#: src/dialogs/ObjectColorPanel.cpp:231 src/dialogs/ObjectColorPanel.cpp:244
+msgid "Foreground"
+msgstr "Foreground"
+
+#: src/dialogs/DasaColorPanel.cpp:115 src/dialogs/ObjectColorPanel.cpp:234
+#: src/dialogs/ObjectColorPanel.cpp:247
+msgid "Background"
+msgstr "Background"
+
+#: src/dialogs/DasaColorPanel.cpp:117
+msgid "Corner Radius"
+msgstr "Corner Radius"
+
+#: src/dialogs/DasaColorPanel.cpp:118
+msgid "Object"
+msgstr "Object"
+
+#: src/dialogs/DasaColorPanel.cpp:137 src/dialogs/DasaColorPanel.cpp:148
+#: src/dialogs/MultipleViewPanel.cpp:70 src/dialogs/VedicChartPanel.cpp:206
+msgid "Style"
+msgstr "Style"
+
+#: src/dialogs/DasaColorPanel.cpp:151
+msgid "Transparent"
+msgstr "Transparent"
+
+#: src/dialogs/DasaColorPanel.cpp:152
+msgid "Backward diagonal hatch"
+msgstr ""
+
+#: src/dialogs/DasaColorPanel.cpp:153
+msgid "Cross-diagonal hatch"
+msgstr ""
+
+#: src/dialogs/DasaColorPanel.cpp:154
+msgid "Forward diagonal hatch"
+msgstr ""
+
+#: src/dialogs/DasaColorPanel.cpp:155
+msgid "Cross hatch"
+msgstr ""
+
+#: src/dialogs/DasaColorPanel.cpp:156
+msgid "Horizontal hatch"
+msgstr "Horizontal hatch"
+
+#: src/dialogs/DasaColorPanel.cpp:157
+msgid "Vertical hatch"
+msgstr "Vertical hatch"
+
+#: src/dialogs/DasaColorPanel.cpp:158
+msgid "Stipple"
+msgstr "Stipple"
+
+#: src/dialogs/DasaColorPanel.cpp:161
+msgid "Image"
+msgstr "Image"
+
+#: src/dialogs/DasaColorPanel.cpp:170
+msgid "Radius in Pixels"
+msgstr ""
+
+#: src/dialogs/DasaColorPanel.cpp:192
+#, c-format
+msgid ""
+"Background images found in directory %s. Supported formats are: PNG, GIF, "
+"JPG, XPM"
+msgstr ""
+
+#: src/dialogs/DasaColorPanel.cpp:355
+msgid "Sign or Lord of the Dasa"
+msgstr "Sign or Lord of the Dasa"
+
+#: src/dialogs/DasaColorPanel.cpp:360
+msgid "Background images can be used with option 'Stipple'"
+msgstr ""
+
+#: src/dialogs/DataDialog.cpp:67
+msgid "Date and Time"
+msgstr "Date and Time"
+
+#: src/dialogs/DataDialog.cpp:70
+msgid "Remark"
+msgstr "Remark"
+
+#: src/dialogs/DataDialog.cpp:75
+#, fuzzy
+msgid "YYYY-MM-DD"
+msgstr "YYYY-MM-DD"
+
+#: src/dialogs/DataDialog.cpp:76 src/dialogs/DateTimeCtrl.cpp:247
+#: src/jyotish/Eclipse.cpp:130 src/jyotish/Ephemeris.cpp:310
+#: src/jyotish/Ephemeris.cpp:459 src/jyotish/Ephemeris.cpp:586
+msgid "Time"
+msgstr "Time"
+
+#: src/dialogs/DataDialog.cpp:78 src/dialogs/DataDialog.cpp:102
+#: src/dialogs/DataDialog.cpp:110
+#, fuzzy
+msgid "HH:MM[:SS]"
+msgstr "HH:MM:SS"
+
+#: src/dialogs/DataDialog.cpp:79 src/gui/ToolPanel.cpp:453
+msgid "Now"
+msgstr "Now"
+
+#: src/dialogs/DataDialog.cpp:84 src/dialogs/DataDialog.cpp:92
+#, fuzzy
+msgid "DD:MM[:SS]"
+msgstr "DD:MM:SS"
+
+#: src/dialogs/DataDialog.cpp:99
+msgid "Search Location"
+msgstr "Search Location"
+
+#: src/dialogs/DataDialog.cpp:358
+msgid "Birth Data"
+msgstr "Birth Data"
+
+#: src/dialogs/DataDialog.cpp:364
+msgid "Set current date"
+msgstr "Set current date"
+
+#: src/dialogs/DataDialog.cpp:372
+msgid "Set default location"
+msgstr "Set default location"
+
+#: src/dialogs/DataDialog.cpp:373
+msgid "Search location in database"
+msgstr "Search location in database"
+
+#: src/dialogs/DataDialog.cpp:379
+msgid "Set time zone for local time"
+msgstr "Set time zone for local time"
+
+#: src/dialogs/DataDialog.cpp:381
+msgid "Apply data and close dialog"
+msgstr "Apply data and close dialog"
+
+#: src/dialogs/DataDialog.cpp:383
+msgid "Apply changes and recalculate chart with new data"
+msgstr "Apply changes and recalculate chart with new data"
+
+#: src/dialogs/DataDialog.cpp:384
+msgid "Cancel changes and close dialog"
+msgstr "Cancel changes and close dialog"
+
+#: src/dialogs/DefaultLocationPanel.cpp:64
+msgid "Timezone System Settings"
+msgstr ""
+
+#: src/dialogs/DefaultLocationPanel.cpp:81
+msgid "Search Location ..."
+msgstr "Search Location ..."
+
+#: src/dialogs/DefaultLocationPanel.cpp:83
+#: src/dialogs/DefaultLocationPanel.cpp:85
+msgid "00:00:00"
+msgstr "00:00:00"
+
+#: src/dialogs/DefaultLocationPanel.cpp:86
+#, fuzzy
+msgid "Time Zone Offset"
+msgstr "Time Zone Options"
+
+#: src/dialogs/DefaultLocationPanel.cpp:87
+#: src/dialogs/DefaultLocationPanel.cpp:89
+#, fuzzy
+msgid "+00:00"
+msgstr "00:00:00"
+
+#: src/dialogs/DefaultLocationPanel.cpp:88 src/jyotish/TextHelper.cpp:578
+msgid "Daylight Saving"
+msgstr "Daylight Saving"
+
+#: src/dialogs/DialogElements.cpp:99
+msgid "Set Filter"
+msgstr "Set Filter"
+
+#: src/dialogs/DialogElements.cpp:120
+msgid "No Filter"
+msgstr "No Filter"
+
+#: src/dialogs/DialogElements.cpp:164 src/dialogs/VargaPanel.cpp:59
+#: src/dialogs/WesternCalculationPanel.cpp:52
+#: src/dialogs/WesternCalculationPanel.cpp:170 src/jyotish/Transit.cpp:245
+msgid "Year Length"
+msgstr "Year Length"
+
+#: src/dialogs/DialogElements.cpp:166
+msgid "Tropical (365.2422)"
+msgstr "Tropical (365.2422)"
+
+#: src/dialogs/DialogElements.cpp:169 src/dialogs/DialogElements.cpp:323
+#: src/jyotish/TextHelper.cpp:679
+msgid "Custom"
+msgstr "Custom"
+
+#: src/dialogs/DialogElements.cpp:192 src/gui/ToolPanel.cpp:416
+#: src/jyotish/Uranian.cpp:91
+msgid "Circle Type"
+msgstr "Circle Type"
+
+#: src/dialogs/DialogElements.cpp:223
+msgid "Sort Order"
+msgstr "Sort Order"
+
+#: src/dialogs/DialogElements.cpp:224 src/dialogs/ObjectColorPanel.cpp:212
+#: src/dialogs/WesternChartPanel.cpp:177 src/jyotish/PrintoutHelper.cpp:121
+#: src/jyotish/PrintoutHelper.cpp:145 src/jyotish/PrintoutHelper.cpp:146
+msgid "Planets"
+msgstr "Planets"
+
+#: src/dialogs/DialogElements.cpp:226
+msgid "Orbis Absolute"
+msgstr "Orbis Absolute"
+
+#: src/dialogs/DialogElements.cpp:227
+msgid "Planets (2)"
+msgstr "Planets (2)"
+
+#: src/dialogs/DialogElements.cpp:242 src/dialogs/WesternChartPanel.cpp:167
+msgid "Transits"
+msgstr "Transits"
+
+#: src/dialogs/DialogElements.cpp:243 src/jyotish/Transit.cpp:211
+msgid "Solar Arc"
+msgstr "Solar Arc"
+
+#: src/dialogs/DialogElements.cpp:244 src/jyotish/Transit.cpp:214
+msgid "Directions"
+msgstr "Directions"
+
+#: src/dialogs/DialogElements.cpp:245 src/jyotish/Transit.cpp:220
+msgid "Lunar Arc"
+msgstr "Lunar Arc"
+
+#: src/dialogs/DialogElements.cpp:246 src/jyotish/Transit.cpp:217
+msgid "Constant Arc"
+msgstr "Constant Arc"
+
+#: src/dialogs/EphemerisPanel.cpp:61
+msgid "Path for Ephemeris Data Files"
+msgstr "Path for Ephemeris Data Files"
+
+#: src/dialogs/EphemerisPanel.cpp:63
+msgid "Sunrise and Sunset"
+msgstr "Sunrise and Sunset"
+
+#: src/dialogs/EphemerisPanel.cpp:64
+msgid "Custom Ayanamsa"
+msgstr "Custom Ayanamsa"
+
+#: src/dialogs/EphemerisPanel.cpp:65
+msgid "Date t0"
+msgstr "Date t0"
+
+#: src/dialogs/EphemerisPanel.cpp:67
+#, fuzzy
+msgid "0000-00-00 00:00:00"
+msgstr "00:00:00"
+
+#: src/dialogs/EphemerisPanel.cpp:68
+msgid "Ayanamsa at t0"
+msgstr "Ayanamsa at t0"
+
+#: src/dialogs/EphemerisPanel.cpp:70
+#, fuzzy
+msgid "00:00:00.000"
+msgstr "00:00:00"
+
+#: src/dialogs/EphemerisPanel.cpp:71
+msgid "Constant Period"
+msgstr "Constant Period"
+
+#: src/dialogs/EphemerisPanel.cpp:76
+msgid "Time Model"
+msgstr "Time Model"
+
+#: src/dialogs/EphemerisPanel.cpp:78
+msgid "Universal"
+msgstr "Universal"
+
+#: src/dialogs/EphemerisPanel.cpp:82
+msgid "Coordinates"
+msgstr "Coordinates"
+
+#: src/dialogs/EphemerisPanel.cpp:84
+msgid "Geocentric"
+msgstr "Geocentric"
+
+#: src/dialogs/EphemerisPanel.cpp:85
+msgid "Topocentric"
+msgstr "Topocentric"
+
+#: src/dialogs/EphemerisPanel.cpp:86
+msgid "Equatorial"
+msgstr "Equatorial"
+
+#: src/dialogs/EphemerisPanel.cpp:87
+msgid "Barycentric"
+msgstr "Barycentric"
+
+#: src/dialogs/EphemerisPanel.cpp:88
+msgid "Heliocentric"
+msgstr "Heliocentric"
+
+#: src/dialogs/EphemerisPanel.cpp:91
+msgid "Positions"
+msgstr "Positions"
+
+#: src/dialogs/EphemerisPanel.cpp:93
+msgid "Apparent"
+msgstr "Apparent"
+
+#: src/dialogs/EphemerisPanel.cpp:94 src/dialogs/VedicCalculationPanel.cpp:67
+#: src/dialogs/WesternCalculationPanel.cpp:58
+msgid "True"
+msgstr "True"
+
+#: src/dialogs/EphemerisPanel.cpp:98
+msgid "Reference Point"
+msgstr "Reference Point"
+
+#: src/dialogs/EphemerisPanel.cpp:100
+msgid "Center of Disk"
+msgstr "Center of Disk"
+
+#: src/dialogs/EphemerisPanel.cpp:101
+msgid "Edge of Disk"
+msgstr "Edge of Disk"
+
+#: src/dialogs/EphemerisPanel.cpp:104 src/gui/guibase.cpp:371
+msgid "Use Refraction"
+msgstr "Use Refraction"
+
+#: src/dialogs/EphemerisPanel.cpp:184
+msgid "Choose a directory"
+msgstr "Choose a directory"
+
+#: src/dialogs/EphemerisPanel.cpp:284
+msgid "Only required for high precision calculation"
+msgstr "Only required for high precision calculation"
+
+#: src/dialogs/EphemerisPanel.cpp:290
+msgid "Checked: apparent position will be used"
+msgstr "Checked: apparent position will be used"
+
+#: src/dialogs/ExportDialog.cpp:51
+msgid "Size"
+msgstr "Size"
+
+#: src/dialogs/ExportDialog.cpp:52
+msgid "Horizontal Size"
+msgstr "Horizontal Size"
+
+#: src/dialogs/ExportDialog.cpp:54
+msgid "Vertical Size"
+msgstr "Vertical Size"
+
+#: src/dialogs/ExportDialog.cpp:56
+msgid "Don't show this dialog again"
+msgstr ""
+
+#: src/dialogs/ExportDialog.cpp:98 src/gui/BasicWidget.cpp:201
+msgid "Export Picture"
+msgstr "Export Picture"
+
+#: src/dialogs/FontPanel.cpp:57
+msgid "Pdf Output"
+msgstr ""
+
+#: src/dialogs/FontPanel.cpp:58
+msgid "Views and Text Widgets"
+msgstr ""
+
+#: src/dialogs/FontPanel.cpp:61 src/dialogs/FontPanel.cpp:64
+#: src/dialogs/FontPanel.cpp:67 src/dialogs/FontPanel.cpp:70
+#: src/dialogs/FontPanel.cpp:83 src/dialogs/FontPanel.cpp:86
+#: src/dialogs/FontPanel.cpp:89
+msgid "Choose..."
+msgstr "Choose..."
+
+#: src/dialogs/FontPanel.cpp:65 src/dialogs/FontPanel.cpp:87
+msgid "Graphic"
+msgstr "Graphic"
+
+#: src/dialogs/FontPanel.cpp:68 src/gui/AshtakaVargaView.cpp:229
+#: src/gui/TextView.cpp:201 src/gui/VargaView.cpp:164
+msgid "Text"
+msgstr "Text"
+
+#: src/dialogs/FontPanel.cpp:71 src/dialogs/FontPanel.cpp:90
+#: src/dialogs/VedicChartPanel.cpp:218 src/gui/MenuProvider.cpp:553
+msgid "Symbol"
+msgstr "Symbol"
+
+#: src/dialogs/FontPanel.cpp:74 src/dialogs/FontPanel.cpp:93
+msgid "Small"
+msgstr "Small"
+
+#: src/dialogs/FontPanel.cpp:75 src/dialogs/FontPanel.cpp:94
+msgid "Medium"
+msgstr "Medium"
+
+#: src/dialogs/FontPanel.cpp:76 src/dialogs/FontPanel.cpp:95
+msgid "Big"
+msgstr "Big"
+
+#: src/dialogs/FontPanel.cpp:77 src/dialogs/FontPanel.cpp:96
+msgid "Bigger"
+msgstr "Bigger"
+
+#: src/dialogs/FontPanel.cpp:78 src/dialogs/FontPanel.cpp:97
+msgid "Huge"
+msgstr "Huge"
+
+#: src/dialogs/GeneralPanel.cpp:56 src/dialogs/VedicCalculationPanel.cpp:61
+msgid "Miscellaneous"
+msgstr "Miscellaneous"
+
+#: src/dialogs/GeneralPanel.cpp:57
+msgid "Image and Text Export"
+msgstr ""
+
+#: src/dialogs/GeneralPanel.cpp:59
+msgid "Default Style"
+msgstr "Default Style"
+
+#: src/dialogs/GeneralPanel.cpp:61 src/dialogs/ViewPanel.cpp:127
+#: src/dialogs/ViewPanel.cpp:133 src/dialogs/ViewPanel.cpp:145
+msgid "Vedic"
+msgstr "Vedic"
+
+#: src/dialogs/GeneralPanel.cpp:62 src/dialogs/ViewPanel.cpp:126
+#: src/dialogs/ViewPanel.cpp:132 src/dialogs/ViewPanel.cpp:144
+#: src/jyotish/Ephemeris.cpp:591
+msgid "Western"
+msgstr "Western"
+
+#: src/dialogs/GeneralPanel.cpp:65
+msgid "Language"
+msgstr "Language"
+
+#: src/dialogs/GeneralPanel.cpp:73
+msgid "Open New Document on Startup"
+msgstr "Open New Document on Startup"
+
+#: src/dialogs/GeneralPanel.cpp:74
+msgid "Ask on Quit"
+msgstr "Ask on Quit"
+
+#: src/dialogs/GeneralPanel.cpp:75
+msgid "Running Objects in Status Bar"
+msgstr "Running Objects in Status Bar"
+
+#: src/dialogs/GeneralPanel.cpp:78 src/dialogs/VedicCalculationPanel.cpp:116
+#: src/dialogs/VedicCalculationPanel.cpp:124
+msgid "Never"
+msgstr "Never"
+
+#: src/dialogs/GeneralPanel.cpp:79
+msgid "One"
+msgstr "One"
+
+#: src/dialogs/GeneralPanel.cpp:80
+msgid "Infinite"
+msgstr "Infinite"
+
+#: src/dialogs/GeneralPanel.cpp:84
+msgid "HTML (*.html)"
+msgstr ""
+
+#: src/dialogs/GeneralPanel.cpp:85
+msgid "Text (*.txt)"
+msgstr ""
+
+#: src/dialogs/GeneralPanel.cpp:86
+msgid "CSV (*.csv)"
+msgstr ""
+
+#: src/dialogs/GeneralPanel.cpp:90
+msgid "PNG (*.png)"
+msgstr ""
+
+#: src/dialogs/GeneralPanel.cpp:91
+msgid "JPEG (*.jpg)"
+msgstr ""
+
+#: src/dialogs/GeneralPanel.cpp:92
+msgid "Bitmap (*.bmp)"
+msgstr ""
+
+#: src/dialogs/GeneralPanel.cpp:93
+msgid "PCX (*.pcx)"
+msgstr ""
+
+#: src/dialogs/GeneralPanel.cpp:94
+msgid "PNM (*.pnm)"
+msgstr ""
+
+#: src/dialogs/GeneralPanel.cpp:95
+msgid "TIFF (*.tif)"
+msgstr ""
+
+#: src/dialogs/GeneralPanel.cpp:99
+msgid "Show size dialog"
+msgstr ""
+
+#: src/dialogs/GeneralPanel.cpp:100
+msgid "Use view size"
+msgstr ""
+
+#: src/dialogs/GeneralPanel.cpp:103
+msgid "Ask on overwrite"
+msgstr "Ask on overwrite"
+
+#: src/dialogs/GeneralPanel.cpp:158
+msgid "Maximum of Recent Files"
+msgstr "Maximum of Recent Files"
+
+#: src/dialogs/GeneralPanel.cpp:161
+msgid "Create Backup Files"
+msgstr ""
+
+#: src/dialogs/GeneralPanel.cpp:166
+msgid "Text Format"
+msgstr "Text Format"
+
+#: src/dialogs/GeneralPanel.cpp:169
+msgid "Image Format"
+msgstr "Image Format"
+
+#: src/dialogs/GeneralPanel.cpp:172
+msgid "Image Size"
+msgstr "Image Size"
+
+#: src/dialogs/MultipleViewPanel.cpp:52
+msgid "Multiple View Selection"
+msgstr "Multiple View Selection"
+
+#: src/dialogs/MultipleViewPanel.cpp:53
+msgid "Notebooks in Multiple View"
+msgstr "Notebooks in Multiple View"
+
+#: src/dialogs/MultipleViewPanel.cpp:54
+msgid "Default View Type"
+msgstr "Default View Type"
+
+#: src/dialogs/MultipleViewPanel.cpp:55
+#: src/dialogs/PrintConfigurationDialog.cpp:61
+#: src/dialogs/ToolbarPanel.cpp:354 src/gui/MainWindowControl.cpp:140
+#: src/gui/ToolPanel.cpp:339 src/jyotish/Aspect.cpp:490
+#: src/jyotish/Eclipse.cpp:128
+msgid "Type"
+msgstr "Type"
+
+#: src/dialogs/MultipleViewPanel.cpp:57
+msgid "Single"
+msgstr "Single"
+
+#: src/dialogs/MultipleViewPanel.cpp:58
+msgid "Multiple"
+msgstr "Multiple"
+
+#: src/dialogs/MultipleViewPanel.cpp:72 src/dialogs/MultipleViewPanel.cpp:107
+msgid "Notebook"
+msgstr ""
+
+#: src/dialogs/MultipleViewPanel.cpp:73 src/dialogs/MultipleViewPanel.cpp:110
+msgid "Listbook"
+msgstr ""
+
+#: src/dialogs/MultipleViewPanel.cpp:74 src/dialogs/MultipleViewPanel.cpp:113
+msgid "Choicebook"
+msgstr ""
+
+#: src/dialogs/MultipleViewPanel.cpp:75 src/dialogs/MultipleViewPanel.cpp:116
+msgid "Toolbook"
+msgstr ""
+
+#: src/dialogs/MultipleViewPanel.cpp:76 src/dialogs/MultipleViewPanel.cpp:119
+msgid "Treebook"
+msgstr ""
+
+#: src/dialogs/MultipleViewPanel.cpp:79
+msgid "Orientation"
+msgstr "Orientation"
+
+#: src/dialogs/MultipleViewPanel.cpp:81 src/dialogs/VedicPanel.cpp:85
+msgid "Top"
+msgstr ""
+
+#: src/dialogs/MultipleViewPanel.cpp:82
+msgid "Bottom"
+msgstr "Bottom"
+
+#: src/dialogs/MultipleViewPanel.cpp:83
+msgid "Left"
+msgstr "Left"
+
+#: src/dialogs/MultipleViewPanel.cpp:84
+msgid "Right"
+msgstr "Right"
+
+#: src/dialogs/ObjectColorPanel.cpp:210 src/dialogs/WesternChartPanel.cpp:178
+msgid "Signs"
+msgstr "Signs"
+
+#: src/dialogs/ObjectColorPanel.cpp:211 src/dialogs/WesternChartPanel.cpp:176
+#: src/dialogs/WesternChartPanel.cpp:179 src/gui/MenuProvider.cpp:521
+msgid "Houses"
+msgstr "Houses"
+
+#: src/dialogs/ObjectColorPanel.cpp:225 src/dialogs/ObjectColorPanel.cpp:238
+#: src/jyotish/ArabicParts.cpp:253
+#, fuzzy
+msgid "Fire"
+msgstr "ఫైల్"
+
+#: src/dialogs/ObjectColorPanel.cpp:226 src/dialogs/ObjectColorPanel.cpp:239
+#: src/jyotish/ArabicParts.cpp:250
+#, fuzzy
+msgid "Earth"
+msgstr "తూర్పు"
+
+#: src/dialogs/ObjectColorPanel.cpp:227 src/dialogs/ObjectColorPanel.cpp:240
+#, fuzzy
+msgid "Air"
+msgstr "\tமே"
+
+#: src/dialogs/ObjectColorPanel.cpp:228 src/dialogs/ObjectColorPanel.cpp:241
+#: src/jyotish/ArabicParts.cpp:251
+#, fuzzy
+msgid "Water"
+msgstr "తేదీ"
+
+#: src/dialogs/PrintConfigurationDialog.cpp:60
+msgid "Output File"
+msgstr "Output File"
+
+#: src/dialogs/PrintConfigurationDialog.cpp:125
+msgid "Pdf Files (*.pdf)|*.pdf|All files (*)| *.*"
+msgstr "Pdf Files (*.pdf)|*.pdf|All files (*)| *.*"
+
+#: src/dialogs/PrintConfigurationDialog.cpp:130
+msgid "Choose Output File"
+msgstr "Choose Output File"
+
+#: src/dialogs/PrintoutPanel.cpp:63
+msgid "Printout"
+msgstr "Printout"
+
+#: src/dialogs/PrintoutPanel.cpp:64
+msgid "Options"
+msgstr "Options"
+
+#: src/dialogs/PrintoutPanel.cpp:65
+msgid "Footer in PDF Output"
+msgstr ""
+
+#: src/dialogs/PrintoutPanel.cpp:66
+msgid "Pdf Viewer"
+msgstr "Pdf Viewer."
+
+#: src/dialogs/PrintoutPanel.cpp:75
+msgid "Vedic Chart Style"
+msgstr "Vedic Chart Style"
+
+#: src/dialogs/PrintoutPanel.cpp:84
+msgid "Western Chart Style"
+msgstr "Western Chart Style"
+
+#: src/dialogs/PrintoutPanel.cpp:93
+msgid "Paper Format"
+msgstr "Paper Format"
+
+#: src/dialogs/PrintoutPanel.cpp:95
+msgid "A4 (210x297mm)"
+msgstr "A4 (210x297mm)"
+
+#: src/dialogs/PrintoutPanel.cpp:96
+msgid "Letter (8.5x11 in)"
+msgstr "Letter (8.5x11 in)"
+
+#: src/dialogs/PrintoutPanel.cpp:97
+msgid "Legal (8.5x14 in)"
+msgstr "Legal (8.5x14 in)"
+
+#: src/dialogs/PrintoutPanel.cpp:100
+msgid "Ask on Overwrite"
+msgstr "Ask on Overwrite"
+
+#: src/dialogs/PrintoutPanel.cpp:101
+msgid "Print Custom Text in Footer"
+msgstr ""
+
+#: src/dialogs/PrintoutPanel.cpp:103
+msgid "Launch Pdf Viewer"
+msgstr "Launch Pdf Viewer"
+
+#: src/dialogs/PrintoutPanel.cpp:104
+msgid "Command ..."
+msgstr "Command ..."
+
+#: src/dialogs/PrintoutPanel.cpp:329
+msgid "Choose Pdf Viewer"
+msgstr "Choose Pdf Viewer"
+
+#: src/dialogs/ToolbarPanel.cpp:54
+msgid "Items in Toolbar"
+msgstr "Items in Toolbar"
+
+#: src/dialogs/ToolbarPanel.cpp:55
+msgid "Available Items"
+msgstr ""
+
+#: src/dialogs/ToolbarPanel.cpp:117
+msgid "Separator"
+msgstr "Separator"
+
+#: src/dialogs/ToolbarPanel.cpp:236
+#, c-format
+msgid "Item already in toolbar at position %ld"
+msgstr ""
+
+#: src/dialogs/ToolbarPanel.cpp:369
+msgid "Move selected item to toolbar"
+msgstr ""
+
+#: src/dialogs/ToolbarPanel.cpp:371
+msgid "Remove selected item from toolbar"
+msgstr ""
+
+#: src/dialogs/ToolbarPanel.cpp:373
+msgid "Move selected item up"
+msgstr ""
+
+#: src/dialogs/ToolbarPanel.cpp:375
+msgid "Move selected item down"
+msgstr ""
+
+#: src/dialogs/VargaPanel.cpp:58
+msgid "Nakshatras and Dasas"
+msgstr "Nakshatras and Dasas"
+
+#: src/dialogs/VargaPanel.cpp:60 src/gui/ToolPanel.cpp:274
+#: src/gui/VargaView.cpp:326 src/gui/VargaView.cpp:365
+#: src/jyotish/Varga.cpp:361
+msgid "Vargas"
+msgstr "Vargas"
+
+#: src/dialogs/VargaPanel.cpp:61
+msgid "Temporary Friends"
+msgstr ""
+
+#: src/dialogs/VargaPanel.cpp:63
+msgid "Always Rasi"
+msgstr "Always Rasi"
+
+#: src/dialogs/VargaPanel.cpp:64 src/gui/MenuProvider.cpp:148
+#: src/gui/MenuProvider.cpp:562 src/gui/ToolPanel.cpp:317
+#: src/jyotish/Jaimini.cpp:187
+msgid "Varga"
+msgstr "Varga"
+
+#: src/dialogs/VargaPanel.cpp:67 src/gui/NonDocTextView.cpp:364
+#: src/jyotish/Hora.cpp:171 src/jyotish/Varga.cpp:75
+msgid "Hora"
+msgstr "Hora"
+
+#: src/dialogs/VargaPanel.cpp:69 src/dialogs/VargaPanel.cpp:75
+#: src/dialogs/VargaPanel.cpp:81 src/dialogs/VedicCalculationPanel.cpp:91
+#: src/dialogs/VedicCalculationPanel.cpp:110
+#: src/dialogs/VedicCalculationPanel.cpp:162
+msgid "Parasara"
+msgstr "Parasara"
+
+#: src/dialogs/VargaPanel.cpp:70 src/dialogs/VargaPanel.cpp:76
+#: src/dialogs/VargaPanel.cpp:82
+msgid "Continuous"
+msgstr "Continuous"
+
+#: src/dialogs/VargaPanel.cpp:73 src/jyotish/Varga.cpp:75
+msgid "Drekkana"
+msgstr "Drekkana"
+
+#: src/dialogs/VargaPanel.cpp:79 src/jyotish/Varga.cpp:75
+msgid "Chaturtamsa"
+msgstr "Chaturtamsa"
+
+#: src/dialogs/VargaPanel.cpp:85 src/dialogs/VedicPanel.cpp:92
+#: src/jyotish/Nakshatra.cpp:180
+msgid "Nakshatras"
+msgstr "Nakshatras"
+
+#: src/dialogs/VargaPanel.cpp:87
+msgid "27"
+msgstr "27"
+
+#: src/dialogs/VargaPanel.cpp:88
+msgid "28"
+msgstr "28"
+
+#: src/dialogs/VargaPanel.cpp:91
+msgid "Nakshatra Dasas"
+msgstr "Nakshatra Dasas"
+
+#: src/dialogs/VargaPanel.cpp:93 src/dialogs/VargaPanel.cpp:227
+#: src/jyotish/ArabicParts.cpp:590 src/jyotish/Nakshatra.cpp:183
+#: src/jyotish/Nakshatra.cpp:270 src/jyotish/PrintoutHelper.cpp:248
+#: src/jyotish/PrintoutHelper.cpp:286 src/jyotish/TextHelper.cpp:296
+#: src/jyotish/TextHelper.cpp:483 src/jyotish/TextHelper.cpp:718
+#: src/jyotish/TextHelper.cpp:768 src/jyotish/TextHelper.cpp:854
+#: src/jyotish/TextHelper.cpp:945 src/jyotish/Transit.cpp:304
+msgid "Length"
+msgstr "Length"
+
+#: src/dialogs/VargaPanel.cpp:94
+msgid "Entry Time"
+msgstr "Entry Time"
+
+#: src/dialogs/VargaPanel.cpp:97
+msgid "Kalachakra Dasa"
+msgstr "Kalachakra Dasa"
+
+#: src/dialogs/VargaPanel.cpp:99
+msgid "Progressive"
+msgstr "Progressive"
+
+#: src/dialogs/VargaPanel.cpp:100
+msgid "Cyclic"
+msgstr "Cyclic"
+
+#: src/dialogs/VargaPanel.cpp:101
+msgid "Progr same Naks"
+msgstr "Progr same Naks"
+
+#: src/dialogs/VargaPanel.cpp:102
+msgid "Portion Zero"
+msgstr "Portion Zero"
+
+#: src/dialogs/VargaPanel.cpp:230 src/dialogs/WesternCalculationPanel.cpp:173
+msgid "Custom Length"
+msgstr "Custom Length"
+
+#: src/dialogs/VedicCalculationPanel.cpp:58 src/gui/AshtakaVargaView.cpp:409
+#: src/gui/ToolPanel.cpp:265
+msgid "Ashtaka Varga"
+msgstr "Ashtaka Varga"
+
+#: src/dialogs/VedicCalculationPanel.cpp:60
+msgid "Kala Velas"
+msgstr "Kala Velas"
+
+#: src/dialogs/VedicCalculationPanel.cpp:62
+msgid "Basic Calculation"
+msgstr "Basic Calculation"
+
+#: src/dialogs/VedicCalculationPanel.cpp:63
+#: src/dialogs/WesternCalculationPanel.cpp:54 src/jyotish/TextHelper.cpp:671
+msgid "Ayanamsa"
+msgstr "Ayanamsa"
+
+#: src/dialogs/VedicCalculationPanel.cpp:65
+#: src/dialogs/WesternCalculationPanel.cpp:56
+msgid "Lunar Node"
+msgstr "Lunar Node"
+
+#: src/dialogs/VedicCalculationPanel.cpp:68
+#: src/dialogs/WesternCalculationPanel.cpp:59
+msgid "Mean"
+msgstr "Mean"
+
+#: src/dialogs/VedicCalculationPanel.cpp:71
+#: src/dialogs/WesternCalculationPanel.cpp:62
+msgid "House System"
+msgstr "House System"
+
+#: src/dialogs/VedicCalculationPanel.cpp:73
+#: src/dialogs/WesternCalculationPanel.cpp:64
+msgid "Placidus"
+msgstr "Placidus"
+
+#: src/dialogs/VedicCalculationPanel.cpp:74
+#: src/dialogs/WesternCalculationPanel.cpp:65
+msgid "Koch"
+msgstr "Koch"
+
+#: src/dialogs/VedicCalculationPanel.cpp:75
+#: src/dialogs/WesternCalculationPanel.cpp:66
+msgid "Regiomontanus"
+msgstr "Regiomontanus"
+
+#: src/dialogs/VedicCalculationPanel.cpp:76
+#: src/dialogs/WesternCalculationPanel.cpp:67
+msgid "Campanus"
+msgstr "Campanus"
+
+#: src/dialogs/VedicCalculationPanel.cpp:77
+#: src/dialogs/WesternCalculationPanel.cpp:68
+msgid "Porphyry"
+msgstr "Porphyry"
+
+#: src/dialogs/VedicCalculationPanel.cpp:78
+#: src/dialogs/WesternCalculationPanel.cpp:69
+msgid "Equal"
+msgstr "Equal"
+
+#: src/dialogs/VedicCalculationPanel.cpp:79
+#: src/dialogs/WesternCalculationPanel.cpp:70
+msgid "Vehlow Equal"
+msgstr "Vehlow Equal"
+
+#: src/dialogs/VedicCalculationPanel.cpp:80
+#: src/dialogs/WesternCalculationPanel.cpp:71
+msgid "Axial Rotation"
+msgstr "Axial Rotation"
+
+#: src/dialogs/VedicCalculationPanel.cpp:81
+#: src/dialogs/WesternCalculationPanel.cpp:72
+msgid "Azimutal/Horizontal"
+msgstr "Azimutal/Horizontal"
+
+#: src/dialogs/VedicCalculationPanel.cpp:82
+#: src/dialogs/WesternCalculationPanel.cpp:73
+msgid "Polich/Page"
+msgstr "Polich/Page"
+
+#: src/dialogs/VedicCalculationPanel.cpp:83
+#: src/dialogs/WesternCalculationPanel.cpp:74
+msgid "Alcabitus"
+msgstr "Alcabitus"
+
+#: src/dialogs/VedicCalculationPanel.cpp:84
+#: src/dialogs/WesternCalculationPanel.cpp:75
+msgid "Morinus"
+msgstr "Morinus"
+
+#: src/dialogs/VedicCalculationPanel.cpp:85
+#: src/dialogs/WesternCalculationPanel.cpp:76
+msgid "Krusinski"
+msgstr ""
+
+#: src/dialogs/VedicCalculationPanel.cpp:88
+msgid "K.P. Style Houses (Start at Cusp)"
+msgstr "K.P. Style Houses (Start at Cusp)"
+
+#: src/dialogs/VedicCalculationPanel.cpp:89
+msgid "Calculation Rules"
+msgstr "Calculation Rules"
+
+#: src/dialogs/VedicCalculationPanel.cpp:92
+msgid "Vahara Mihira"
+msgstr "Vahara Mihira"
+
+#: src/dialogs/VedicCalculationPanel.cpp:95
+msgid "Benefic points"
+msgstr "Benefic points"
+
+#: src/dialogs/VedicCalculationPanel.cpp:97
+#: src/dialogs/VedicChartPanel.cpp:216 src/gui/MenuProvider.cpp:549
+msgid "Number"
+msgstr "Number"
+
+#: src/dialogs/VedicCalculationPanel.cpp:98
+msgid "Line"
+msgstr "Line"
+
+#: src/dialogs/VedicCalculationPanel.cpp:102
+msgid "Sarvashtakavarga"
+msgstr "Sarvashtakavarga"
+
+#: src/dialogs/VedicCalculationPanel.cpp:104
+msgid "Planets only"
+msgstr "Planets only"
+
+#: src/dialogs/VedicCalculationPanel.cpp:105
+msgid "With Lagna"
+msgstr "With Lagna"
+
+#: src/dialogs/VedicCalculationPanel.cpp:108 src/gui/AshtakaVargaView.cpp:149
+msgid "Sodhya Pinda"
+msgstr "Sodhya Pinda"
+
+#: src/dialogs/VedicCalculationPanel.cpp:111
+msgid "Mantreswar"
+msgstr "Mantreswar"
+
+#: src/dialogs/VedicCalculationPanel.cpp:117
+msgid "Angle < 180"
+msgstr "Angle < 180"
+
+#: src/dialogs/VedicCalculationPanel.cpp:118
+msgid "120 < Angle < 240"
+msgstr ""
+
+#: src/dialogs/VedicCalculationPanel.cpp:119
+#: src/dialogs/VedicCalculationPanel.cpp:126
+msgid "Always"
+msgstr "Always"
+
+#: src/dialogs/VedicCalculationPanel.cpp:125
+msgid "No Malefic Conjunction"
+msgstr "No Malefic Conjunction"
+
+#: src/dialogs/VedicCalculationPanel.cpp:129
+msgid "Kala Vela"
+msgstr "Kala Vela"
+
+#: src/dialogs/VedicCalculationPanel.cpp:134
+msgid "Yama Ghantaka"
+msgstr "Yama Ghantaka"
+
+#: src/dialogs/VedicCalculationPanel.cpp:139 src/dialogs/VedicPanel.cpp:89
+#: src/gui/DasaView.cpp:85 src/gui/MenuProvider.cpp:419
+#: src/jyotish/Dasa.cpp:339 src/jyotish/Ephemeris.cpp:311
+#: src/jyotish/Hora.cpp:175 src/jyotish/Hora.cpp:179
+#: src/jyotish/TextHelper.cpp:299
+msgid "Lord"
+msgstr "Lord"
+
+#: src/dialogs/VedicCalculationPanel.cpp:149
+msgid "Eight"
+msgstr "Eight"
+
+#: src/dialogs/VedicCalculationPanel.cpp:152
+msgid "Part of Portion"
+msgstr "Part of Portion"
+
+#: src/dialogs/VedicCalculationPanel.cpp:154
+msgid "Beginning"
+msgstr "Beginning"
+
+#: src/dialogs/VedicCalculationPanel.cpp:155
+msgid "Middle"
+msgstr "Middle"
+
+#: src/dialogs/VedicCalculationPanel.cpp:156 src/jyotish/Hora.cpp:176
+#: src/jyotish/Hora.cpp:180
+msgid "End"
+msgstr "End"
+
+#: src/dialogs/VedicCalculationPanel.cpp:160 src/gui/MenuProvider.cpp:576
+msgid "Arudhas"
+msgstr "Arudhas"
+
+#: src/dialogs/VedicCalculationPanel.cpp:316
+#: src/dialogs/WesternCalculationPanel.cpp:140
+msgid "Custom Ayanamsa parameters can be configured under General->Ephemeris"
+msgstr ""
+
+#: src/dialogs/VedicCalculationPanel.cpp:317
+msgid "Mean Node is most frequently used in Vedic Astrology"
+msgstr "Mean Node is most frequently used in Vedic Astrology"
+
+#: src/dialogs/VedicCalculationPanel.cpp:320
+msgid "Checked: houses start a cusp; Unchecked: cusp is middle of house"
+msgstr "Checked: houses start a cusp; Unchecked: cusp is middle of house"
+
+#: src/dialogs/VedicCalculationPanel.cpp:325
+msgid "Angle is Moon - Sun"
+msgstr ""
+
+#: src/dialogs/VedicChartPanel.cpp:185
+msgid "General Options"
+msgstr "General Options"
+
+#: src/dialogs/VedicChartPanel.cpp:186 src/dialogs/VedicChartPanel.cpp:202
+msgid "Varga Chart"
+msgstr "Varga Chart"
+
+#: src/dialogs/VedicChartPanel.cpp:187
+msgid "Show in Sarvatobhadra Chart"
+msgstr "Show in Sarvatobhadra Chart"
+
+#: src/dialogs/VedicChartPanel.cpp:189 src/dialogs/WesternChartPanel.cpp:145
+msgid "Default View"
+msgstr "Default View"
+
+#: src/dialogs/VedicChartPanel.cpp:198
+msgid "Show Retrogression (R)"
+msgstr "Show Retrogression (R)"
+
+#: src/dialogs/VedicChartPanel.cpp:199
+msgid "Use Colors for Planet Symbols"
+msgstr "Use Colors for Planet Symbols"
+
+#: src/dialogs/VedicChartPanel.cpp:200
+msgid "Chart Type"
+msgstr "Chart Type"
+
+#: src/dialogs/VedicChartPanel.cpp:203 src/gui/MenuProvider.cpp:370
+#: src/gui/MenuProvider.cpp:610 src/gui/PartnerView.cpp:285
+#: src/gui/SbcView.cpp:75 src/gui/TransitView.cpp:194
+msgid "Sarvatobhadra"
+msgstr "Sarvatobhadra"
+
+#: src/dialogs/VedicChartPanel.cpp:208
+msgid "South Indian"
+msgstr "South Indian"
+
+#: src/dialogs/VedicChartPanel.cpp:209
+msgid "North Indian"
+msgstr "North Indian"
+
+#: src/dialogs/VedicChartPanel.cpp:210
+msgid "East Indian"
+msgstr "East Indian"
+
+#: src/dialogs/VedicChartPanel.cpp:213
+msgid "Signs (North Indian)"
+msgstr "Signs (North Indian)"
+
+#: src/dialogs/VedicChartPanel.cpp:215 src/gui/MenuProvider.cpp:547
+msgid "Ascendant Only"
+msgstr "Ascendant Only"
+
+#: src/dialogs/VedicChartPanel.cpp:217 src/gui/MenuProvider.cpp:551
+msgid "Short String"
+msgstr ""
+
+#: src/dialogs/VedicChartPanel.cpp:221
+msgid "Center of Chart"
+msgstr "Center of Chart"
+
+#: src/dialogs/VedicChartPanel.cpp:223 src/gui/MenuProvider.cpp:560
+msgid "Nothing"
+msgstr "Nothing"
+
+#: src/dialogs/VedicChartPanel.cpp:224
+msgid "Varga Name"
+msgstr "Varga Name"
+
+#: src/dialogs/VedicChartPanel.cpp:225
+msgid "Division D-N"
+msgstr "Division D-N"
+
+#: src/dialogs/VedicChartPanel.cpp:226 src/gui/MenuProvider.cpp:566
+msgid "Both"
+msgstr ""
+
+#: src/dialogs/VedicChartPanel.cpp:229
+msgid "Show Arudhas"
+msgstr "Show Arudhas"
+
+#: src/dialogs/VedicChartPanel.cpp:230 src/gui/MenuProvider.cpp:615
+msgid "Sanskrit Symbols"
+msgstr "Sanskrit Symbols"
+
+#: src/dialogs/VedicChartPanel.cpp:231 src/gui/MenuProvider.cpp:617
+#: src/jyotish/Nakshatra.cpp:305
+msgid "Afflictions"
+msgstr "Afflictions"
+
+#: src/dialogs/VedicChartPanel.cpp:232 src/gui/MenuProvider.cpp:619
+msgid "Benefic/Malefic Nakshatras"
+msgstr ""
+
+#: src/dialogs/VedicChartPanel.cpp:234
+#, fuzzy
+msgid "Show Transits"
+msgstr "Sbc Transits"
+
+#: src/dialogs/VedicPanel.cpp:59 src/dialogs/WesternPanel.cpp:56
+msgid "Special Points"
+msgstr "Special Points"
+
+#: src/dialogs/VedicPanel.cpp:60 src/dialogs/WesternPanel.cpp:57
+msgid "Partly Displayed Points"
+msgstr "Partly Displayed Points"
+
+#: src/dialogs/VedicPanel.cpp:61 src/dialogs/WesternPanel.cpp:58
+#: src/gui/MenuProvider.cpp:516 src/gui/ToolPanel.cpp:264
+msgid "Arabic Parts"
+msgstr "Arabic Parts"
+
+#: src/dialogs/VedicPanel.cpp:62
+msgid "Order of Lagna"
+msgstr "Order of Lagna"
+
+#: src/dialogs/VedicPanel.cpp:63 src/dialogs/WesternPanel.cpp:59
+msgid "Columns in Main Window"
+msgstr "Columns in Main Window"
+
+#: src/dialogs/VedicPanel.cpp:64 src/dialogs/WesternPanel.cpp:61
+msgid "Ephemeris Objects"
+msgstr "Ephemeris Objects"
+
+#: src/dialogs/VedicPanel.cpp:65 src/dialogs/WesternPanel.cpp:62
+#: src/gui/MenuProvider.cpp:491
+msgid "3 Outer Planets"
+msgstr "3 Outer Planets"
+
+#: src/dialogs/VedicPanel.cpp:70 src/dialogs/WesternPanel.cpp:67
+#: src/gui/MenuProvider.cpp:499
+msgid "8 Uranian"
+msgstr "8 Uranian"
+
+#: src/dialogs/VedicPanel.cpp:73 src/dialogs/WesternPanel.cpp:70
+#: src/gui/MenuProvider.cpp:502
+msgid "4 Planetoids"
+msgstr "4 Planetoids"
+
+#: src/dialogs/VedicPanel.cpp:74 src/dialogs/WesternPanel.cpp:71
+#: src/gui/MenuProvider.cpp:503
+msgid "Lilith (Black Moon)"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:75 src/dialogs/WesternPanel.cpp:72
+msgid "House Cusps"
+msgstr "House Cusps"
+
+#: src/dialogs/VedicPanel.cpp:76 src/dialogs/WesternPanel.cpp:73
+#: src/gui/MenuProvider.cpp:508
+msgid "5 Upagrahas"
+msgstr "5 Upagrahas"
+
+#: src/dialogs/VedicPanel.cpp:77 src/dialogs/WesternPanel.cpp:74
+#: src/gui/MenuProvider.cpp:509
+msgid "Kalavelas"
+msgstr "Kalavelas"
+
+#: src/dialogs/VedicPanel.cpp:78 src/dialogs/WesternPanel.cpp:75
+#: src/gui/MenuProvider.cpp:510
+msgid "3 Special Lagnas"
+msgstr "3 Special Lagnas"
+
+#: src/dialogs/VedicPanel.cpp:79 src/dialogs/WesternPanel.cpp:76
+#: src/gui/MenuProvider.cpp:511
+msgid "Sphuta Navamsa Lagna"
+msgstr "Sphuta Navamsa Lagna"
+
+#: src/dialogs/VedicPanel.cpp:81 src/dialogs/WesternPanel.cpp:78
+msgid "Select Parts ..."
+msgstr "Select Parts ..."
+
+#: src/dialogs/VedicPanel.cpp:82 src/dialogs/WesternPanel.cpp:79
+msgid "No parts selected"
+msgstr "No parts selected"
+
+#: src/dialogs/VedicPanel.cpp:84
+msgid "After Planets"
+msgstr "After Planets"
+
+#: src/dialogs/VedicPanel.cpp:88 src/dialogs/WesternPanel.cpp:80
+#: src/gui/MenuProvider.cpp:417 src/gui/MenuProvider.cpp:448
+msgid "Declinations"
+msgstr "Declinations"
+
+#: src/dialogs/VedicPanel.cpp:90 src/jyotish/Varga.cpp:395
+msgid "Dignities"
+msgstr "Dignities"
+
+#: src/dialogs/VedicPanel.cpp:91
+msgid "Navamsa D9"
+msgstr "Navamsa D9"
+
+#: src/dialogs/VedicPanel.cpp:93 src/gui/MenuProvider.cpp:427
+msgid "Nakshatra Padas"
+msgstr "Nakshatra Padas"
+
+#: src/dialogs/VedicPanel.cpp:94 src/gui/MenuProvider.cpp:432
+msgid "Krishnamurti Lords"
+msgstr "Krishnamurti Lords"
+
+#: src/dialogs/VedicPanel.cpp:95
+msgid "Shastiamsa D60"
+msgstr "Shastiamsa D60"
+
+#: src/dialogs/VedicPanel.cpp:96 src/gui/VargaView.cpp:89
+#: src/jyotish/TextHelper.cpp:311
+msgid "Dasa Varga"
+msgstr "Dasa Varga"
+
+#: src/dialogs/VedicPanel.cpp:97
+msgid "Bhava Positions"
+msgstr "Bhava Positions"
+
+#: src/dialogs/VedicPanel.cpp:98
+msgid "Jamini Karakas"
+msgstr "Jamini Karakas"
+
+#: src/dialogs/VedicPanel.cpp:99
+msgid "Ashtakavarga Points"
+msgstr "Ashtakavarga Points"
+
+#: src/dialogs/VedicPanel.cpp:222 src/dialogs/WesternPanel.cpp:191
+msgid "Choose Arabic Parts"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:238 src/dialogs/WesternPanel.cpp:207
+msgid "No part selected"
+msgstr "No part selected"
+
+#: src/dialogs/VedicPanel.cpp:246 src/dialogs/WesternPanel.cpp:215
+#, c-format
+msgid "%d parts selected"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:259 src/dialogs/VedicPanel.cpp:260
+#: src/dialogs/VedicPanel.cpp:261 src/dialogs/VedicPanel.cpp:262
+#: src/dialogs/VedicPanel.cpp:263 src/dialogs/WesternPanel.cpp:228
+#: src/dialogs/WesternPanel.cpp:229 src/dialogs/WesternPanel.cpp:230
+#: src/dialogs/WesternPanel.cpp:231 src/dialogs/WesternPanel.cpp:232
+msgid "Uranus, Neptune and Pluto"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:264 src/dialogs/WesternPanel.cpp:233
+msgid ""
+"Fictitious planets of Uranian astrology: Cupido, Hades, Zeus, Kronos, "
+"Apollon, Admetos, Vulkanus and Poseidon "
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:265 src/dialogs/WesternPanel.cpp:234
+msgid "Asteroid between Saturn and Uranus. Period 50 years"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:266 src/dialogs/WesternPanel.cpp:235
+msgid "Asteroid crossing the orbits of outer planets. Period 92 years"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:267 src/dialogs/WesternPanel.cpp:236
+msgid "Ceres, Pallas, Juno and Vesta"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:268 src/dialogs/VedicPanel.cpp:275
+#: src/dialogs/WesternPanel.cpp:237
+msgid "House positions of the objects"
+msgstr "House positions of the objects"
+
+#: src/dialogs/VedicPanel.cpp:269 src/dialogs/WesternPanel.cpp:238
+msgid "Dhuma, Vyatipata, Parivesha, Chapa and Upaketu"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:270 src/dialogs/WesternPanel.cpp:239
+msgid "Kala, Mrityu, Ardhaprahara, Yamaghantaka, Gulika and Mandi"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:271 src/dialogs/WesternPanel.cpp:240
+msgid "Bhava Lagna, Hora Lagna and Ghatika Lagna"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:272 src/dialogs/WesternPanel.cpp:241
+msgid "Length of Navamsa Lagna"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:273 src/dialogs/WesternPanel.cpp:242
+msgid "Used in Uranian Astrology"
+msgstr "Used in Uranian Astrology"
+
+#: src/dialogs/VedicPanel.cpp:276
+msgid "Owner of the Rasi"
+msgstr "Owner of the Rasi"
+
+#: src/dialogs/VedicPanel.cpp:277
+msgid "Exaltation, Moolatrikona, friendship etc."
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:278
+msgid "D-9 chart for marriage"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:279
+msgid ""
+"Lunar mansions or constellations. See next tab for 27 resp. 28 Nakshatra "
+"zodiac"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:280
+msgid "Quarters of Nakshatras. 1 Pada = 1 Navamsa"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:281
+msgid "Lords and Sublords according to Krishnamurti Paddhati system"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:282
+msgid "Display of Shastiamsa Lords. Can be used for general indications"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:283
+msgid ""
+"Names of dignities according to Dasa Varga: Parijata, Uttama, Gopura etc."
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:284
+msgid "Bhava according to house cusps (K.P.) or Bhava Sandhis"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:285
+msgid "Atma Karaka, Amatya Karaka etc. See next tab for inclusion of Rahu"
+msgstr ""
+
+#: src/dialogs/VedicPanel.cpp:286
+msgid "Total number of Rekha points"
+msgstr ""
+
+#: src/dialogs/ViewPanel.cpp:115
+msgid "Special Symbols"
+msgstr "Special Symbols"
+
+#: src/dialogs/ViewPanel.cpp:117
+msgid "Presentation of Signs and Planets"
+msgstr "Presentation of Signs and Planets"
+
+#: src/dialogs/ViewPanel.cpp:118
+msgid "Display of Planets"
+msgstr "Display of Planets"
+
+#: src/dialogs/ViewPanel.cpp:120 src/dialogs/ViewPanel.cpp:138
+msgid "Names"
+msgstr "Names"
+
+#: src/dialogs/ViewPanel.cpp:121 src/dialogs/ViewPanel.cpp:139
+msgid "Symbols"
+msgstr "Symbols"
+
+#: src/dialogs/ViewPanel.cpp:124
+msgid "Planetary Names"
+msgstr "Planetary Names"
+
+#: src/dialogs/ViewPanel.cpp:130
+msgid "Format of Positions"
+msgstr "Format of Positions"
+
+#: src/dialogs/ViewPanel.cpp:136
+msgid "Display of Signs"
+msgstr ""
+
+#: src/dialogs/ViewPanel.cpp:142
+msgid "Sign Names"
+msgstr "Sign Names"
+
+#: src/dialogs/ViewPanel.cpp:150 src/dialogs/ViewPanel.cpp:156
+#: src/dialogs/ViewPanel.cpp:162
+msgid "Symbol 1"
+msgstr "Symbol 1"
+
+#: src/dialogs/ViewPanel.cpp:151 src/dialogs/ViewPanel.cpp:157
+#: src/dialogs/ViewPanel.cpp:163
+msgid "Symbol 2"
+msgstr "Symbol 2"
+
+#: src/dialogs/WesternCalculationPanel.cpp:53
+msgid "Calculation Options"
+msgstr "Calculation Options"
+
+#: src/dialogs/WesternCalculationPanel.cpp:141
+msgid "Western astrologers most likely use True Node"
+msgstr "Western astrologers most likely use True Node"
+
+#: src/dialogs/WesternChartPanel.cpp:141
+msgid "Chart Options"
+msgstr "Chart Options"
+
+#: src/dialogs/WesternChartPanel.cpp:142
+#, fuzzy
+msgid "Show in Chart"
+msgstr "Print Chart"
+
+#: src/dialogs/WesternChartPanel.cpp:154
+msgid "Left Side"
+msgstr ""
+
+#: src/dialogs/WesternChartPanel.cpp:157
+#, fuzzy
+msgid "Aries 0"
+msgstr "மேஷம் \t"
+
+#: src/dialogs/WesternChartPanel.cpp:158
+#, fuzzy
+msgid "Aries 15"
+msgstr "மேஷம் \t"
+
+#: src/dialogs/WesternChartPanel.cpp:159
+#, fuzzy
+msgid "Cancer 0"
+msgstr "கடகம்"
+
+#: src/dialogs/WesternChartPanel.cpp:160
+#, fuzzy
+msgid "Cancer15"
+msgstr "கடகம்"
+
+#: src/dialogs/WesternChartPanel.cpp:161
+#, fuzzy
+msgid "Libra 0"
+msgstr "துலாம்"
+
+#: src/dialogs/WesternChartPanel.cpp:162
+#, fuzzy
+msgid "Libra 15"
+msgstr "துலாம்"
+
+#: src/dialogs/WesternChartPanel.cpp:163
+#, fuzzy
+msgid "Capricorn 0"
+msgstr "மகரம்"
+
+#: src/dialogs/WesternChartPanel.cpp:164
+#, fuzzy
+msgid "Capricorn 15"
+msgstr "மகரம்"
+
+#: src/dialogs/WesternChartPanel.cpp:169
+msgid "Outsite"
+msgstr ""
+
+#: src/dialogs/WesternChartPanel.cpp:170
+msgid "Inside"
+msgstr ""
+
+#: src/dialogs/WesternChartPanel.cpp:173
+#, fuzzy
+msgid "Retrogression (R)"
+msgstr "Show Retrogression (R)"
+
+#: src/dialogs/WesternChartPanel.cpp:175
+#, fuzzy
+msgid "Aspect Symbols"
+msgstr "Show Aspect Symbols"
+
+#: src/dialogs/WesternChartPanel.cpp:182
+#, fuzzy
+msgid "Transit Preview"
+msgstr "Transit View"
+
+#: src/dialogs/WesternPanel.cpp:60
+msgid "Order of Planets"
+msgstr "Order of Planets"
+
+#: src/dialogs/WesternPanel.cpp:81 src/gui/MenuProvider.cpp:446
+msgid "House Positions"
+msgstr "House Positions"
+
+#: src/dialogs/WesternPanel.cpp:82
+msgid "Order"
+msgstr "Order"
+
+#: src/dialogs/WesternPanel.cpp:85 src/gui/PartnerView.cpp:307
+#: src/gui/TransitView.cpp:214 src/gui/UranianView.cpp:272
+#: src/jyotish/PrintoutHelper.cpp:122
+msgid "Uranian"
+msgstr "Uranian"
+
+#: src/dialogs/YogaEditorPanel.cpp:62 src/jyotish/Yoga.cpp:265
+msgid "Effect"
+msgstr ""
+
+#: src/dialogs/YogaEditorPanel.cpp:63 src/jyotish/ArabicParts.cpp:592
+msgid "Rule"
+msgstr ""
+
+#: src/dialogs/YogaEditorPanel.cpp:64
+msgid "Drag and Drop Chart"
+msgstr "Drag and Drop Char"
+
+#: src/dialogs/YogaEditorPanel.cpp:65
+msgid "Properties of Selected Yoga"
+msgstr ""
+
+#: src/dialogs/YogaEditorPanel.cpp:66 src/gui/YogaView.cpp:208
+msgid "Yogas"
+msgstr "Yogas"
+
+#: src/dialogs/YogaEditorPanel.cpp:73 src/jyotish/Yoga.cpp:264
+msgid "Description"
+msgstr "Description"
+
+#: src/dialogs/YogaEditorPanel.cpp:75 src/jyotish/Yoga.cpp:263
+msgid "Group"
+msgstr "Group"
+
+#: src/dialogs/YogaEditorPanel.cpp:79 src/jyotish/Yoga.cpp:266
+msgid "Source"
+msgstr "Group"
+
+#: src/dialogs/YogaEditorPanel.cpp:83
+msgid "Allow Higher Vargas"
+msgstr ""
+
+#: src/dialogs/YogaEditorPanel.cpp:87
+msgid "Parse Rule"
+msgstr "Parse Rule"
+
+#: src/dialogs/YogaEditorPanel.cpp:88
+msgid "Evaluate"
+msgstr "Evaluate"
+
+#: src/dialogs/YogaEditorPanel.cpp:89
+msgid "Clear Chart"
+msgstr "Clear Chart"
+
+#: src/dialogs/YogaEditorPanel.cpp:413
+#, c-format
+msgid "Do you want to delete the Yoga %s?"
+msgstr "Do you want to delete the Yoga %s?"
+
+#: src/dialogs/YogaEditorPanel.cpp:545
+msgid "Move current Yoga up"
+msgstr "Move current Yoga up"
+
+#: src/dialogs/YogaEditorPanel.cpp:547
+msgid "Move current Yoga down"
+msgstr ""
+
+#: src/dialogs/YogaEditorPanel.cpp:549
+msgid "Insert new Yoga at current position"
+msgstr ""
+
+#: src/dialogs/YogaEditorPanel.cpp:551
+msgid "Delete current Yoga"
+msgstr "Delete current Yoga"
+
+#: src/dialogs/YogaEditorPanel.cpp:553
+msgid "Copy current Yoga"
+msgstr "Copy current Yoga"
+
+#: src/dialogs/YogaEditorPanel.cpp:559
+msgid "Create a new group"
+msgstr ""
+
+#: src/dialogs/YogaEditorPanel.cpp:563
+msgid "Create a new source"
+msgstr ""
+
+#: src/dialogs/YogaEditorPanel.cpp:564
+msgid "Check this to include the Yoga only in Rasi chart"
+msgstr ""
+
+#: src/dialogs/YogaEditorPanel.cpp:568
+msgid "Parse the current rule for syntactical correctness"
+msgstr ""
+
+#: src/dialogs/YogaEditorPanel.cpp:569
+msgid "Evaluate the rule in the chart"
+msgstr ""
+
+#: src/dialogs/YogaEditorPanel.cpp:570
+msgid "Remove all objects from the chart"
+msgstr ""
+
+#: src/gui/ApplicationWindow.cpp:389
+msgid "Open file"
+msgstr "Open file"
+
+#: src/gui/ApplicationWindow.cpp:420
+msgid "Cannot open file"
+msgstr "Cannot open file"
+
+#: src/gui/ApplicationWindow.cpp:567
+msgid "Do you want to quit?"
+msgstr "Do you want to quit?"
+
+#: src/gui/ApplicationWindow.cpp:592
+msgid "Configuration saved."
+msgstr "Configuration saved."
+
+#: src/gui/ApplicationWindow.cpp:639
+msgid "Cannot launch Browser."
+msgstr "Cannot launch Browser."
+
+#: src/gui/AshtakaVargaView.cpp:87 src/gui/AshtakaVargaView.cpp:209
+#: src/jyotish/Ashtakavarga.cpp:190
+msgid "Rekha"
+msgstr "Rekha"
+
+#: src/gui/AshtakaVargaView.cpp:91 src/gui/AshtakaVargaView.cpp:213
+#: src/jyotish/Ashtakavarga.cpp:192
+msgid "Trikona Shodana"
+msgstr "Trikona Shodana"
+
+#: src/gui/AshtakaVargaView.cpp:95 src/gui/AshtakaVargaView.cpp:217
+#: src/jyotish/Ashtakavarga.cpp:194
+msgid "Ekadhipatya Shodana"
+msgstr "Ekadhipatya Shodana"
+
+#: src/gui/AshtakaVargaView.cpp:141
+msgid "Graha Pinda"
+msgstr "Graha Pinda"
+
+#: src/gui/AshtakaVargaView.cpp:145
+msgid "Rasi Pinda"
+msgstr "Rasi Pinda"
+
+#: src/gui/AshtakaVargaView.cpp:221
+msgid "Rasi Diagram"
+msgstr "Rasi Diagram"
+
+#: src/gui/AshtakaVargaView.cpp:225
+msgid "Pinda Diagram"
+msgstr "Pinda Diagram"
+
+#: src/gui/AshtakaVargaView.cpp:409 src/jyotish/TextHelper.cpp:314
+msgid "AV"
+msgstr "AV"
+
+#: src/gui/BasicVedicChart.cpp:126
+msgid "(R)"
+msgstr "(வ)"
+
+#: src/gui/BasicVedicChart.cpp:127
+msgid "R"
+msgstr "வ"
+
+#: src/gui/BasicWidget.cpp:246
+#, c-format
+msgid "Can't determine image handler for extension \"%s\", using default (PNG)"
+msgstr ""
+"Can't determine image handler for extension \"%s\", using default (PNG)"
+
+#: src/gui/BasicWidget.cpp:263
+#, c-format
+msgid "Picture exported to %s"
+msgstr "Picture exported to %s"
+
+#: src/gui/DasaGraphicView.cpp:174
+#, c-format
+msgid "Please enter a year between %d and %d"
+msgstr "Please enter a year between %d and %d"
+
+#: src/gui/DasaGraphicView.cpp:183
+#, c-format
+msgid "The value \"%s\" is not valid."
+msgstr "The value \"%s\" is not valid."
+
+#: src/gui/DasaGraphicView.cpp:203
+msgid "Choose Dasas"
+msgstr "Choose Dasas"
+
+#: src/gui/DasaGraphicView.cpp:264 src/gui/DasaView.cpp:503
+#: src/gui/ToolPanel.cpp:324 src/jyotish/Dasa.cpp:109 src/jyotish/Dasa.cpp:192
+#: src/jyotish/Dasa.cpp:298 src/jyotish/TextHelper.cpp:757
+msgid "Dasa"
+msgstr "Dasa"
+
+#: src/gui/DasaGraphicView.cpp:264
+msgid "Dasa (Graphical)"
+msgstr "Dasa (Graphical)"
+
+#: src/gui/DasaView.cpp:70
+msgid "Create Entry Chart"
+msgstr "Create Entry Chart"
+
+#: src/gui/DasaView.cpp:88
+msgid "From"
+msgstr ""
+
+#: src/gui/DasaView.cpp:91
+msgid "To"
+msgstr ""
+
+#: src/gui/DasaView.cpp:94 src/jyotish/Dasa.cpp:323 src/jyotish/Dasa.cpp:342
+msgid "Duration"
+msgstr "Duration"
+
+#: src/gui/DasaView.cpp:159
+msgid "Dasas"
+msgstr "Dasas"
+
+#: src/gui/DasaView.cpp:161
+msgid "Standard"
+msgstr "Standard"
+
+#: src/gui/DasaView.cpp:163
+msgid "Conditional"
+msgstr "Conditional"
+
+#: src/gui/DasaView.cpp:165
+msgid "Special"
+msgstr "Special"
+
+#: src/gui/DasaView.cpp:344 src/jyotish/Dasa.cpp:309
+msgid "Mahadasa"
+msgstr "தசை"
+
+#: src/gui/DasaView.cpp:344
+msgid "Antardasa"
+msgstr "புத்தி"
+
+#: src/gui/DasaView.cpp:345
+msgid "Pratyantardasa"
+msgstr "அந்தரம்"
+
+#: src/gui/DasaView.cpp:345
+msgid "Sooksmantardasa"
+msgstr "சூக்குமஅந்தரம்"
+
+#: src/gui/DasaView.cpp:345
+msgid "Pranadasa"
+msgstr "Pranadasa"
+
+#: src/gui/DasaView.cpp:355
+#, fuzzy
+msgid "Dasa Details"
+msgstr "Dasa Level"
+
+#: src/gui/DasaView.cpp:363
+#, c-format
+msgid "%s Dasa"
+msgstr "%s Dasa"
+
+#: src/gui/DasaView.cpp:385
+#, c-format
+msgid "%s of %s Dasa"
+msgstr "%s of %s Dasa"
+
+#: src/gui/DasaView.cpp:386
+#, c-format
+msgid "Antardasa Level %d"
+msgstr "Antardasa Level %d"
+
+#: src/gui/DasaView.cpp:488
+msgid "Entry Chart"
+msgstr "Entry Chart"
+
+#: src/gui/DasaView.cpp:503
+msgid "Dasa (Tree)"
+msgstr "Dasa (Tree)"
+
+#: src/gui/Document.cpp:131
+msgid "Do you want to save the chart"
+msgstr "Do you want to save the chart"
+
+#: src/gui/Document.cpp:187 src/gui/Document.cpp:225
+msgid "Cannot save file"
+msgstr "Cannot save file"
+
+#: src/gui/Document.cpp:210
+msgid "Maitreya text (*.mtx)|*.mtx| All files (*.*)|*.*"
+msgstr "Maitreya text (*.mtx)|*.mtx| All files (*.*)|*.*"
+
+#: src/gui/Document.cpp:212 src/gui/YogaEditor.cpp:257
+msgid "Save file as"
+msgstr "Save file as"
+
+#: src/gui/GraphicGrid.cpp:108 src/jyotish/Ashtakavarga.cpp:253
+msgid "Sarva"
+msgstr "Sarva"
+
+#: src/gui/guibase.cpp:362
+#, fuzzy
+msgid "Information"
+msgstr "Animation"
+
+#: src/gui/guibase.cpp:372
+msgid "Do no show this message again"
+msgstr ""
+
+#: src/gui/guibase.cpp:418
+msgid ""
+"Printout on Mac OS X may be broken if fonts in Data Fork Suitcase Format (*."
+"dfont) are used. Usage of True Type Fonts is recommended."
+msgstr ""
+
+#: src/gui/guibase.cpp:422
+msgid ""
+"Some data could not be calculated. Please look if you configured Swiss "
+"Ephemeris data files in Configuration/Ephemeris correctly."
+msgstr ""
+
+#: src/gui/guibase.cpp:426
+msgid "The language will be changed when you restart the program."
+msgstr "The language will be changed when you restart the program."
+
+#: src/gui/guibase.cpp:430
+msgid ""
+"Warning: changes in calculation configuration may result in wrong "
+"calculation results!"
+msgstr ""
+
+#: src/gui/MenuProvider.cpp:121
+msgid "Big Icons"
+msgstr "Big Icons"
+
+#: src/gui/MenuProvider.cpp:122
+msgid "Small Icons"
+msgstr "Small Icons"
+
+#: src/gui/MenuProvider.cpp:123
+msgid "Table"
+msgstr "Table"
+
+#: src/gui/MenuProvider.cpp:136
+msgid "Window List"
+msgstr "Window List"
+
+#: src/gui/MenuProvider.cpp:194
+msgid "New Multiple View"
+msgstr "New Multiple View"
+
+#: src/gui/MenuProvider.cpp:196
+#, fuzzy
+msgid "Open Recent"
+msgstr "తాజా జాతకాలను ఓపెన్ చెయ్యి"
+
+#: src/gui/MenuProvider.cpp:199
+msgid "&File"
+msgstr "&File"
+
+#: src/gui/MenuProvider.cpp:203 src/gui/MenuProvider.cpp:389
+msgid "Animate"
+msgstr "Animate"
+
+#: src/gui/MenuProvider.cpp:204
+msgid "&Document"
+msgstr "&Document"
+
+#: src/gui/MenuProvider.cpp:209
+msgid "&Vedic"
+msgstr "&Vedic"
+
+#: src/gui/MenuProvider.cpp:213
+msgid "&Western"
+msgstr "&Western"
+
+#: src/gui/MenuProvider.cpp:220
+msgid "&Extras"
+msgstr "&Extras"
+
+#: src/gui/MenuProvider.cpp:226
+msgid "&Help"
+msgstr "&Help"
+
+#: src/gui/MenuProvider.cpp:347 src/gui/MenuProvider.cpp:651
+msgid "File"
+msgstr "File"
+
+#: src/gui/MenuProvider.cpp:360 src/gui/MenuProvider.cpp:490
+msgid "Objects"
+msgstr "Objects"
+
+#: src/gui/MenuProvider.cpp:365 src/gui/MenuProvider.cpp:534
+msgid "Graphic Options"
+msgstr "Graphic Options"
+
+#: src/gui/MenuProvider.cpp:375 src/gui/MenuProvider.cpp:462
+msgid "Skin"
+msgstr "Skin"
+
+#: src/gui/MenuProvider.cpp:380 src/gui/MenuProvider.cpp:414
+msgid "Columns"
+msgstr "Columns"
+
+#: src/gui/MenuProvider.cpp:385 src/gui/MenuProvider.cpp:680
+msgid "New View"
+msgstr "New View"
+
+#: src/gui/MenuProvider.cpp:421 src/jyotish/TextHelper.cpp:300
+msgid "Dignity"
+msgstr ""
+
+#: src/gui/MenuProvider.cpp:425 src/gui/ToolPanel.cpp:273
+#: src/jyotish/Nakshatra.cpp:184 src/jyotish/Nakshatra.cpp:271
+#: src/jyotish/Partner.cpp:286 src/jyotish/Partner.cpp:311
+#: src/jyotish/PrintoutHelper.cpp:249 src/jyotish/TextHelper.cpp:302
+#: src/jyotish/TextHelper.cpp:857 src/jyotish/TextHelper.cpp:908
+msgid "Nakshatra"
+msgstr "Nakshatra"
+
+#: src/gui/MenuProvider.cpp:430
+msgid "Jaimini Karaka"
+msgstr "Jaimini Karaka"
+
+#: src/gui/MenuProvider.cpp:435
+msgid "Shastiamsa (D-60)"
+msgstr "Shastiamsa (D-60)"
+
+#: src/gui/MenuProvider.cpp:437
+msgid "Dasa Varga Dignity"
+msgstr "Dasa Varga Dignity"
+
+#: src/gui/MenuProvider.cpp:439 src/gui/ToolPanel.cpp:267
+#: src/gui/VedicChart.cpp:188 src/gui/VedicChart.cpp:192
+#: src/gui/VedicChart.cpp:196 src/jyotish/TextHelper.cpp:312
+#: src/jyotish/TextHelper.cpp:699 src/jyotish/TextHelper.cpp:719
+#: src/jyotish/TextHelper.cpp:770 src/jyotish/Varga.cpp:79
+msgid "Bhava"
+msgstr "Bhava"
+
+#: src/gui/MenuProvider.cpp:441 src/jyotish/Ashtakavarga.cpp:185
+msgid "Ashtakavarga"
+msgstr "Ashtakavarga"
+
+#: src/gui/MenuProvider.cpp:537
+msgid "South Indian Style"
+msgstr "South Indian Style"
+
+#: src/gui/MenuProvider.cpp:539
+msgid "North Indian Style"
+msgstr "North Indian Style"
+
+#: src/gui/MenuProvider.cpp:541
+msgid "East Indian Style"
+msgstr "East Indian Style"
+
+#: src/gui/MenuProvider.cpp:555
+msgid "Display Signs"
+msgstr "Display Signs"
+
+#: src/gui/MenuProvider.cpp:559 src/gui/MenuProvider.cpp:568
+msgid "Chart Center"
+msgstr "Chart Center"
+
+#: src/gui/MenuProvider.cpp:564
+msgid "Division"
+msgstr "Division"
+
+#: src/gui/MenuProvider.cpp:574 src/gui/MenuProvider.cpp:611
+msgid "Retrograde Planets"
+msgstr "Retrograde Planets"
+
+#: src/gui/MenuProvider.cpp:579 src/gui/MenuProvider.cpp:613
+msgid "Colors for Planet Symbols"
+msgstr "Colors for Planet Symbols"
+
+#: src/gui/MenuProvider.cpp:584
+msgid "Show Retrograde Planets"
+msgstr "Show Retrograde Planets"
+
+#: src/gui/MenuProvider.cpp:586
+msgid "Show Aspects"
+msgstr "Show Aspects"
+
+#: src/gui/MenuProvider.cpp:588
+msgid "Show Aspect Symbols"
+msgstr "Show Aspect Symbols"
+
+#: src/gui/MenuProvider.cpp:590
+msgid "Show Houses"
+msgstr "Show Houses"
+
+#: src/gui/MenuProvider.cpp:595
+#, fuzzy
+msgid "Transits Inside"
+msgstr "Transit View"
+
+#: src/gui/MenuProvider.cpp:634
+msgid "Main Window Menu"
+msgstr "Main Window Menu"
+
+#: src/gui/MultipleChildWindow.cpp:348
+msgid "Internal error. Could not initialize view, falling back to single mode."
+msgstr ""
+
+#: src/gui/NonDocTextView.cpp:202
+msgid "Eclipse"
+msgstr "Eclipse"
+
+#: src/gui/PartnerView.cpp:81
+msgid "No chart loaded"
+msgstr "No chart loaded"
+
+#: src/gui/PartnerView.cpp:85
+msgid "Charts identical"
+msgstr "Charts identical"
+
+#: src/gui/PartnerView.cpp:263 src/gui/TransitView.cpp:189
+msgid "Double Chart"
+msgstr "Double Chart"
+
+#: src/gui/PartnerView.cpp:271
+msgid "Vedic PartnerChart"
+msgstr "Vedic PartnerChart"
+
+#: src/gui/PartnerView.cpp:280 src/jyotish/Partner.cpp:397
+msgid "Composite Chart"
+msgstr "Composite Chart"
+
+#: src/gui/PartnerView.cpp:290 src/gui/TransitView.cpp:199
+msgid "Shadvarga"
+msgstr "Shadvarga"
+
+#: src/gui/PartnerView.cpp:295 src/gui/TransitView.cpp:204
+msgid "Varga (2)"
+msgstr "Varga (2)"
+
+#: src/gui/PartnerView.cpp:300 src/gui/TransitView.cpp:209
+msgid "Varga (3)"
+msgstr "Varga (3)"
+
+#: src/gui/PartnerView.cpp:448
+msgid "Partner"
+msgstr "Partner"
+
+#: src/gui/PdfBase.cpp:71
+msgid "Page"
+msgstr "Page"
+
+#: src/gui/PdfPrinter.cpp:114
+#, c-format
+msgid "Permission denied (%s)"
+msgstr "Permission denied (%s)"
+
+#: src/gui/PdfPrinter.cpp:120
+#, c-format
+msgid "File %s exists. Do you want to overwrite?"
+msgstr "File %s exists. Do you want to overwrite?"
+
+#: src/gui/PdfPrinter.cpp:130
+#, c-format
+msgid "Could not create file %s"
+msgstr "Could not create file %s"
+
+#: src/gui/PdfPrinter.cpp:162
+#, c-format
+msgid "Chart printed to file %s."
+msgstr "Chart printed to file %s."
+
+#: src/gui/PdfPrinter.cpp:383
+#, fuzzy
+msgid "Cannot launch pdf viewer."
+msgstr "Cannot launch Browser."
+
+#: src/gui/PdfPrinter.cpp:406
+msgid ""
+"Cannot launch pdf viewer. Please configure the pdf viewer in the "
+"configuration dialog."
+msgstr ""
+"Cannot launch pdf viewer. Please configure the pdf viewer in the "
+"configuration dialog."
+
+#: src/gui/PdfPrinter.cpp:415
+#, c-format
+msgid "Can't launch pdf viewer, command is \"%s\" (error code %ld)"
+msgstr "Can't launch pdf viewer, command is \"%s\" (error code %ld)"
+
+#: src/gui/SbcView.cpp:75
+msgid "Sbc"
+msgstr "Sbc"
+
+#: src/gui/SolarView.cpp:68
+msgid "Solar Chart"
+msgstr "Solar Chart"
+
+#: src/gui/SolarView.cpp:206 src/jyotish/Horoscope.cpp:457
+msgid "Tajaka"
+msgstr "Tajaka"
+
+#: src/gui/SolarView.cpp:206 src/gui/SolarView.cpp:265
+#: src/gui/ToolPanel.cpp:280 src/jyotish/Eclipse.cpp:138
+msgid "Solar"
+msgstr "Solar"
+
+#: src/gui/SolarView.cpp:247
+msgid "Return"
+msgstr "Return"
+
+#: src/gui/TextView.cpp:310
+msgid "Main Window"
+msgstr "Main Window"
+
+#: src/gui/TextWidget.cpp:114
+msgid ""
+"Text Files (*.txt)|*.txt|Html Files (*.html)|*.html|CSV Files (*.csv)|*.csv|"
+"All Files|*.*"
+msgstr ""
+"Text Files (*.txt)|*.txt|Html Files (*.html)|*.html|CSV Files (*.csv)|*.csv|"
+"All Files|*.*"
+
+#: src/gui/TextWidget.cpp:133
+msgid "Save Text"
+msgstr "Save Text"
+
+#: src/gui/TextWidget.cpp:172
+#, c-format
+msgid "Text exported to %s"
+msgstr "Text exported to %s"
+
+#: src/gui/ToolPanel.cpp:263 src/jyotish/PrintoutHelper.cpp:76
+#: src/jyotish/PrintoutHelper.cpp:120 src/jyotish/TextHelper.cpp:548
+msgid "Base Data"
+msgstr "Base Data"
+
+#: src/gui/ToolPanel.cpp:266
+msgid "Astronomical"
+msgstr "Astronomical"
+
+#: src/gui/ToolPanel.cpp:268
+msgid "Dasa (Short)"
+msgstr "Dasa (Short)"
+
+#: src/gui/ToolPanel.cpp:269
+#, fuzzy
+msgid "Dasa (Compact)"
+msgstr "Dasa (Short)"
+
+#: src/gui/ToolPanel.cpp:270
+msgid "Dasa (Long)"
+msgstr "Dasa (Long)"
+
+#: src/gui/ToolPanel.cpp:271 src/jyotish/Jaimini.cpp:186
+msgid "Jaimini"
+msgstr "Jaimini"
+
+#: src/gui/ToolPanel.cpp:272 src/jyotish/TextHelper.cpp:756
+msgid "Krishnamurti Paddhati"
+msgstr "Krishnamurti Paddhati"
+
+#: src/gui/ToolPanel.cpp:275 src/jyotish/Aspect.cpp:452
+msgid "Vedic Aspectarium"
+msgstr "Vedic Aspectarium"
+
+#: src/gui/ToolPanel.cpp:276 src/jyotish/TextHelper.cpp:850
+msgid "Vedic Planets"
+msgstr "Vedic Planets"
+
+#: src/gui/ToolPanel.cpp:277
+msgid "Western Aspectarium"
+msgstr "Western Aspectarium"
+
+#: src/gui/ToolPanel.cpp:278 src/jyotish/TextHelper.cpp:941
+msgid "Western Planets"
+msgstr "Western Planets"
+
+#: src/gui/ToolPanel.cpp:280
+msgid "All"
+msgstr "All"
+
+#: src/gui/ToolPanel.cpp:280 src/gui/ToolPanel.cpp:287
+#: src/jyotish/Eclipse.cpp:139
+msgid "Lunar"
+msgstr "Lunar"
+
+#: src/gui/ToolPanel.cpp:281 src/jyotish/Uranian.cpp:90
+msgid "Midpoint Summary"
+msgstr "Midpoint Summary"
+
+#: src/gui/ToolPanel.cpp:281
+msgid "Yearly Preview"
+msgstr "Yearly Preview"
+
+#: src/gui/ToolPanel.cpp:286
+msgid "Graphical"
+msgstr "Graphical"
+
+#: src/gui/ToolPanel.cpp:286
+msgid "Sunrise/Tithi"
+msgstr "Sunrise/Tithi"
+
+#: src/gui/ToolPanel.cpp:287
+msgid "Ingress"
+msgstr "Ingress"
+
+#: src/gui/ToolPanel.cpp:287
+msgid "KP"
+msgstr "KP"
+
+#: src/gui/ToolPanel.cpp:289
+msgid "Local"
+msgstr "Local"
+
+#: src/gui/ToolPanel.cpp:293
+msgid "Arudha Lagna"
+msgstr "Arudha Lagna"
+
+#: src/gui/ToolPanel.cpp:330
+msgid "Year"
+msgstr "Year"
+
+#: src/gui/ToolPanel.cpp:335
+msgid "Number of Years"
+msgstr "Number of Years"
+
+#: src/gui/ToolPanel.cpp:344
+msgid "Progress Transit Date"
+msgstr "Progress Transit Date"
+
+#: src/gui/ToolPanel.cpp:393
+msgid "Zoom"
+msgstr "Zoom"
+
+#: src/gui/ToolPanel.cpp:398
+msgid "Dasa Level"
+msgstr "Dasa Level"
+
+#: src/gui/ToolPanel.cpp:404
+msgid "Month"
+msgstr "Month"
+
+#: src/gui/ToolPanel.cpp:420
+msgid "Partner 1"
+msgstr "Partner 1"
+
+#: src/gui/ToolPanel.cpp:424
+msgid "Partner 2"
+msgstr "Partner 2"
+
+#: src/gui/ToolPanel.cpp:456
+msgid "Select Dasas"
+msgstr "Select Dasas"
+
+#: src/gui/ToolPanel.cpp:459
+msgid "Goto Year"
+msgstr "Goto Year"
+
+#: src/gui/ToolPanel.cpp:462
+msgid "New File"
+msgstr "New File"
+
+#: src/gui/ToolPanel.cpp:465
+msgid "Open File"
+msgstr "Open File"
+
+#: src/gui/ToolPanel.cpp:468
+msgid "Save File"
+msgstr "Save File"
+
+#: src/gui/ToolPanel.cpp:471
+msgid "Save File As"
+msgstr "Save File As"
+
+#: src/gui/ToolPanel.cpp:474
+msgid "Close Child"
+msgstr "Close Child"
+
+#: src/gui/TransitView.cpp:840 src/jyotish/Transit.cpp:208
+msgid "Transit"
+msgstr "Transit"
+
+#: src/gui/VargaView.cpp:81 src/gui/VargaView.cpp:148
+msgid "Shad Varga"
+msgstr "Shad Varga"
+
+#: src/gui/VargaView.cpp:85
+msgid "Sapta Varga"
+msgstr "Sapta Varga"
+
+#: src/gui/VargaView.cpp:93
+msgid "Shodasa Varga"
+msgstr "Shodasa Varga"
+
+#: src/gui/VargaView.cpp:97 src/jyotish/Varga.cpp:451
+msgid "Average"
+msgstr ""
+
+#: src/gui/VargaView.cpp:152
+msgid "Vargas (2)"
+msgstr "Vargas (2)"
+
+#: src/gui/VargaView.cpp:156
+msgid "Vargas (3)"
+msgstr "Vargas (3)"
+
+#: src/gui/VargaView.cpp:160 src/jyotish/UranianHelper.cpp:681
+msgid "Diagram"
+msgstr "Diagram"
+
+#: src/gui/VargaView.cpp:389 src/jyotish/Varga.cpp:436
+msgid "Vimsopaka Bala"
+msgstr "Vimsopaka Bala"
+
+#: src/gui/VedicChart.cpp:193
+#, c-format
+msgid "D-%d"
+msgstr "D-%d"
+
+#: src/gui/VedicChart.cpp:197
+#, fuzzy, c-format
+msgid "%s (D-%d)"
+msgstr "ராசி(D-1)"
+
+#: src/gui/VedicChart.cpp:269
+msgid "AL"
+msgstr "AL"
+
+#: src/gui/VedicChart.cpp:270
+msgid "Arudha L"
+msgstr "Arudha L"
+
+#: src/gui/VedicChart.cpp:274
+msgid "UL"
+msgstr "UL"
+
+#: src/gui/VedicChart.cpp:275
+msgid "Upapada L"
+msgstr ""
+
+#: src/gui/VedicChart.cpp:279
+#, c-format
+msgid "A%d"
+msgstr "A%d"
+
+#: src/gui/YogaEditor.cpp:117
+#, c-format
+msgid "Do you want to save the Yoga definition file %s ?"
+msgstr "Do you want to save the Yoga definition file %s ?"
+
+#: src/gui/YogaEditor.cpp:156
+#, c-format
+msgid "File %s loaded, %d Yogas found"
+msgstr ""
+
+#: src/gui/YogaEditor.cpp:178
+msgid "File closed"
+msgstr ""
+
+#: src/gui/YogaEditor.cpp:193
+msgid "New File created"
+msgstr "New File created"
+
+#: src/gui/YogaEditor.cpp:207
+msgid "Open Yoga Definition File"
+msgstr ""
+
+#: src/gui/YogaEditor.cpp:239
+#, c-format
+msgid "File %s sucessfully saved"
+msgstr ""
+
+#: src/gui/YogaEditor.cpp:242
+#, c-format
+msgid "Cannot save file %s"
+msgstr "Cannot save file %s"
+
+#: src/gui/YogaEditor.cpp:287
+msgid "No rule specified"
+msgstr "No rule specified"
+
+#: src/gui/YogaEditor.cpp:314
+msgid "true"
+msgstr "true"
+
+#: src/gui/YogaEditor.cpp:314
+msgid "false"
+msgstr "false"
+
+#: src/gui/YogaEditor.cpp:321 src/gui/YogaEditor.cpp:332
+msgid "Error"
+msgstr ""
+
+#: src/gui/YogaEditor.cpp:330
+msgid "General error"
+msgstr "General error"
+
+#: src/gui/YogaEditor.cpp:363
+msgid "New Source"
+msgstr "New Source"
+
+#: src/gui/YogaEditor.cpp:377
+msgid "New Group"
+msgstr "New Group"
+
+#: src/gui/YogaEditor.cpp:405
+msgid "No file opened"
+msgstr ""
+
+#: src/gui/YogaEditor.cpp:411
+msgid "changed"
+msgstr ""
+
+#: src/gui/YogaEditor.cpp:412
+msgid "unchanged"
+msgstr ""
+
+#: src/gui/YogaView.cpp:156
+msgid "All Groups"
+msgstr ""
+
+#: src/gui/YogaView.cpp:168
+msgid "All Sources"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:117
+msgid "Fortune"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:118
+msgid "Spirit"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:119
+msgid "Victory"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:120
+msgid "Valor and Bravery"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:121
+msgid "Mind and Administrators"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:122
+msgid "Property and Goods"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:123
+msgid "Siblings"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:124
+msgid "Death of Siblings"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:125
+msgid "Death of Parents"
+msgstr "Death of Parents"
+
+#: src/jyotish/ArabicParts.cpp:126
+#, fuzzy
+msgid "Grandparents"
+msgstr "గోచార"
+
+#: src/jyotish/ArabicParts.cpp:127
+#, fuzzy
+msgid "Real Estate"
+msgstr "రాష్ట్రం"
+
+#: src/jyotish/ArabicParts.cpp:128
+msgid "Children and Life"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:129
+msgid "Expected Birth"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:130
+msgid "Disease and Defects (1)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:131
+msgid "Disease and Defects (2)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:132
+msgid "Captivity"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:133
+#, fuzzy
+msgid "Servants"
+msgstr "శ్రవణం"
+
+#: src/jyotish/ArabicParts.cpp:134
+#, fuzzy
+msgid "Partners"
+msgstr "భాగస్వామి"
+
+#: src/jyotish/ArabicParts.cpp:135
+#, fuzzy
+msgid "Death"
+msgstr "తేదీ"
+
+#: src/jyotish/ArabicParts.cpp:136
+msgid "Sickness and Murder"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:137
+msgid "Danger, Violence and Debt"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:138
+#, fuzzy
+msgid "Journeys"
+msgstr "జూన్"
+
+#: src/jyotish/ArabicParts.cpp:139
+msgid "Travel by Water"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:140
+msgid "Faith, Trust and Belief"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:141
+#, fuzzy
+msgid "Deep Reflection"
+msgstr "వక్రీభవనాన్ని ఉపయోగించు"
+
+#: src/jyotish/ArabicParts.cpp:142
+msgid "Understanding and Wisdom"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:143
+msgid "Fame and Recognition"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:144
+msgid "Rulers and Disassociation"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:145
+msgid "Father, Fate and Karma"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:146
+msgid "Sudden Advancement"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:147
+msgid "Celebrity of Rank"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:148
+msgid "Surgery and Accident"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:149
+msgid "Merchants and Their Work"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:150
+msgid "Merchandise (Exchange)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:151
+#, fuzzy
+msgid "Mother"
+msgstr "నెల"
+
+#: src/jyotish/ArabicParts.cpp:152
+msgid "Glory and Constancy"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:153
+msgid "Honorable Acquaintances"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:154
+#, fuzzy
+msgid "Success"
+msgstr "సూర్యోదయం"
+
+#: src/jyotish/ArabicParts.cpp:155
+#, fuzzy
+msgid "Worldliness"
+msgstr "సహకారులు"
+
+#: src/jyotish/ArabicParts.cpp:156
+msgid "Acquaintances"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:157
+msgid "Violence"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:158
+#, fuzzy
+msgid "Liberty of Person"
+msgstr "గోచార స్థితి"
+
+#: src/jyotish/ArabicParts.cpp:159
+msgid "Praise and Acceptance"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:160
+#, fuzzy
+msgid "Enmity"
+msgstr "ప్రవేశం"
+
+#: src/jyotish/ArabicParts.cpp:161
+msgid "Bad Luck"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:162
+#, fuzzy
+msgid "Debilitated Bodies"
+msgstr "అంగీకరించబడినది"
+
+#: src/jyotish/ArabicParts.cpp:163
+msgid "Boldness and Violence"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:164
+msgid "Trickery and Deceit"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:165
+msgid "Necessities"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:166
+msgid "Realization of Needs"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:167
+#, fuzzy
+msgid "Retribution"
+msgstr "వ్యవధి"
+
+#: src/jyotish/ArabicParts.cpp:168
+msgid "Children (Male)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:169
+msgid "Children (Female)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:170
+msgid "Play and Variety"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:171
+#, fuzzy
+msgid "Stability"
+msgstr "గుణము"
+
+#: src/jyotish/ArabicParts.cpp:172
+#, fuzzy
+msgid "Speculation"
+msgstr "గణితము"
+
+#: src/jyotish/ArabicParts.cpp:173
+#, fuzzy
+msgid "Art"
+msgstr "మే"
+
+#: src/jyotish/ArabicParts.cpp:174
+#, fuzzy
+msgid "Sexual Attraction"
+msgstr "ఇరుసు మార్పు"
+
+#: src/jyotish/ArabicParts.cpp:175
+msgid "Sex Drive and Stimulation"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:176
+#, fuzzy
+msgid "Passion"
+msgstr "పోసెడాన్"
+
+#: src/jyotish/ArabicParts.cpp:177
+msgid "Emotion and Affection"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:178
+msgid "Most Perilous Year"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:179
+#, fuzzy
+msgid "Peril"
+msgstr "పాక్షిక"
+
+#: src/jyotish/ArabicParts.cpp:180
+msgid "Occultism"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:181
+#, fuzzy
+msgid "Commerce"
+msgstr "అంశలు"
+
+#: src/jyotish/ArabicParts.cpp:182
+msgid "Marriage Contracts"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:183
+msgid "Travel by Land"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:184
+msgid "Travel by Air"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:185
+#, fuzzy
+msgid "Destiny"
+msgstr "వ్యవధి"
+
+#: src/jyotish/ArabicParts.cpp:186
+#, fuzzy
+msgid "Vocation and Status"
+msgstr "ప్రదేశాల డాటాబేస్"
+
+#: src/jyotish/ArabicParts.cpp:187
+msgid "Honor, Nobility (Day)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:188
+msgid "Honor, Nobility (Night)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:189
+#, fuzzy
+msgid "Organization"
+msgstr "కార్యక్రమ వివరములు"
+
+#: src/jyotish/ArabicParts.cpp:190
+#, fuzzy
+msgid "Divorce"
+msgstr "సూర్యోదయం"
+
+#: src/jyotish/ArabicParts.cpp:191
+#, fuzzy
+msgid "Ostracism and Loss"
+msgstr "నక్షత్ర దశలు"
+
+#: src/jyotish/ArabicParts.cpp:192
+#, fuzzy
+msgid "Friends"
+msgstr "అంత్యం"
+
+#: src/jyotish/ArabicParts.cpp:193
+msgid "Tragedy and Brethren"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:194
+msgid "Race (Consciousness)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:195
+msgid "Bondage and Slavery"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:196
+msgid "Imprisonment and Sorrow"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:197
+#, fuzzy
+msgid "Perversion"
+msgstr "వర్షన్"
+
+#: src/jyotish/ArabicParts.cpp:198
+msgid "Self-Undoing"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:199
+msgid "Treachery and Entrapment"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:200
+#, fuzzy
+msgid "Bereavement"
+msgstr "ప్రవీణ"
+
+#: src/jyotish/ArabicParts.cpp:201
+msgid "Suicide (Yang)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:202
+msgid "Suicide (Yin)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:203
+#, fuzzy
+msgid "Depression"
+msgstr "వర్షన్"
+
+#: src/jyotish/ArabicParts.cpp:204
+msgid "Assassination (Yang)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:205
+msgid "Assassination (Yin)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:206
+msgid "Cancer (Disease)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:207
+msgid "Catastrophe"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:208
+#, fuzzy
+msgid "Foolhardiness"
+msgstr "సహకారులు"
+
+#: src/jyotish/ArabicParts.cpp:209
+msgid "Release and Luck"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:210
+msgid "Benevolence and Assurance"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:211
+msgid "Hope and Sensitivity"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:212
+msgid "Aptness and Aloofness"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:213
+msgid "Charm and Personality"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:214
+msgid "Faith and Good Manners"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:215
+msgid "Temperament"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:216
+msgid "Security and Treasure"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:217
+#, fuzzy
+msgid "Originality"
+msgstr "దశవర్గ ఆధిపత్యములు"
+
+#: src/jyotish/ArabicParts.cpp:218
+#, fuzzy
+msgid "Eccentricity, Astrology"
+msgstr "వైదిక జ్యోతిషం"
+
+#: src/jyotish/ArabicParts.cpp:219
+#, fuzzy
+msgid "Divination"
+msgstr "డైరెక్షన్లు"
+
+#: src/jyotish/ArabicParts.cpp:220
+#, fuzzy
+msgid "Intrusion"
+msgstr "వర్షన్"
+
+#: src/jyotish/ArabicParts.cpp:221
+#, fuzzy
+msgid "Negotiation"
+msgstr "కొత్త ప్రదేశం"
+
+#: src/jyotish/ArabicParts.cpp:222
+msgid "Discord and Controversy"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:223
+msgid "Coincidence"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:224
+msgid "Unpreparedness"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:225
+msgid "Popularity"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:226
+msgid "Misunderstanding"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:227
+msgid "Sentiment and Marriage"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:228
+msgid "Loneliness"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:229
+msgid "Success in Investment"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:230
+msgid "Frugality and Labor"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:231
+msgid "Wastefulness"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:232
+#, fuzzy
+msgid "Vanity"
+msgstr "వహ్ని"
+
+#: src/jyotish/ArabicParts.cpp:233
+msgid "Corruptness"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:234
+#, fuzzy
+msgid "Initiative"
+msgstr "అనంతం"
+
+#: src/jyotish/ArabicParts.cpp:235
+#, fuzzy
+msgid "Memory"
+msgstr "బుధ"
+
+#: src/jyotish/ArabicParts.cpp:236
+msgid "Love, Beauty and Peace"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:237
+msgid "Disinterest and Boredom"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:238
+msgid "Accomplishment"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:239
+msgid "Influence"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:240
+msgid "Increase and Impression"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:241
+#, fuzzy
+msgid "Caution"
+msgstr "గణితము"
+
+#: src/jyotish/ArabicParts.cpp:242
+msgid "Timidity"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:243
+#, fuzzy
+msgid "Entertainment"
+msgstr "ప్రవేశ సమయం"
+
+#: src/jyotish/ArabicParts.cpp:244
+msgid "Bequest"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:245
+#, fuzzy
+msgid "Genius"
+msgstr "శుక్ర"
+
+#: src/jyotish/ArabicParts.cpp:246
+#, fuzzy
+msgid "Revelation"
+msgstr "రేవతి"
+
+#: src/jyotish/ArabicParts.cpp:247
+#, fuzzy
+msgid "Delusion"
+msgstr "వర్షన్"
+
+#: src/jyotish/ArabicParts.cpp:248
+msgid "Misinterpretation"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:249
+msgid "Intellectuality"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:252
+#, fuzzy
+msgid "Air and Wind"
+msgstr "ప్రధాన గవాక్షం"
+
+#: src/jyotish/ArabicParts.cpp:254
+#, fuzzy
+msgid "Clouds"
+msgstr "మూసివేయి"
+
+#: src/jyotish/ArabicParts.cpp:255
+#, fuzzy
+msgid "Rains"
+msgstr "గొలుసు"
+
+#: src/jyotish/ArabicParts.cpp:256
+#, fuzzy
+msgid "Cold"
+msgstr "వర్ణములు"
+
+#: src/jyotish/ArabicParts.cpp:257
+#, fuzzy
+msgid "Wheat"
+msgstr "పశ్చిమ"
+
+#: src/jyotish/ArabicParts.cpp:258
+msgid "Barley and Meats"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:259
+#, fuzzy
+msgid "Rice and Millet"
+msgstr "సూర్యోదయం మరియు సూర్యాస్తమయం"
+
+#: src/jyotish/ArabicParts.cpp:260
+#, fuzzy
+msgid "Corn"
+msgstr "వర్ణములు"
+
+#: src/jyotish/ArabicParts.cpp:261
+msgid "Lentils, Iron, Pungents"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:262
+msgid "Beans and Onions"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:263
+msgid "Chick Peas"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:264
+msgid "Sesame and Grapes"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:265
+msgid "Sugar and Legumes"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:266
+#, fuzzy
+msgid "Honey"
+msgstr "వానర"
+
+#: src/jyotish/ArabicParts.cpp:267
+#, fuzzy
+msgid "Oils"
+msgstr "కక్ష్య"
+
+#: src/jyotish/ArabicParts.cpp:268
+msgid "Nuts and Flax"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:269
+msgid "Olives"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:270
+msgid "Apricots and Peaches"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:271
+#, fuzzy
+msgid "Melons"
+msgstr "మారినస్"
+
+#: src/jyotish/ArabicParts.cpp:272
+#, fuzzy
+msgid "Salt"
+msgstr "శ"
+
+#: src/jyotish/ArabicParts.cpp:273
+#, fuzzy
+msgid "Sweets"
+msgstr "సర్ప"
+
+#: src/jyotish/ArabicParts.cpp:274
+msgid "Astrigents and Purgatives"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:275
+msgid "Silk and Cotton"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:276
+msgid "Purgatives (Bitter)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:277
+msgid "Purgatives (Acid)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:278
+#, fuzzy
+msgid "Secrets"
+msgstr "సర్ప"
+
+#: src/jyotish/ArabicParts.cpp:279
+msgid "Information True/False"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:280
+msgid "Injury to Business"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:281
+msgid "Freedmen and Servants"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:282
+msgid "Employers"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:283
+msgid "Marriage"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:284
+#, fuzzy
+msgid "Time for Action/Success"
+msgstr "టైం జోన్ ఐచ్ఛికములు"
+
+#: src/jyotish/ArabicParts.cpp:285
+msgid "Time Occupied in Action"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:286
+msgid "Dismissal and Resignation"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:287
+msgid "Life/Death of Absentee"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:288
+msgid "Lost Animal (Light)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:289
+msgid "Lost Animal (Dark)"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:290
+msgid "Lawsuit"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:291
+#, fuzzy
+msgid "Decapitation"
+msgstr "డైరెక్షన్లు"
+
+#: src/jyotish/ArabicParts.cpp:292
+#, fuzzy
+msgid "Torture"
+msgstr "నిజ"
+
+#: src/jyotish/ArabicParts.cpp:293
+#, fuzzy
+msgid "Lost Objects"
+msgstr "పాశ్చాత్య గ్రహములు"
+
+#: src/jyotish/ArabicParts.cpp:548
+#, c-format
+msgid "Cusp %d"
+msgstr "Cusp %d"
+
+#: src/jyotish/ArabicParts.cpp:551
+#, c-format
+msgid "Cusp %d + 10"
+msgstr ""
+
+#: src/jyotish/ArabicParts.cpp:554
+#, c-format
+msgid "Lord of cusp %d"
+msgstr "Lord of cusp %d"
+
+#: src/jyotish/ArabicParts.cpp:557
+msgid "Dispositor"
+msgstr "Dispositor"
+
+#: src/jyotish/ArabicParts.cpp:560
+msgid "House cusp"
+msgstr "House cusp"
+
+#: src/jyotish/ArabicParts.cpp:563
+msgid "Lord of cusp"
+msgstr "Lord of cusp"
+
+#: src/jyotish/ArabicParts.cpp:588 src/jyotish/UranianHelper.cpp:474
+#: src/jyotish/UranianHelper.cpp:511 src/jyotish/UranianHelper.cpp:515
+#: src/jyotish/UranianHelper.cpp:519 src/jyotish/UranianHelper.cpp:523
+#: src/jyotish/UranianHelper.cpp:601 src/jyotish/UranianHelper.cpp:605
+#: src/jyotish/UranianHelper.cpp:609 src/jyotish/UranianHelper.cpp:613
+msgid "No."
+msgstr "No."
+
+#: src/jyotish/ArabicParts.cpp:591 src/jyotish/Jaimini.cpp:221
+#: src/jyotish/TextHelper.cpp:485 src/jyotish/TextHelper.cpp:946
+msgid "House"
+msgstr "House"
+
+#: src/jyotish/ArabicParts.cpp:593
+msgid "Flip"
+msgstr ""
+
+#: src/jyotish/Ashtakavarga.cpp:198
+msgid "Pinda"
+msgstr "Pinda"
+
+#: src/jyotish/Ashtakavarga.cpp:199 src/jyotish/Ephemeris.cpp:460
+#: src/jyotish/Jaimini.cpp:194 src/jyotish/Nakshatra.cpp:182
+#: src/jyotish/Nakshatra.cpp:269 src/jyotish/Partner.cpp:400
+#: src/jyotish/PrintoutHelper.cpp:247 src/jyotish/PrintoutHelper.cpp:285
+#: src/jyotish/TextHelper.cpp:295 src/jyotish/TextHelper.cpp:482
+#: src/jyotish/TextHelper.cpp:642 src/jyotish/TextHelper.cpp:717
+#: src/jyotish/TextHelper.cpp:767 src/jyotish/TextHelper.cpp:853
+#: src/jyotish/TextHelper.cpp:944 src/jyotish/Transit.cpp:303
+#: src/jyotish/UranianHelper.cpp:367
+msgid "Planet"
+msgstr "Planet"
+
+#: src/jyotish/Ashtakavarga.cpp:200 src/jyotish/Jaimini.cpp:222
+#: src/jyotish/Jaimini.cpp:233 src/jyotish/Varga.cpp:75
+msgid "Rasi"
+msgstr "Rasi"
+
+#: src/jyotish/Ashtakavarga.cpp:201
+msgid "Graha"
+msgstr "Graha"
+
+#: src/jyotish/Ashtakavarga.cpp:202
+msgid "Sodhya"
+msgstr "Sodhya"
+
+#: src/jyotish/Aspect.cpp:62
+msgid "Conjunction"
+msgstr "Conjunction"
+
+#: src/jyotish/Aspect.cpp:63
+msgid "Opposition"
+msgstr "Opposition"
+
+#: src/jyotish/Aspect.cpp:64 src/jyotish/Ephemeris.cpp:622
+msgid "Trine"
+msgstr "Trine"
+
+#: src/jyotish/Aspect.cpp:65
+msgid "Square"
+msgstr "Square"
+
+#: src/jyotish/Aspect.cpp:66 src/jyotish/Ephemeris.cpp:620
+msgid "Sextile"
+msgstr "Sextile"
+
+#: src/jyotish/Aspect.cpp:69
+msgid "Quincunx"
+msgstr ""
+
+#: src/jyotish/Aspect.cpp:70
+msgid "Semisquare"
+msgstr "Semisquare"
+
+#: src/jyotish/Aspect.cpp:71
+msgid "Sesquisquare"
+msgstr "Sesquisquare"
+
+#: src/jyotish/Aspect.cpp:72
+msgid "Semisextile"
+msgstr "Semisextile"
+
+#: src/jyotish/Aspect.cpp:73
+msgid "Quintile"
+msgstr "Quintile"
+
+#: src/jyotish/Aspect.cpp:74
+msgid "Biquintile"
+msgstr ""
+
+#: src/jyotish/Aspect.cpp:77
+msgid "Parallele"
+msgstr "Parallele"
+
+#: src/jyotish/Aspect.cpp:78
+msgid "Contraparallele"
+msgstr ""
+
+#: src/jyotish/Aspect.cpp:81
+msgid "Septile"
+msgstr "Septile"
+
+#: src/jyotish/Aspect.cpp:82
+msgid "Biseptile"
+msgstr "Biseptile"
+
+#: src/jyotish/Aspect.cpp:83
+msgid "Triseptile"
+msgstr ""
+
+#: src/jyotish/Aspect.cpp:84
+msgid "Novile"
+msgstr "Novile"
+
+#: src/jyotish/Aspect.cpp:85
+msgid "Binovile"
+msgstr ""
+
+#: src/jyotish/Aspect.cpp:86
+msgid "Quadnovile"
+msgstr ""
+
+#: src/jyotish/Aspect.cpp:491
+msgid "Aspecting"
+msgstr "Aspecting"
+
+#: src/jyotish/Aspect.cpp:492
+msgid "Aspected"
+msgstr "Aspected"
+
+#: src/jyotish/Dasa.cpp:264
+#, fuzzy
+msgid "Current"
+msgstr "Current Time"
+
+#: src/jyotish/Dasa.cpp:318 src/jyotish/Dasa.cpp:340
+msgid "Start Date"
+msgstr "Start Date"
+
+#: src/jyotish/Dasa.cpp:320
+msgid "End Date"
+msgstr "End Date"
+
+#: src/jyotish/Dasa.cpp:329
+msgid "Antardasas"
+msgstr "Antardasas"
+
+#: src/jyotish/Dasa.cpp:341
+msgid "Final Date"
+msgstr "Final Date"
+
+#: src/jyotish/Eclipse.cpp:126
+msgid "Eclipses"
+msgstr "Eclipses"
+
+#: src/jyotish/Ephemeris.cpp:274
+#, c-format
+msgid "K.P. events not supported for %s Dasa."
+msgstr "K.P. events not supported for %s Dasa."
+
+#: src/jyotish/Ephemeris.cpp:282
+msgid "Not supported in western mode."
+msgstr "Not supported in western mode."
+
+#: src/jyotish/Ephemeris.cpp:309 src/jyotish/Ephemeris.cpp:458
+#: src/jyotish/Ephemeris.cpp:585 src/jyotish/Ephemeris.cpp:687
+#: src/jyotish/Ephemeris.cpp:813 src/jyotish/Ephemeris.cpp:901
+msgid "Day"
+msgstr "Day"
+
+#: src/jyotish/Ephemeris.cpp:312 src/jyotish/TextHelper.cpp:307
+#: src/jyotish/TextHelper.cpp:772
+msgid "Sublord"
+msgstr "Sublord"
+
+#: src/jyotish/Ephemeris.cpp:313
+msgid "Lunar Position"
+msgstr "Lunar Position"
+
+#: src/jyotish/Ephemeris.cpp:461
+msgid "Sign/Nakshatra"
+msgstr "Sign/Nakshatra"
+
+#: src/jyotish/Ephemeris.cpp:461
+msgid "Sign"
+msgstr "Sign"
+
+#: src/jyotish/Ephemeris.cpp:589
+msgid "Angle"
+msgstr "Angle"
+
+#: src/jyotish/Ephemeris.cpp:590
+msgid "Tithi"
+msgstr "Tithi"
+
+#: src/jyotish/Ephemeris.cpp:618
+msgid "New Moon"
+msgstr "New Moon"
+
+#: src/jyotish/Ephemeris.cpp:619
+msgid "Full Moon"
+msgstr "Full Moon"
+
+#: src/jyotish/Ephemeris.cpp:621
+msgid "Half Moon (Waxing)"
+msgstr "Half Moon (Waxing)"
+
+#: src/jyotish/Ephemeris.cpp:623
+msgid "Half Moon (Waning)"
+msgstr "Half Moon (Waning)"
+
+#: src/jyotish/Ephemeris.cpp:627
+msgid "Semi Square"
+msgstr "Semi Square"
+
+#: src/jyotish/Ephemeris.cpp:688 src/jyotish/TextHelper.cpp:585
+msgid "Sidereal Time"
+msgstr "Sidereal Time"
+
+#: src/jyotish/Ephemeris.cpp:689 src/jyotish/TextHelper.cpp:604
+msgid "Sunrise"
+msgstr "Sunrise"
+
+#: src/jyotish/Ephemeris.cpp:690 src/jyotish/TextHelper.cpp:610
+msgid "Sunset"
+msgstr "Sunset"
+
+#: src/jyotish/Ephemeris.cpp:691
+msgid "Tithi (Sunrise)"
+msgstr "Tithi (Sunrise)"
+
+#: src/jyotish/GenericDasa.cpp:288
+msgid "Mangala"
+msgstr "Mangala"
+
+#: src/jyotish/GenericDasa.cpp:288
+msgid "Pingala"
+msgstr "Pingala"
+
+#: src/jyotish/GenericDasa.cpp:288
+msgid "Bhramari"
+msgstr "Bhramari"
+
+#: src/jyotish/GenericDasa.cpp:289
+msgid "Bhadrika"
+msgstr "Bhadrika"
+
+#: src/jyotish/GenericDasa.cpp:289
+msgid "Ulka"
+msgstr "Ulka"
+
+#: src/jyotish/GenericDasa.cpp:289
+msgid "Siddha"
+msgstr "Siddha"
+
+#: src/jyotish/GenericDasa.cpp:289
+msgid "Sankata"
+msgstr "Sankata"
+
+#: src/jyotish/Hora.cpp:174 src/jyotish/Hora.cpp:178
+msgid "Begin"
+msgstr "Begin"
+
+#: src/jyotish/Hora.cpp:203
+msgid "Lord of the day"
+msgstr "Lord of the day"
+
+#: src/jyotish/Hora.cpp:205
+msgid "Lord of the month"
+msgstr "Lord of the month"
+
+#: src/jyotish/Hora.cpp:207
+msgid "Lord of the year"
+msgstr "Lord of the year"
+
+#: src/jyotish/Jaimini.cpp:191
+msgid "Chara Karakas"
+msgstr "Chara Karakas"
+
+#: src/jyotish/Jaimini.cpp:193 src/jyotish/PrintoutHelper.cpp:251
+#: src/jyotish/TextHelper.cpp:313 src/jyotish/TextHelper.cpp:855
+msgid "Karaka"
+msgstr "Karaka"
+
+#: src/jyotish/Jaimini.cpp:206
+msgid "Stronger Planets"
+msgstr "Stronger Planets"
+
+#: src/jyotish/Jaimini.cpp:208
+msgid "Pair"
+msgstr "Pair"
+
+#: src/jyotish/Jaimini.cpp:209
+msgid "Stronger"
+msgstr "Stronger"
+
+#: src/jyotish/Jaimini.cpp:210
+msgid "Rahu/Saturn"
+msgstr "Rahu/Saturn"
+
+#: src/jyotish/Jaimini.cpp:211
+msgid "Ketu/Mars"
+msgstr "Ketu/Mars"
+
+#: src/jyotish/Jaimini.cpp:219
+msgid "Arudha Padas"
+msgstr "Arudha Padas"
+
+#: src/jyotish/Jaimini.cpp:231 src/jyotish/Jaimini.cpp:234
+msgid "Years"
+msgstr "Years"
+
+#: src/jyotish/KalachakraDasa.cpp:209
+#, c-format
+msgid "Paramayus %d years, %s Deha, %s Jeeva, Amsa %s, %s"
+msgstr "Paramayus %d years, %s Deha, %s Jeeva, Amsa %s, %s"
+
+#: src/jyotish/KalachakraDasa.cpp:211
+msgid "Savya"
+msgstr "Savya"
+
+#: src/jyotish/KalachakraDasa.cpp:211
+msgid "Apsavya"
+msgstr "Apsavya"
+
+#: src/jyotish/Nakshatra.cpp:187 src/jyotish/Partner.cpp:245
+#: src/jyotish/Partner.cpp:293 src/jyotish/Partner.cpp:317
+#: src/jyotish/TextHelper.cpp:893
+msgid "Yoni"
+msgstr "Yoni"
+
+#: src/jyotish/Nakshatra.cpp:188 src/jyotish/Partner.cpp:255
+#: src/jyotish/Partner.cpp:296 src/jyotish/Partner.cpp:320
+#: src/jyotish/TextHelper.cpp:896
+msgid "Gana"
+msgstr "Gana"
+
+#: src/jyotish/Nakshatra.cpp:189 src/jyotish/Partner.cpp:265
+#: src/jyotish/Partner.cpp:299 src/jyotish/Partner.cpp:323
+#: src/jyotish/TextHelper.cpp:899
+msgid "Nadi"
+msgstr "Nadi"
+
+#: src/jyotish/Nakshatra.cpp:190 src/jyotish/Partner.cpp:240
+msgid "Tara"
+msgstr "Tara"
+
+#: src/jyotish/Nakshatra.cpp:297
+msgid "Karmaksha"
+msgstr "Karmaksha"
+
+#: src/jyotish/Nakshatra.cpp:297
+msgid "Sanghatika"
+msgstr "Sanghatika"
+
+#: src/jyotish/Nakshatra.cpp:298
+msgid "Samudayika"
+msgstr "Samudayika"
+
+#: src/jyotish/Nakshatra.cpp:298
+msgid "Adhana"
+msgstr "Adhana"
+
+#: src/jyotish/Nakshatra.cpp:298
+msgid "Vinasana"
+msgstr "Vinasana"
+
+#: src/jyotish/Nakshatra.cpp:298
+msgid "Jati"
+msgstr "Jati"
+
+#: src/jyotish/Nakshatra.cpp:298
+msgid "Desa"
+msgstr "Desa"
+
+#: src/jyotish/Nakshatra.cpp:298
+msgid "Abhisheka"
+msgstr "Abhisheka"
+
+#: src/jyotish/Partner.cpp:220 src/jyotish/Partner.cpp:279
+msgid "Groom"
+msgstr "Groom"
+
+#: src/jyotish/Partner.cpp:222 src/jyotish/Partner.cpp:304
+msgid "Bride"
+msgstr "Bride"
+
+#: src/jyotish/Partner.cpp:227 src/jyotish/Partner.cpp:283
+#: src/jyotish/Partner.cpp:308 src/jyotish/TextHelper.cpp:885
+#: src/jyotish/TextHelper.cpp:905
+msgid "Quality"
+msgstr "Quality"
+
+#: src/jyotish/Partner.cpp:228
+msgid "Points"
+msgstr "Points"
+
+#: src/jyotish/Partner.cpp:230 src/jyotish/Partner.cpp:290
+#: src/jyotish/Partner.cpp:314 src/jyotish/TextHelper.cpp:890
+msgid "Varna"
+msgstr "Varna"
+
+#: src/jyotish/Partner.cpp:235
+msgid "Vashya"
+msgstr "Vashya"
+
+#: src/jyotish/Partner.cpp:250
+msgid "Graha Maitri"
+msgstr "Graha Maitri"
+
+#: src/jyotish/Partner.cpp:260
+msgid "Bhakoota"
+msgstr "Bhakoota"
+
+#: src/jyotish/Partner.cpp:284 src/jyotish/Partner.cpp:309
+#: src/jyotish/TextHelper.cpp:670 src/jyotish/TextHelper.cpp:886
+#: src/jyotish/TextHelper.cpp:906
+msgid "Value"
+msgstr "Value"
+
+#: src/jyotish/PrintoutHelper.cpp:100 src/jyotish/PrintoutHelper.cpp:107
+#: src/jyotish/TextHelper.cpp:575
+msgid "UT"
+msgstr "UT"
+
+#: src/jyotish/PrintoutHelper.cpp:250 src/jyotish/TextHelper.cpp:301
+msgid "D-9"
+msgstr ""
+
+#: src/jyotish/PrintoutHelper.cpp:287
+msgid "Naks"
+msgstr "Naks"
+
+#: src/jyotish/PrintoutHelper.cpp:288 src/jyotish/PrintoutHelper.cpp:293
+msgid "L"
+msgstr "L"
+
+#: src/jyotish/PrintoutHelper.cpp:289 src/jyotish/PrintoutHelper.cpp:294
+msgid "SL"
+msgstr ""
+
+#: src/jyotish/PrintoutHelper.cpp:290 src/jyotish/PrintoutHelper.cpp:295
+msgid "SSL"
+msgstr ""
+
+#: src/jyotish/PrintoutHelper.cpp:292 src/jyotish/TextHelper.cpp:700
+msgid "Cusp"
+msgstr "Cusp"
+
+#: src/jyotish/TextHelper.cpp:130
+msgid "Aspectarium"
+msgstr "Aspectarium"
+
+#: src/jyotish/TextHelper.cpp:298 src/jyotish/TextHelper.cpp:484
+msgid "Declination"
+msgstr "Declination"
+
+#: src/jyotish/TextHelper.cpp:303 src/jyotish/TextHelper.cpp:916
+msgid "Pada"
+msgstr "Pada"
+
+#: src/jyotish/TextHelper.cpp:306 src/jyotish/TextHelper.cpp:771
+msgid "KP Lord"
+msgstr "KP Lord"
+
+#: src/jyotish/TextHelper.cpp:308 src/jyotish/TextHelper.cpp:773
+#, fuzzy
+msgid "Subsublord"
+msgstr "Sublord"
+
+#: src/jyotish/TextHelper.cpp:310 src/jyotish/Varga.cpp:78
+msgid "Shastiamsa"
+msgstr "Shastiamsa"
+
+#: src/jyotish/TextHelper.cpp:575 src/jyotish/TextHelper.cpp:579
+msgid "Hours"
+msgstr "Hours"
+
+#: src/jyotish/TextHelper.cpp:588
+msgid "Julian Date"
+msgstr "Julian Date"
+
+#: src/jyotish/TextHelper.cpp:592
+msgid "Vedic Ayanamsa"
+msgstr "Vedic Ayanamsa"
+
+#: src/jyotish/TextHelper.cpp:595 src/jyotish/TextHelper.cpp:601
+msgid "Ayanamsa Value"
+msgstr "Ayanamsa Value"
+
+#: src/jyotish/TextHelper.cpp:598
+msgid "Western Ayanamsa"
+msgstr "Western Ayanamsa"
+
+#: src/jyotish/TextHelper.cpp:607 src/jyotish/TextHelper.cpp:613
+msgid "n.a."
+msgstr ""
+
+#: src/jyotish/TextHelper.cpp:640
+msgid "Astronomical Positions"
+msgstr "Astronomical Positions"
+
+#: src/jyotish/TextHelper.cpp:644
+msgid "Latitute"
+msgstr "Latitute"
+
+#: src/jyotish/TextHelper.cpp:645
+msgid "Speed (deg/day)"
+msgstr ""
+
+#: src/jyotish/TextHelper.cpp:697
+msgid "Bhavas"
+msgstr "Bhavas"
+
+#: src/jyotish/TextHelper.cpp:701
+msgid "Sandhi"
+msgstr "Sandhi"
+
+#: src/jyotish/TextHelper.cpp:715
+msgid "Planets in Bhavas"
+msgstr "Planets in Bhavas"
+
+#: src/jyotish/TextHelper.cpp:749
+msgid "Not supported"
+msgstr "Not supported"
+
+#: src/jyotish/TextHelper.cpp:769
+msgid "Sign Lord"
+msgstr "Sign Lord"
+
+#: src/jyotish/TextHelper.cpp:856 src/jyotish/Varga.cpp:75
+msgid "Navamsa"
+msgstr "Navamsa"
+
+#: src/jyotish/TextHelper.cpp:883
+msgid "Qualities"
+msgstr "Qualities"
+
+#: src/jyotish/TextHelper.cpp:903
+msgid "Moon's Nakshatra and Pada Portions"
+msgstr "Moon's Nakshatra and Pada Portions"
+
+#: src/jyotish/TextHelper.cpp:907
+msgid "Value (Percent)"
+msgstr "Value (Percent)"
+
+#: src/jyotish/Transit.cpp:231
+msgid "Event date"
+msgstr "Event date"
+
+#: src/jyotish/Transit.cpp:251
+msgid "Arc"
+msgstr "Arc"
+
+#: src/jyotish/Transit.cpp:261
+msgid "Circle"
+msgstr "Circle"
+
+#: src/jyotish/Transit.cpp:261
+msgid "degrees"
+msgstr "degrees"
+
+#: src/jyotish/Uranian.cpp:94
+msgid "Minutes"
+msgstr "Minutes"
+
+#: src/jyotish/Uranian.cpp:111
+msgid "Uranian Partner Analysis"
+msgstr "Uranian Partner Analysis"
+
+#: src/jyotish/Uranian.cpp:114
+msgid "Partner1"
+msgstr "Partner1"
+
+#: src/jyotish/Uranian.cpp:120
+msgid "Partner2"
+msgstr "Partner2"
+
+#: src/jyotish/Uranian.cpp:264
+msgid "Yearly Preview for Solar Chart"
+msgstr "Yearly Preview for Solar Chart"
+
+#: src/jyotish/UranianHelper.cpp:297
+msgid "Midpoints"
+msgstr "Midpoints"
+
+#: src/jyotish/UranianHelper.cpp:300 src/jyotish/UranianHelper.cpp:323
+#: src/jyotish/UranianHelper.cpp:344
+msgid "Conjunctions"
+msgstr "Conjunctions"
+
+#: src/jyotish/UranianHelper.cpp:303
+msgid "Midpoint Events"
+msgstr "Midpoint Events"
+
+#: src/jyotish/UranianHelper.cpp:320
+#, c-format
+msgid "Midpoints (%s)"
+msgstr "Midpoints (%s)"
+
+#: src/jyotish/UranianHelper.cpp:326
+#, c-format
+msgid "Planets of %s in Midpoints of %s"
+msgstr ""
+
+#: src/jyotish/UranianHelper.cpp:346
+msgid "Running Planets in Radix Midpoints"
+msgstr ""
+
+#: src/jyotish/UranianHelper.cpp:368
+msgid "Radix"
+msgstr "Radix"
+
+#: src/jyotish/UranianHelper.cpp:465 src/jyotish/UranianHelper.cpp:592
+#: src/jyotish/UranianHelper.cpp:684
+msgid "No events found."
+msgstr ""
+
+#: src/jyotish/UranianHelper.cpp:475 src/jyotish/UranianHelper.cpp:512
+#: src/jyotish/UranianHelper.cpp:516 src/jyotish/UranianHelper.cpp:520
+#: src/jyotish/UranianHelper.cpp:524 src/jyotish/UranianHelper.cpp:602
+#: src/jyotish/UranianHelper.cpp:606 src/jyotish/UranianHelper.cpp:610
+#: src/jyotish/UranianHelper.cpp:614
+msgid "Event"
+msgstr "Event"
+
+#: src/jyotish/Varga.cpp:75
+msgid "Sastamsa"
+msgstr ""
+
+#: src/jyotish/Varga.cpp:76
+msgid "Saptamamsa"
+msgstr "Saptamamsa"
+
+#: src/jyotish/Varga.cpp:76
+msgid "Ashtamsa"
+msgstr "Ashtamsa"
+
+#: src/jyotish/Varga.cpp:76
+msgid "Dasamsa"
+msgstr "Dasamsa"
+
+#: src/jyotish/Varga.cpp:76
+msgid "Dvadasamsa"
+msgstr "Dvadasamsa"
+
+#: src/jyotish/Varga.cpp:76
+msgid "Shodasamsa"
+msgstr "Shodasamsa"
+
+#: src/jyotish/Varga.cpp:77
+msgid "Vimsamsa"
+msgstr "Vimsamsa"
+
+#: src/jyotish/Varga.cpp:77
+msgid "Siddhamsa"
+msgstr "Siddhamsa"
+
+#: src/jyotish/Varga.cpp:77
+msgid "Bhamsa"
+msgstr "Bhamsa"
+
+#: src/jyotish/Varga.cpp:77
+msgid "Trimsamsa"
+msgstr "Trimsamsa"
+
+#: src/jyotish/Varga.cpp:78
+msgid "Chatvarimsamsa"
+msgstr "Chatvarimsamsa"
+
+#: src/jyotish/Varga.cpp:78
+msgid "Akshavedamsa"
+msgstr "Akshavedamsa"
+
+#: src/jyotish/Varga.cpp:79
+msgid "Ashtottaramsa"
+msgstr "Ashtottaramsa"
+
+#: src/jyotish/Varga.cpp:79
+msgid "Dvadas-Davadamsa"
+msgstr "Dvadas-Davadamsa"
+
+#: src/jyotish/Varga.cpp:417
+msgid "Varga Viswa"
+msgstr "Varga Viswa"
+
+#: src/jyotish/Varga.cpp:439
+msgid "V-6"
+msgstr ""
+
+#: src/jyotish/Varga.cpp:440 src/jyotish/Varga.cpp:443
+#: src/jyotish/Varga.cpp:446 src/jyotish/Varga.cpp:449
+msgid "Own Vargas"
+msgstr "Own Vargas"
+
+#: src/jyotish/Varga.cpp:442
+msgid "V-7"
+msgstr ""
+
+#: src/jyotish/Varga.cpp:445
+msgid "V-10"
+msgstr ""
+
+#: src/jyotish/Varga.cpp:448
+msgid "V-16"
+msgstr ""
+
+#: src/jyotish/Varga.cpp:452
+msgid "Percent"
+msgstr "Percent"
+
+#: src/jyotish/Writer.cpp:268
+msgid "D"
+msgstr ""
+
+#: src/jyotish/Yoga.cpp:161
+msgid "Rule successfully parsed"
+msgstr ""
+
+#: src/jyotish/Yoga.cpp:259
+msgid "No matching Yogas found."
+msgstr ""
+
+#~ msgid "Restart of the application is recommended."
+#~ msgstr "Restart of the application is recommended."
+
+#, fuzzy
+#~ msgid "Ratio (Percent)"
+#~ msgstr "Value (Percent)"
+
+#, fuzzy
+#~ msgid "Dig"
+#~ msgstr "శ్వాన"
+
+#, fuzzy
+#~ msgid "Cheshta"
+#~ msgstr "கேட்டை"
+
+#, fuzzy
+#~ msgid "Saptavargaja"
+#~ msgstr "Sapta Varga"
+
+#, fuzzy
+#~ msgid "Saptavargaja Summary"
+#~ msgstr "Varga Summary View"
+
+#, fuzzy
+#~ msgid "Paksha"
+#~ msgstr "Yaksha"
+
+#, fuzzy
+#~ msgid "Ayana"
+#~ msgstr "Ayanamsa"
+
+#, fuzzy
+#~ msgid "Saptavargaja Bala"
+#~ msgstr "Sapta Varga"
+
+#, fuzzy
+#~ msgid "Kala Bala"
+#~ msgstr "Kala Vela"
+
+#, fuzzy
+#~ msgid "Summary"
+#~ msgstr "Midpoint Summary"
+
+#, fuzzy
+#~ msgid "Shadbala"
+#~ msgstr "షడ్వర్గ"
+
+#, fuzzy
+#~ msgid "Manda"
+#~ msgstr "மாந்தி"
+
+#, fuzzy
+#~ msgid "Chara"
+#~ msgstr "Chart"
+
+#, fuzzy
+#~ msgid "Stana"
+#~ msgstr "Standard"
+
+#, fuzzy
+#~ msgid "Strength (Percent)"
+#~ msgstr "Value (Percent)"
+
+#, fuzzy
+#~ msgid "Total Rupas"
+#~ msgstr "Total"
+
+#, fuzzy
+#~ msgid "Lord of year: %s"
+#~ msgstr "Lord of the year"
+
+#, fuzzy
+#~ msgid "Lord of month: %s"
+#~ msgstr "Lord of the month"
+
+#, fuzzy
+#~ msgid "Lord of day: %s"
+#~ msgstr "Lord of the day"
+
+#, fuzzy
+#~ msgid "Lord of hour: %s"
+#~ msgstr "Lord of cusp"
+
+#, fuzzy
+#~ msgid "Medium Speed"
+#~ msgstr "Medium"
+
+#, fuzzy
+#~ msgid "Ratio"
+#~ msgstr "రేవతి"
+
+#, fuzzy
+#~ msgid "Sum"
+#~ msgstr "சூரியன்"
+
+#~ msgid "Use Colors"
+#~ msgstr "Use Colors"
+
+#~ msgid "Longitude field invalid"
+#~ msgstr "Longitude field invalid"
+
+#~ msgid "Latitude field invalid"
+#~ msgstr "Latitude field invalid"
+
+#~ msgid "HH"
+#~ msgstr "HH"
+
+#~ msgid "Sign Colors"
+#~ msgstr "Sign Colors"
+
+#~ msgid "House Colors"
+#~ msgstr "House Colors"
+
+#~ msgid "Mean Node"
+#~ msgstr "Mean Node"
+
+#~ msgid "True Node"
+#~ msgstr "True Node"
+
+#~ msgid "type"
+#~ msgstr "type"
+
+#~ msgid "start"
+#~ msgstr "start"
+
+#~ msgid "end"
+#~ msgstr "end"
+
+#~ msgid "duration"
+#~ msgstr "duration"
+
+#~ msgid "Location Database"
+#~ msgstr "Location Database"
+
+#~ msgid "Orbis (deg)"
+#~ msgstr "Orbis (deg)"
+
+#~ msgid "Revert"
+#~ msgstr "Revert"
+
+#~ msgid "Revert changes"
+#~ msgstr "Revert changes"
+
+#~ msgid "Geographical Data"
+#~ msgstr "Geographical Data"
+
+#~ msgid "Location Dialog"
+#~ msgstr "Location Dialog"
+
+#~ msgid "Loading Data ..."
+#~ msgstr "Loading Data ..."
+
+#~ msgid "Data"
+#~ msgstr "Data"
+
+#~ msgid "Apply Filter"
+#~ msgstr "Apply Filter"
+
+#~ msgid "Reset Filter"
+#~ msgstr "Reset Filter"
+
+#~ msgid "Add to List"
+#~ msgstr "Add to List"
+
+#~ msgid "Delete From List"
+#~ msgstr "Delete From List"
+
+#~ msgid "0 Entries match"
+#~ msgstr "0 Entries match"
+
+#~ msgid "name"
+#~ msgstr "name"
+
+#~ msgid "country"
+#~ msgstr "country"
+
+#~ msgid "state"
+#~ msgstr "state"
+
+#~ msgid "longitude"
+#~ msgstr "longitude"
+
+#~ msgid "latitude"
+#~ msgstr "latitude"
+
+#~ msgid "Edit"
+#~ msgstr "Edit"
+
+#~ msgid "Save DB"
+#~ msgstr "Save DB"
+
+#~ msgid "New Location"
+#~ msgstr "New Location"
+
+#~ msgid "The database has changed. Do you want to save it ?"
+#~ msgstr "The database has changed. Do you want to save it ?"
+
+#~ msgid "Select the country you want to add to the list."
+#~ msgstr "Select the country you want to add to the list."
+
+#~ msgid "Select the country you want to delete."
+#~ msgstr "Select the country you want to delete."
+
+#~ msgid "TZ"
+#~ msgstr "TZ"
+
+#~ msgid "Edit Location"
+#~ msgstr "Edit Location"
+
+#~ msgid "Start: %s"
+#~ msgstr "Start: %s"
+
+#~ msgid "End: %s"
+#~ msgstr "End: %s"
+
+#~ msgid "Duration: %s"
+#~ msgstr "Duration: %s"
+
+#~ msgid ""
+#~ "Cannot launch pdf viewer. Do you have a pdf viewer (e.g. Acrobat Reader) "
+#~ "installed?"
+#~ msgstr ""
+#~ "Cannot launch pdf viewer. Do you have a pdf viewer (e.g. Acrobat Reader) "
+#~ "installed?"
+
+#~ msgid "KP Sublord"
+#~ msgstr "KP Sublord"
+
+#, fuzzy
+#~ msgid "H"
+#~ msgstr "గం"
+
+#, fuzzy
+#~ msgid "Krishnamurti Lord"
+#~ msgstr "కృష్ణమూర్తి అదిపతులు"
+
+#, fuzzy
+#~ msgid "Do you want to save the data?"
+#~ msgstr "ఫైల్ ను సేవ్ చేయమంటారా?"
+
+#, fuzzy
+#~ msgid "Copy Text"
+#~ msgstr "నఖలు"
+
+#, fuzzy
+#~ msgid "Select All"
+#~ msgstr "మొత్తము ఎంచు"
+
+#~ msgid "Location: "
+#~ msgstr "స్థలం"
+
+#, fuzzy
+#~ msgid "&OK"
+#~ msgstr "సరే"
+
+#, fuzzy
+#~ msgid "&Restore Defaults"
+#~ msgstr "డిఫాల్ట్ ప్రదేశంగా ఉంచు"
+
+#, fuzzy
+#~ msgid "&Apply"
+#~ msgstr "అమలు"
+
+#, fuzzy
+#~ msgid "&Cancel"
+#~ msgstr "రద్దు"
+
+#, fuzzy
+#~ msgid "&Now"
+#~ msgstr "ఇప్పుడు"
+
+#, fuzzy
+#~ msgid "&Default Location"
+#~ msgstr "డిఫాల్ట్ ప్రదేశం"
+
+#, fuzzy
+#~ msgid "&Local Time"
+#~ msgstr "స్థానిక సమయం"
+
+#~ msgid "&New"
+#~ msgstr "కొత్త జాతకం"
+
+#, fuzzy
+#~ msgid "C&hoose ..."
+#~ msgstr "ఎంచు..."
+
+#, fuzzy
+#~ msgid "Other Benefics"
+#~ msgstr "శుభ గ్రహములు"
+
+#, fuzzy
+#~ msgid "Choose Benefics"
+#~ msgstr "శుభ గ్రహములు"
+
+#~ msgid ""
+#~ "PNG (*.png)|*.png|JPG (*.jpg)|*.jpg|Bitmap (*.bmp)|*.bmp|PCX (*pcx)|*pcx|"
+#~ "PNM (*.pnm)|*.pnm|TIFF (*.tif)|*.tif|All files (*)| *.*"
+#~ msgstr ""
+#~ "PNG (*.png)|*.png|JPG (*.jpg)|*.jpg|Bitmap (*.bmp)|*.bmp|PCX (*pcx)|*pcx|"
+#~ "PNM (*.pnm)|*.pnm|TIFF (*.tif)|*.tif|All files (*)| *.*"
+
+#~ msgid "&Varga"
+#~ msgstr "వర్గ"
+
+#, fuzzy
+#~ msgid "Vedic Aspects"
+#~ msgstr "వీక్షణలు"
+
+#~ msgid "Shula"
+#~ msgstr "శూల"
+
+#~ msgid "Shula 3/9"
+#~ msgstr "శూల 3/9"
+
+#~ msgid "Shula 4/10"
+#~ msgstr "శూల 4/10"
+
+#~ msgid "Shula 5/11"
+#~ msgstr "శూల 5/11"
+
+#, fuzzy
+#~ msgid "Midpoint Analysis"
+#~ msgstr "మధ్య బిందువులు"
+
+#, fuzzy
+#~ msgid "Graphic Format"
+#~ msgstr "చిత్రాత్మక"

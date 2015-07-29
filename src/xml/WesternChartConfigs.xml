@@ -1,0 +1,493 @@
+<?xml version="1.0"?>
+<!DOCTYPE WesternChartConfigs SYSTEM "WesternChartConfigs.dtd">
+<WesternChartConfigs>
+    <Config Name="Default">
+		</Config>
+
+    <Config Name="Default/Colored">
+        <Houses>
+            <UseStockBrushList>True</UseStockBrushList>
+        </Houses>
+        <ZodiacalSigns>
+            <UseStockBrushList>True</UseStockBrushList>
+        </ZodiacalSigns>
+		</Config>
+
+    <Config Name="Big Signs">
+        <OuterZodiac>
+            <Radius>92</Radius>
+        </OuterZodiac>
+        <Zodiac>
+            <Radius>69</Radius>
+        </Zodiac>
+        <Zodiac1Degree>
+            <Radius>71</Radius>
+        </Zodiac1Degree>
+        <Zodiac5Degree>
+            <Radius>73</Radius>
+        </Zodiac5Degree>
+        <ZodiacSymbols>
+            <Radius>84</Radius>
+        </ZodiacSymbols>
+        <Planets>
+            <Radius>62</Radius>
+        </Planets>
+        <Aspects>
+            <Radius>40</Radius>
+        </Aspects>
+        <InnerHouse>
+            <Radius>40</Radius>
+        </InnerHouse>
+        <OuterHouse>
+            <Radius>69</Radius>
+        </OuterHouse>
+
+				<InnerTransitZodiac>
+						<Radius>40</Radius>
+				</InnerTransitZodiac>
+				<InnerTransitZodiac1Degree>
+						<Radius>42</Radius>
+				</InnerTransitZodiac1Degree>
+				<InnerTransitZodiac5Degree>
+						<Radius>44</Radius>
+				</InnerTransitZodiac5Degree>
+				<InnerTransitPlanets>
+						<Radius>48</Radius>
+				</InnerTransitPlanets>
+
+				<Angles>
+            <InnerCircle>
+                <Radius>40</Radius>
+            </InnerCircle>
+            <OuterCircle>
+                <Radius>97</Radius>
+            </OuterCircle>
+        </Angles>
+        <PlanetMarkerLength>2</PlanetMarkerLength>
+        <ZodiacalSigns>
+            <SymbolType>0</SymbolType>
+            <RotateSymbols>True</RotateSymbols>
+            <SymbolZoomFactor>250</SymbolZoomFactor>
+        </ZodiacalSigns>
+    </Config>
+
+    <Config Name="Big Signs/Colored" Extends="Big Signs">
+        <Houses>
+            <UseStockBrushList>True</UseStockBrushList>
+            <GlobalTextColor>Grey</GlobalTextColor>
+        </Houses>
+        <ZodiacalSigns>
+            <UseStockBrushList>True</UseStockBrushList>
+            <GlobalTextColor>White</GlobalTextColor>
+        </ZodiacalSigns>
+    </Config>
+
+    <Config Name="Big Signs 2" Extends="Big Signs">
+        <ZodiacalSigns>
+            <SymbolType>1</SymbolType>
+        </ZodiacalSigns>
+    </Config>
+
+    <Config Name="Big Signs 2/Colored" Extends="Big Signs 2">
+        <ZodiacalSigns>
+            <SymbolType>1</SymbolType>
+        </ZodiacalSigns>
+        <Houses>
+            <UseStockBrushList>True</UseStockBrushList>
+            <GlobalTextColor>Grey</GlobalTextColor>
+        </Houses>
+        <ZodiacalSigns>
+            <UseStockBrushList>True</UseStockBrushList>
+            <GlobalTextColor>White</GlobalTextColor>
+        </ZodiacalSigns>
+    </Config>
+
+    <Config Name="Houses Outside">
+        <Zodiac>
+            <Radius>72</Radius>
+        </Zodiac>
+        <ZodiacSymbols>
+            <Radius>76</Radius>
+        </ZodiacSymbols>
+        <Zodiac1Degree>
+            <Radius>74</Radius>
+        </Zodiac1Degree>
+        <Zodiac5Degree>
+            <Radius>76</Radius>
+        </Zodiac5Degree>
+        <OuterZodiac>
+            <Radius>85</Radius>
+        </OuterZodiac>
+        <InnerHouse>
+            <Radius>85</Radius>
+        </InnerHouse>
+        <ZodiacSymbols>
+            <Radius>80</Radius>
+        </ZodiacSymbols>
+        <OuterHouse>
+            <Radius>93</Radius>
+        </OuterHouse>
+        <Planets>
+            <Radius>65</Radius>
+        </Planets>
+        <Aspects>
+            <Radius>50</Radius>
+        </Aspects>
+        <Angles>
+            <InnerCircle>
+                <Radius>50</Radius>
+            </InnerCircle>
+            <OuterCircle>
+                <Radius>97</Radius>
+            </OuterCircle>
+        </Angles>
+    </Config>
+
+    <Config Name="Houses Outside/Colored" Extends="Houses Outside">
+        <Houses>
+            <UseStockBrushList>True</UseStockBrushList>
+            <GlobalTextColor>Grey</GlobalTextColor>
+        </Houses>
+        <ZodiacalSigns>
+            <UseStockBrushList>True</UseStockBrushList>
+            <GlobalTextColor>White</GlobalTextColor>
+        </ZodiacalSigns>
+    </Config>
+
+    <Config Name="Astrolog">
+        <Brush>
+            <Color>black</Color>
+            <Style>wxSOLID</Style>
+        </Brush>
+        <Pen>
+            <Color>white</Color>
+            <Linewidth>2</Linewidth>
+            <Style>wxSOLID</Style>
+        </Pen>
+        <WidgetBackground>
+            <Brush>
+                <Color>black</Color>
+                <Style>wxSOLID</Style>
+            </Brush>
+        </WidgetBackground>
+
+        <ZodiacSymbols>
+            <Radius>87</Radius>
+        </ZodiacSymbols>
+        <Zodiac1Degree>
+            <Radius>81</Radius>
+        </Zodiac1Degree>
+        <Zodiac5Degree>
+            <Radius>83</Radius>
+        </Zodiac5Degree>
+        <OuterZodiac>
+            <Radius>92</Radius>
+        </OuterZodiac>
+        <Planets>
+            <Radius>73</Radius>
+        </Planets>
+        <Aspects>
+            <Radius>40</Radius>
+        </Aspects>
+        <InnerHouse>
+            <Radius>40</Radius>
+        </InnerHouse>
+        <OuterHouse>
+            <Radius>79</Radius>
+        </OuterHouse>
+
+        <Angles>
+            <InnerCircle>
+                <Radius>40</Radius>
+            </InnerCircle>
+            <OuterCircle>
+                <Radius>97</Radius>
+            </OuterCircle>
+        </Angles>
+
+				<InnerTransitZodiac>
+						<Radius>40</Radius>
+				</InnerTransitZodiac>
+				<InnerTransitZodiac1Degree>
+						<Radius>42</Radius>
+				</InnerTransitZodiac1Degree>
+				<InnerTransitZodiac5Degree>
+						<Radius>44</Radius>
+				</InnerTransitZodiac5Degree>
+
+				<InnerTransitPlanets>
+						<Radius>48</Radius>
+				</InnerTransitPlanets>
+        <PlanetMarkerLength>2</PlanetMarkerLength>
+    </Config>
+
+    <Config Name="Yellow">
+        <WidgetBackground>
+            <Brush>
+                <Color>black</Color>
+                <Style>wxSOLID</Style>
+            </Brush>
+        </WidgetBackground>
+        <Pen>
+            <Color>yellow</Color>
+            <Linewidth>2</Linewidth>
+            <Style>wxSOLID</Style>
+        </Pen>
+        <OuterZodiac>
+            <Radius>92</Radius>
+            <Pen>
+                <Color>Yellow</Color>
+                <Linewidth>5</Linewidth>
+            </Pen>
+        </OuterZodiac>
+        <ZodiacSymbols>
+            <Radius>87</Radius>
+            <Pen>
+                <Color>Yellow</Color>
+                <Linewidth>5</Linewidth>
+            </Pen>
+        </ZodiacSymbols>
+        <InnerHouse>
+            <Radius>40</Radius>
+            <Pen>
+                <Color>Yellow</Color>
+                <Linewidth>2</Linewidth>
+            </Pen>
+        </InnerHouse>
+        <Aspects>
+            <Radius>40</Radius>
+        </Aspects>
+        <Angles>
+            <InnerCircle>
+                <Radius>40</Radius>
+            </InnerCircle>
+            <OuterCircle>
+                <Radius>97</Radius>
+            </OuterCircle>
+        </Angles>
+
+				<InnerTransitZodiac>
+						<Radius>40</Radius>
+				</InnerTransitZodiac>
+				<InnerTransitZodiac1Degree>
+						<Radius>42</Radius>
+				</InnerTransitZodiac1Degree>
+				<InnerTransitZodiac5Degree>
+						<Radius>44</Radius>
+				</InnerTransitZodiac5Degree>
+				<InnerTransitPlanets>
+						<Radius>48</Radius>
+				</InnerTransitPlanets>
+    </Config>
+
+    <Config Name="Madera/transparent" Description="A walnut-like theme">
+        <WidgetBackground>
+            <Brush>
+                <Style>wxSTIPPLE</Style>
+                <Inputfile>madera.jpg</Inputfile>
+            </Brush>
+        </WidgetBackground>
+    </Config>
+
+    <Config Name="Mardera/colored signs and houses">
+        <WidgetBackground>
+            <Brush>
+                <Style>wxSTIPPLE</Style>
+                <Inputfile>madera.jpg</Inputfile>
+            </Brush>
+        </WidgetBackground>
+        <ZodiacalSigns>
+            <BrushSequence>
+							<Brush>
+								<Inputfile>madera.jpg</Inputfile>
+								<RotateHue>330</RotateHue>
+							</Brush>
+							<Brush>
+								<Inputfile>madera.jpg</Inputfile>
+								<RotateHue>15</RotateHue>
+							</Brush>
+							<Brush>
+								<Inputfile>madera.jpg</Inputfile>
+								<RotateHue>60</RotateHue>
+							</Brush>
+							<Brush>
+								<Inputfile>madera.jpg</Inputfile>
+								<RotateHue>150</RotateHue>
+							</Brush>
+            </BrushSequence>
+            <GlobalTextColor>black</GlobalTextColor>
+        </ZodiacalSigns>
+        <Houses>
+            <BrushSequence>
+							<Brush>
+								<Inputfile>madera.jpg</Inputfile>
+								<RotateHue>330</RotateHue>
+							</Brush>
+							<Brush>
+								<Inputfile>madera.jpg</Inputfile>
+								<RotateHue>15</RotateHue>
+							</Brush>
+							<Brush>
+								<Inputfile>madera.jpg</Inputfile>
+								<RotateHue>60</RotateHue>
+							</Brush>
+							<Brush>
+								<Inputfile>madera.jpg</Inputfile>
+								<RotateHue>150</RotateHue>
+							</Brush>
+            </BrushSequence>
+            <GlobalTextColor>black</GlobalTextColor>
+        </Houses>
+    </Config>
+
+    <Config Name="Marble">
+        <WidgetBackground>
+            <Brush>
+                <Style>wxSTIPPLE</Style>
+                <Inputfile>marble.jpg</Inputfile>
+            </Brush>
+        </WidgetBackground>
+    </Config>
+
+  <Config Name="Marble/Colored signs" extends="Marble">
+		<ZodiacalSigns>
+			<BrushSequence>
+				<Brush>
+					<Inputfile>marble.jpg</Inputfile>
+					<RotateHue>330</RotateHue>
+				</Brush>
+				<Brush>
+					<Inputfile>marble.jpg</Inputfile>
+					<RotateHue>15</RotateHue>
+				</Brush>
+				<Brush>
+					<Inputfile>marble.jpg</Inputfile>
+					<RotateHue>60</RotateHue>
+				</Brush>
+				<Brush>
+					<Inputfile>marble.jpg</Inputfile>
+					<RotateHue>150</RotateHue>
+				</Brush>
+			</BrushSequence>
+		</ZodiacalSigns>
+			<Houses>
+					<BrushSequence>
+						<Brush>
+							<Inputfile>marble.jpg</Inputfile>
+							<RotateHue>330</RotateHue>
+						</Brush>
+						<Brush>
+							<Inputfile>marble.jpg</Inputfile>
+							<RotateHue>15</RotateHue>
+						</Brush>
+						<Brush>
+							<Inputfile>marble.jpg</Inputfile>
+							<RotateHue>60</RotateHue>
+						</Brush>
+						<Brush>
+							<Inputfile>marble.jpg</Inputfile>
+							<RotateHue>150</RotateHue>
+						</Brush>
+					</BrushSequence>
+					<GlobalTextColor>black</GlobalTextColor>
+			</Houses>
+		</Config>
+
+    <Config Name="Stars" Description="">
+        <WidgetBackground>
+            <Brush>
+                <Style>wxSTIPPLE</Style>
+                <Inputfile>stars.jpg</Inputfile>
+            </Brush>
+        </WidgetBackground>
+        <Pen>
+            <Color>yellow</Color>
+        </Pen>
+    </Config>
+
+    <Config Name="Cross hatch">
+        <Houses>
+            <UseStockBrushList>True</UseStockBrushList>
+            <GlobalTextColor>Grey</GlobalTextColor>
+        </Houses>
+        <ZodiacalSigns>
+            <UseStockBrushList>True</UseStockBrushList>
+            <GlobalTextColor>White</GlobalTextColor>
+        </ZodiacalSigns>
+        <Aspects>
+            <Radius>50</Radius>
+            <Brush>
+                <Style>wxCROSS_HATCH</Style>
+                <Color>Grey</Color>
+            </Brush>
+        </Aspects>
+    </Config>
+
+    <Config Name="Very Large sign" Extends="Big Signs">
+        <OuterZodiac>
+            <Radius>250</Radius>
+        </OuterZodiac>
+        <ZodiacalSigns>
+            <UseStockBrushList>True</UseStockBrushList>
+        </ZodiacalSigns>
+        <Houses>
+            <UseStockBrushList>True</UseStockBrushList>
+        </Houses>
+        <Aspects>
+            <Brush>
+                <Color>black</Color>
+                <Style>wxCROSSDIAG_HATCH</Style>
+            </Brush>
+        </Aspects>
+    </Config>
+
+    <Config Name="Ellipse">
+        <FrameType>Ellipse</FrameType>
+    </Config>
+
+    <Config Name="Ellipse/colored">
+        <FrameType>Ellipse</FrameType>
+        <Houses>
+            <UseStockBrushList>True</UseStockBrushList>
+            <GlobalTextColor>Grey</GlobalTextColor>
+        </Houses>
+        <ZodiacalSigns>
+            <UseStockBrushList>True</UseStockBrushList>
+            <GlobalTextColor>White</GlobalTextColor>
+        </ZodiacalSigns>
+    </Config>
+
+    <Config Name="Square">
+        <FrameType>Square</FrameType>
+    </Config>
+
+    <Config Name="Square/colored">
+        <FrameType>Square</FrameType>
+        <Houses>
+            <UseStockBrushList>True</UseStockBrushList>
+            <GlobalTextColor>Grey</GlobalTextColor>
+        </Houses>
+        <ZodiacalSigns>
+            <UseStockBrushList>True</UseStockBrushList>
+            <GlobalTextColor>White</GlobalTextColor>
+        </ZodiacalSigns>
+    </Config>
+
+    <Config Name="Rectangle">
+        <FrameType>Rectangle</FrameType>
+    </Config>
+
+    <Config Name="Rectangle/colored">
+        <FrameType>Rectangle</FrameType>
+        <Houses>
+            <UseStockBrushList>True</UseStockBrushList>
+            <GlobalTextColor>Grey</GlobalTextColor>
+        </Houses>
+        <ZodiacalSigns>
+            <UseStockBrushList>True</UseStockBrushList>
+            <GlobalTextColor>White</GlobalTextColor>
+        </ZodiacalSigns>
+    </Config>
+
+</WesternChartConfigs>
+

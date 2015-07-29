@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT MultipleViewConfigs (Config)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Config (Window)*>
+<!ATTLIST Config
+    Description CDATA #IMPLIED
+    Name CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Window (Notebook|Splitter)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Splitter (SashPos|Window2|Window1|SashPosPercent|SplitDirection)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT SplitDirection (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT SashPosPercent (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Window1 (Splitter|Widget)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Widget (ShowToolbar|TextMode|VargaList|ColCount|RowCount|Vedic|ViewType)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ViewType (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Vedic (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Window2 (Widget|Splitter)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT RowCount (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ColCount (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT VargaList (VargaItem)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT VargaItem (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Notebook (Page)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Page (Widget|Splitter|Name)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Name (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT SashPos (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT TextMode (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ShowToolbar (#PCDATA)>

@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<!DOCTYPE VedicChartConfigs SYSTEM "VedicChartConfigs.dtd">
+<VedicChartConfigs>
+  <Config Name="Default">
+  </Config>
+
+  <Config Name="Double Frame">
+		<OuterRectangle>
+			<DoubleOuterLine>True</DoubleOuterLine>
+		</OuterRectangle>
+  </Config>
+
+  <Config Name="Minimal/No Frame">
+		<OuterRectangle>
+			<Show>False</Show>
+		</OuterRectangle>
+  </Config>
+
+  <Config Name="Colored Signs">
+		<ZodiacalSigns>
+			<UseStockBrushList>True</UseStockBrushList>
+		</ZodiacalSigns>
+  </Config>
+
+  <Config Name="Colored/Red Style">
+		<ZodiacalSigns>
+			<BrushSequence>
+				<Brush>
+					<Style>wxSOLID</Style>
+					<Color>#de402b</Color>
+				</Brush>
+				<Brush>
+					<Style>wxSOLID</Style>
+					<Color>#eaaaa2</Color>
+				</Brush>
+			</BrushSequence>
+		</ZodiacalSigns>
+  </Config>
+
+  <Config Name="Yellow">
+		<WidgetBackground>
+			<Brush>
+				<Color>black</Color>
+				<Style>wxSOLID</Style>
+			</Brush>
+		</WidgetBackground>
+		<Brush>
+			<Color>black</Color>
+			<Style>wxSOLID</Style>
+		</Brush>
+		<Pen>
+			<Color>Yellow</Color>
+			<Linewidth>2</Linewidth>
+			<Style>wxSOLID</Style>
+		</Pen>
+		<OuterRectangle>
+			<Pen>
+				<Color>Yellow</Color>
+				<Linewidth>3</Linewidth>
+				<Style>wxSOLID</Style>
+			</Pen>
+			<DoubleOuterLine>False</DoubleOuterLine>
+		</OuterRectangle>
+    <MarkedFields>
+			<Brush>
+				<Style>wxCROSS_HATCH</Style>
+				<Color>#565656</Color>
+			</Brush>
+		</MarkedFields>
+  </Config>
+
+  <Config Name="Madera">
+		<WidgetBackground>
+			<Brush>
+				<Inputfile>madera.jpg</Inputfile>
+			</Brush>
+		</WidgetBackground>
+    <MarkedFields>
+			<Brush>
+					<Inputfile>madera.jpg</Inputfile>
+					<RotateHue>10</RotateHue>
+			</Brush>
+		</MarkedFields>
+  </Config>
+
+  <Config Name="Madera/colored signs" extends="Madera">
+		<ZodiacalSigns>
+			<BrushSequence>
+				<Brush>
+					<Inputfile>madera.jpg</Inputfile>
+					<RotateHue>330</RotateHue>
+				</Brush>
+				<Brush>
+					<Inputfile>madera.jpg</Inputfile>
+					<RotateHue>15</RotateHue>
+				</Brush>
+				<Brush>
+					<Inputfile>madera.jpg</Inputfile>
+					<RotateHue>60</RotateHue>
+				</Brush>
+				<Brush>
+					<Inputfile>madera.jpg</Inputfile>
+					<RotateHue>150</RotateHue>
+				</Brush>
+			</BrushSequence>
+		</ZodiacalSigns>
+    <MarkedFields>
+			<Brush>
+					<Inputfile>madera.jpg</Inputfile>
+					<RotateHue>230</RotateHue>
+			</Brush>
+		</MarkedFields>
+  </Config>
+
+  <Config Name="Too Big" Extends="Yellow">
+		<OuterRectangle>
+			<Radius>108</Radius>
+		</OuterRectangle>
+  </Config>
+
+  <Config Name="Marble">
+		<Pen>
+			<Linewidth>2</Linewidth>
+			<Style>wxSOLID</Style>
+		</Pen>
+		<WidgetBackground>
+			<Brush>
+				<Inputfile>marble.jpg</Inputfile>
+			</Brush>
+		</WidgetBackground>
+    <MarkedFields>
+			<Brush>
+					<Inputfile>marble.jpg</Inputfile>
+					<RotateHue>230</RotateHue>
+			</Brush>
+		</MarkedFields>
+  </Config>
+
+  <Config Name="Marble/Colored signs" extends="Marble">
+		<ZodiacalSigns>
+			<BrushSequence>
+				<Brush>
+					<Color>black</Color>
+					<Inputfile>marble.jpg</Inputfile>
+					<RotateHue>330</RotateHue>
+				</Brush>
+				<Brush>
+					<Inputfile>marble.jpg</Inputfile>
+					<RotateHue>15</RotateHue>
+				</Brush>
+				<Brush>
+					<Inputfile>marble.jpg</Inputfile>
+					<RotateHue>60</RotateHue>
+				</Brush>
+				<Brush>
+					<Inputfile>marble.jpg</Inputfile>
+					<RotateHue>150</RotateHue>
+				</Brush>
+			</BrushSequence>
+		</ZodiacalSigns>
+  </Config>
+
+  <Config Name="Stars" Extends="Yellow">
+		<WidgetBackground>
+			<Brush>
+				<Style>wxSTIPPLE</Style>
+				<Inputfile>stars.jpg</Inputfile>
+			</Brush>
+		</WidgetBackground>
+  </Config>
+
+</VedicChartConfigs>
+

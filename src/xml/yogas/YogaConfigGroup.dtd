@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT YogaConfigGroup (YogaConfig)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT YogaConfig (Rule|AllowHigherVargas|Group|Source|Effect|Description)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Description (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Effect (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Source (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Group (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT AllowHigherVargas (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Rule (#PCDATA)>

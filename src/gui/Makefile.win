@@ -1,0 +1,47 @@
+.SUFFIXES: .o.cpp
+
+CPP = g++
+AR = ar r
+RM = rm -f
+
+SWE_LIB = ../swe/libswe.a
+BASE_LIB = ../base/libmaitreya_base.a
+JYOTISH_LIB = ../jyotish/libjyotish.a
+PDF_LIB = ../pdf/libmaitreya_pdf.a
+DB_LIB = ../db/libmaitreya_db.a
+DIALOG_LIB = ../dialogs/libmaitreya_dialogs.a
+
+MAITREYA_PROG = maitreya7.exe
+
+MAKEFILE = Makefile.win
+
+CPPFLAGS = -g -I. -I../.. -I../base -I../jyotish -I../dialogs -I../swe -I../pdf \
+	-I../swe `wx-config --cppflags` 
+
+LDLIBS = -lstdc++ $(JYOTISH_LIB) $(DIALOG_LIB) $(BASE_LIB) $(SWE_LIB) $(DB_LIB) $(PDF_LIB) `wx-config --libs` 
+
+OBS = ApplicationWindow.o AshtakaVargaView.o BasicVedicChart.o BasicView.o BasicWidget.o \
+	ChildWindow.o DasaGraphicView.o DasaView.o DiagramWidget.o Document.o EphemView.o \
+	GraphicalChart.o GraphicGrid.o GraphicView.o guibase.o MainWindowControl.o MenuProvider.o \
+	MultipleChildWindow.o NonDocTextView.o NotebookNodes.o NotebookWidget.o Painter.o \
+	PartnerView.o PdfBase.o PdfPainter.o PdfPrinter.o PdfWriter.o SarvatobhadraChart.o \
+	SbcView.o SolarView.o SplitterWidget.o Statusbar.o TextView.o TextWidget.o ToolPanel.o \
+	TransitView.o TreeWidget.o UranianView.o VargaView.o VedicChart.o VedicRasiChart.o \
+	WesternChart.o YogaEditor.o YogaView.o maitreya_resources.o
+
+$(MAITREYA_PROG) : $(OBS)
+	test -f geonames1000.sql || ln -s ../atlas/geonames1000.sql
+	$(CPP) -o $(MAITREYA_PROG) $(OBS) $(LDLIBS)
+
+.cpp.o :
+	$(CPP) -c -o$@ $*.cpp $(CPPFLAGS)
+
+maitreya_resources.o : maitreya.rc
+	windres -i maitreya.rc -o maitreya_resources.o \
+	--include-dir /usr/local/include/wx-2.8 --define __WIN32__ \
+	--define __WIN95__ --define __GNUWIN32__
+
+clean:
+	$(RM) *.o $(MAITREYA_PROG) *.core
+
+

@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT WesternChartConfigs (Config)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Config (FrameType|Chart2Planets|Chart2Zodiac5Degree|Chart2Zodiac1Degree|Chart2Zodiac|Houses|WidgetBackground|Pen|OuterZodiac|Zodiac|Zodiac1Degree|Zodiac5Degree|ZodiacSymbols|Planets|Aspects|InnerHouse|OuterHouse|Angles|PlanetMarkerLength|ZodiacalSigns|Brush)*>
+<!ATTLIST Config
+    Description CDATA #IMPLIED
+    Extends CDATA #IMPLIED
+    Name CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT OuterZodiac (Pen|Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Radius (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Zodiac (Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Zodiac1Degree (Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Zodiac5Degree (Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ZodiacSymbols (Pen|Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Planets (Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Aspects (FrameType|Brush|Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT InnerHouse (FrameType|Pen|Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT OuterHouse (Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Angles (OuterCircle|InnerCircle)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT InnerCircle (Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT OuterCircle (Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT PlanetMarkerLength (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ZodiacalSigns (UseStockBrushList|GlobalTextColor|BrushSequence|SymbolZoomFactor|RotateSymbols|SymbolType)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT SymbolType (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT RotateSymbols (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT SymbolZoomFactor (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Brush (Inputfile|Style|Color)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Color (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Style (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Pen (LineWidth|Style|Linewidth|Color)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Linewidth (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT WidgetBackground (Brush)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Inputfile (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT BrushSequence (Brush)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT GlobalTextColor (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Houses (UseStockBrushList|GlobalTextColor|BrushSequence)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT LineWidth (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Chart2Zodiac (Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Chart2Zodiac1Degree (Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Chart2Zodiac5Degree (Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Chart2Planets (Radius)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT UseStockBrushList (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT FrameType (#PCDATA)>

@@ -1,0 +1,32 @@
+.SUFFIXES: .o.cpp
+
+CPP = g++
+AR = ar r
+RM = rm -f
+
+DIALOG_LIB = libmaitreya_dialogs.a
+
+CPPFLAGS = -g -I. -I.. -I../.. -I../base -I../gui -I../jyotish `wx-config --cppflags`
+
+LDLIBS = `wx-config --libs` 
+
+OBS = AboutDialog.o AnimationPanel.o AspectColorPanel.o AspectPanel.o AtlasAliasDialog.o \
+	AtlasDialog.o AtlasEditDialog.o AtlasImportDialog.o AtlasPanel.o CommonInputFields.o \
+	ColorPanel.o ConfigDialog.o ConfigPanel.o DasaColorPanel.o DataDialog.o DateTimeCtrl.o \
+	DefaultLocationPanel.o DialogElements.o DragChart.o EphemerisPanel.o ExportDialog.o \
+	FontPanel.o GeneralPanel.o guivalidators.o MultipleViewPanel.o ObjectColorPanel.o \
+	PrintConfigurationDialog.o PrintoutPanel.o ToolbarPanel.o VargaPanel.o \
+	VedicCalculationPanel.o VedicChartPanel.o VedicPanel.o ViewPanel.o \
+	WesternCalculationPanel.o WesternChartPanel.o WesternPanel.o YogaEditorPanel.o
+
+all : $(DIALOG_LIB)
+
+$(DIALOG_LIB) : $(OBS)
+	$(AR) $(DIALOG_LIB) $(OBS)
+
+.cpp.o :
+	$(CPP) -c -o$@ $*.cpp $(CPPFLAGS)
+
+clean:
+	$(RM) *.o $(DIALOG_LIB) *.core
+

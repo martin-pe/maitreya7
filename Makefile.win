@@ -1,0 +1,56 @@
+RM = rm -f
+RMR = rm -fr
+MKDIR = mkdir -p
+CP = cp
+CPR = cp -r
+
+MAKEFILE = Makefile.win
+MAIN_PROG = maitreya7.exe
+RELEASE_DIR = ../release
+
+SRC_DIR = src
+GUI_DIR = src/gui
+PICS_DIR = src/pics
+XML_DIR = src/xml
+LOCATION_DIR = src/atlas
+
+all:
+	cd src; make -f $(MAKEFILE); cd ..
+
+clean:
+	cd src; make -f $(MAKEFILE) clean; cd ..
+
+release: all
+	$(MKDIR) $(RELEASE_DIR)
+	cd $(GUI_DIR) && strip $(MAIN_PROG) && cd ..
+	$(RM) $(RELEASE_DIR)/$(MAIN_PROG)
+	$(CP) $(GUI_DIR)/$(MAIN_PROG) $(RELEASE_DIR)
+	$(RM) $(RELEASE_DIR)/geonames1000.sql
+	$(CP) $(LOCATION_DIR)/geonames1000.sql $(RELEASE_DIR)
+	$(CP) COPYING Copying.txt
+	unix2dos Copying.txt
+	$(CP) Copying.txt $(RELEASEDIR)
+	$(RMR) $(RELEASE_DIR)/pics
+	$(MKDIR) $(RELEASE_DIR)/pics
+	$(CP) $(PICS_DIR)/*.jpg $(RELEASE_DIR)/pics
+	$(CP) $(PICS_DIR)/*.png $(RELEASE_DIR)/pics
+	$(RMR) $(RELEASE_DIR)/xml
+	$(MKDIR) $(RELEASE_DIR)/xml
+	$(CP) $(XML_DIR)/*.xml $(RELEASE_DIR)/xml
+	$(CP) $(XML_DIR)/*.dtd $(RELEASE_DIR)/xml
+	$(MKDIR) $(RELEASE_DIR)/xml/yogas
+	$(CP) $(XML_DIR)/yogas/*.xml $(RELEASE_DIR)/xml/yogas
+	$(CP) $(XML_DIR)/yogas/*.dtd $(RELEASE_DIR)/xml/yogas
+	$(RMR) $(RELEASE_DIR)/fonts
+	$(MKDIR) $(RELEASE_DIR)/fonts
+	$(CPR) $(SRC_DIR)/fonts/MaitreyaSymbols.ttf $(RELEASE_DIR)/fonts
+	$(CP) $(SRC_DIR)/icons/maitreya.ico $(RELEASE_DIR)
+	$(CP) po/maitreya7.pot $(RELEASE_DIR)
+	for LANG in de de ru te pl it hu ro es fr ta; \
+	do \
+		$(RMR) $(RELEASE_DIR)/$$LANG; \
+		$(MKDIR) $(RELEASE_DIR)/$$LANG; \
+		$(CP) po/$$LANG.gmo $(RELEASE_DIR)/$$LANG/maitreya7.mo; \
+	done
+
+

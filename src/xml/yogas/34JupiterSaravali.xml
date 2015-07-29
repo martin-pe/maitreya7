@@ -1,0 +1,505 @@
+<?xml version="1.0"?>
+<!DOCTYPE YogaConfigs SYSTEM "YogaConfigs.dtd">
+<YogaConfigs>
+	<!--   -->
+	<!--  Rasi positions of Jupiter -> Saravali chapter 27  -->
+	<!--   -->
+	<!--  Jupiter in Aries  -->
+	<Config>
+		<Description>Jupiter in Aries</Description>
+		<Effect>If Jupiter is posited in Aries at birth, one will be argumentative in disposition, will acquire precious stones and ornaments out of his efforts, will be endowed with strength, sons and wealth, will have eminent and famous profession, be splendourous, will have many enemies, much expenses and an injured body and will confer fierce and cruel punishments.</Effect>
+		<Source>Saravali</Source>
+		<Group>Rasi position</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getRasi( Jupiter ) == Aries;</Rule>
+	</Config>
+
+	<!--  Jupiter in Scorpio  -->
+	<Config>
+		<Description>Jupiter in Scorpio</Description>
+		<Effect>Should Jupiter at the time of one's birth be in Scorpio, he will be expert in Sastras, be a king, will be a commentator of many Bhasyas (a commentary, which explains Sutras word by word with comments of its own, for example, on Vedas), be skillful, will construct temples and towns, will have many wives, but few sons, be troubled by diseases, will undergo many difficulties, be very fierce, be ostentatious in his performance, be virtuous and will indulge in contemptuous acts.</Effect>
+		<Source>Saravali</Source>
+		<Group>Rasi position</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getRasi( Jupiter ) == Scorpio;</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Mars aspected by Sun</Description>
+		<Effect>If Jupiter occupies Aries/Scorpio at birth and is aspected by the Sun, the native will be charitable, will be truthful, will have famous sons, be very fortunate and will have abundant hair on the body.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Mars and isGrahaDrishti( Sun, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Mars aspected by Moon</Description>
+		<Effect>If Jupiter occupies Aries/Scorpio and is aspected by the Moon, the native will be a historical and poetical writer, will be endowed with many precious stones, be dear to women, be a king and be highly learned.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Mars and isGrahaDrishti( Moon, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Mars aspected by Mars</Description>
+		<Effect>If Jupiter occupies Aries/Scorpio and is aspected by Mars, one is of royal scion, will be valorous, fierce, endowed with knowledge of politics, be modest, affluent and will have a disobedient wife and disobedient servants.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Mars and isGrahaDrishti( Mars, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Mars aspected by Mercury</Description>
+		<Effect>If Jupiter occupies Aries/Scorpio and is aspected by Mercury, the native will be a liar, be crafty, sinful, will be skillful in detecting other's defects, will serve others, be grateful, be modest and be not outspoken.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Mars and isGrahaDrishti( Mercury, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Mars aspected by Venus</Description>
+		<Effect>If Jupiter occupies Aries/Scorpio and is aspected by Venus, one will be very happy in respect of residences, sleeping comforts, robes, scents, garlands, ornaments and wife and be very timid.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Mars and isGrahaDrishti( Venus, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Mars aspected by Saturn</Description>
+		<Effect>If Jupiter occupies Aries/Scorpio and is aspected by Saturn, the subject will be dirty, miserly, sharp, adventurous, amiable, famous and will not have lasting children and friendship.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Mars and isGrahaDrishti( Saturn, Jupiter );</Rule>
+	</Config>
+
+	<!--  Jupiter in Taurus  -->
+	<Config>
+		<Description>Jupiter in Taurus</Description>
+		<Effect>Should Jupiter be in Taurus, one will be endowed with a broad body, be corpulent, will honour Brahmins and Gods, be splendourous, fortunate, attached to his wife, be endowed with good appearance, profession, cows and abundant wealth; will possess good articles and ornaments, be distinguished in speech, intelligence and skill; will have political / judicial wisdom, be modest, be endowed with medical accomplishments and be skillful in experiments.</Effect>
+		<Source>Saravali</Source>
+		<Group>Rasi position</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getRasi( Jupiter ) == Taurus;</Rule>
+	</Config>
+
+	<!--  Jupiter in Libra  -->
+	<Config>
+		<Description>Jupiter in Libra</Description>
+		<Effect>If Jupiter occupies Libra at birth, one will be a scholar, will have many sons, be endowed with foreign assignments, will be very affluent, interested in ornaments, modest, will earn money through dance and drama, be pleasing in appearance, be splendourous, learned in Sastras, be superior among his colleague-businessmen, will honour Gods and guests and be very learned.</Effect>
+		<Source>Saravali</Source>
+		<Group>Rasi position</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getRasi( Jupiter ) == Libra;</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Venus aspected by Sun</Description>
+		<Effect>If Jupiter occupies a House of Venus at birth and is aspected by the Sun, one will be endowed with attendants and quadrupeds. will wander verily, will have a long body, be learned and be a king's minister.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Venus and isGrahaDrishti( Sun, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Venus aspected by Moon</Description>
+		<Effect>If Jupiter occupies a House of Venus and is aspected by the Moon, the native will be abundantly rich, be very calm, Sweet, be dear to mother and wife and will enjoy much pleasures.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Venus and isGrahaDrishti( Moon, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Venus aspected by Mars</Description>
+		<Effect>If Jupiter occupies a House of Venus and is aspected by Mars, the native will be dear to the fair sex, be learned, courageous, affluent, happy and be of royal Scion.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Venus and isGrahaDrishti( Mars, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Venus aspected by Mercury</Description>
+		<Effect>If Jupiter occupies a House of Venus and is aspected by Mercury, the native will be learned, Skillful, sweet, fortunate, endowed with riches, be highly virtuous and be splendourous.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Venus and isGrahaDrishti( Mercury, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Venus aspected by Venus</Description>
+		<Effect>If Jupiter occupies a House of Venus and is aspected by Venus, the native will be very attractive, affluent, will wear excellent ornaments, be merciful and will enjoy excellent sleeping comforts and excellent robes.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Venus and isGrahaDrishti( Venus, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Venus aspected by Saturn</Description>
+		<Effect>If Jupiter occupies a House of Venus and is aspected by Saturn, the native will be a scholar, will be endowed with abundant wealth and corns, be excellent among the people of his village/town, be dirty, ugly and be devoid of wife.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Venus and isGrahaDrishti( Saturn, Jupiter );</Rule>
+	</Config>
+
+	<!--  Jupiter in Gemini  -->
+	<Config>
+		<Description>Jupiter in Gemini</Description>
+		<Effect>Should Jupiter be in Gemini, the native will be affluent, scholarly, proficient, will possess attractive eyes, be eloquent, courteous, skillful, virtuous, will honour elders and relatives, will be able to utter “bejeweled” words (be literally rich in words), which are benevolent in nature, be devoted to his duties and be a good poet.</Effect>
+		<Source>Saravali</Source>
+		<Group>Rasi position</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getRasi( Jupiter ) == Gemini;</Rule>
+	</Config>
+
+	<!--  Jupiter in Virgo  -->
+	<Config>
+		<Description>Jupiter in Virgo</Description>
+		<Effect>If Jupiter occupies Virgo at birth, one will be a scholar, be virtuous, be skillful in his work, be fond of scents, robes and flowers, will firmly gain in undertakings, will have rich experience in Sastras and fine arts, be affluent, charitable, pure-hearted, skillful and wonderfully learned.</Effect>
+		<Source>Saravali</Source>
+		<Group>Rasi position</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getRasi( Jupiter ) == Virgo;</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Mercury aspected by Sun</Description>
+		<Effect>If Jupiter occupies Gemini/Virgo and is aspected by the Sun at birth, one will be great, important in his village be a householder and will be endowed with wife, sons and money.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Mercury and isGrahaDrishti( Sun, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Mercury aspected by Moon</Description>
+		<Effect>If Jupiter occupies Gemini/Virgo and is aspected by the Moon, the native will be affluent, dear to mother, fortunate, happy, will have wife and sons and be incomparable.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Mercury and isGrahaDrishti( Moon, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Mercury aspected by Mars</Description>
+		<Effect>If Jupiter occupies Gemini/Virgo and is aspected by Mars, one will be easily successful at all times, be ugly, rich and be amiable to all.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Mercury and isGrahaDrishti( Mars, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Mercury aspected by Mercury</Description>
+		<Effect>If Jupiter occupies Gemini/Virgo and is aspected by Mercury, one will be a skillful astrologer, will have many children and wives and will be exponent of many aphorisms and precepts and speak with great excellence.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Mercury and isGrahaDrishti( Mercury, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Mercury aspected by Venus</Description>
+		<Effect>If Jupiter occupies Gemini/Virgo and is aspected by Venus, the native will undertake acts of temple construction, will visit prostitutes and will win women's hearts.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Mercury and isGrahaDrishti( Venus, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Mercury aspected by Saturn</Description>
+		<Effect>If Jupiter occupies Gemini/Virgo and is aspected by Saturn, the native will be the head of a group, state, or village and be beautiful.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Mercury and isGrahaDrishti( Saturn, Jupiter );</Rule>
+	</Config>
+
+	<!--  Jupiter in Cancer  -->
+	<Config>
+		<Description>Jupiter in Cancer</Description>
+		<Effect>If Jupiter be in Cancer at birth, the native will be a scholar, be beautiful, be highly learned, charitable, good-natured, be very strong, be famous, will possess abundant grains and riches, be endowed with truth and penance, will have long-living sons, be honoured by all, will be a king, will have a distinguished profession and will be attached to his friends.</Effect>
+		<Source>Saravali</Source>
+		<Group>Rasi position</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getRasi( Jupiter ) == Cancer;</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in Cancer aspected by Sun</Description>
+		<Effect>If Jupiter occupies Cancer at birth and is aspected by the Sun, native will be famous, be ahead of others and will (in the beginning) be devoid of happiness, wealth and wife, all of which will be acquired by him later.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Moon and isGrahaDrishti( Sun, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in Cancer aspected by Moon</Description>
+		<Effect>If Jupiter occupies Gemini/Virgo and is aspected by the Moon, the native will be very rich, splendourous, be a king, will enjoy abundant wealth and conveyances and will have excellent wife and sons.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Moon and isGrahaDrishti( Moon, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in Cancer aspected by Mars</Description>
+		<Effect>If Jupiter occupies Gemini/Virgo and is aspected by Mars, one will marry in the boyhood itself, will be endowed with gold and ornaments, be learned, valorous and will have a wounded physique.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Moon and isGrahaDrishti( Mars, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in Cancer aspected by Mercury</Description>
+		<Effect>If Jupiter occupies Gemini/Virgo and is aspected by Mercury, one will be endowed with relatives and friends, be rich, will promote quarrels, be bereft of sins, be a minister and be trustworthy.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Moon and isGrahaDrishti( Mercury, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in Cancer aspected by Venus</Description>
+		<Effect>If Jupiter occupies Gemini/Virgo and is aspected by Venus, one will have many wives, extraordinary riches, various ornaments, be happy and fortunate.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Moon and isGrahaDrishti( Venus, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in Cancer aspected by Saturn</Description>
+		<Effect>If Jupiter occupies Gemini/Virgo and is aspected by Saturn, one will be important in his village, or in the Army, or in his town, be talkative, be very affluent, garrulous and will enjoy pleasures in old age.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Moon and isGrahaDrishti( Saturn, Jupiter );</Rule>
+	</Config>
+
+	<!--  Jupiter in Leo  -->
+	<Config>
+		<Description>Jupiter in Leo</Description>
+		<Effect>Should Jupiter be in Leo at the time of birth, the native will be lastingly inimical, be strong, courageous, will show abundant friendship, be learned, rich, will have eminent relatives, be a king, will have heroism akin to that of a king, will be recognizable in an assembly, will destroy the entire band of his enemies, will possess a strong physique and will live in hills, fortresses, forests and temples.</Effect>
+		<Source>Saravali</Source>
+		<Group>Rasi position</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getRasi( Jupiter ) == Leo;</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in Leo aspected by Sun</Description>
+		<Effect>If at birth Jupiter is in Leo and is aspected by the Sun, one will be dear to good men, be famous, be a king, be extremely affluent and virtuous.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Sun and isGrahaDrishti( Sun, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in Leo aspected by Moon</Description>
+		<Effect>If Jupiter is in Leo and is aspected by the Moon, the native will be very beautiful, dirty, will be very rich through the fortunes of his wife and will conquer his five senses.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Sun and isGrahaDrishti( Moon, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in Leo aspected by Mars</Description>
+		<Effect>If Jupiter is in Leo and is aspected by Mars, the native will honour elders at all times, will perform distinguished acts, be very skillful, pure, adventurous and cruel.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Sun and isGrahaDrishti( Mars, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in Leo aspected by Mercury</Description>
+		<Effect>If Jupiter is in Leo and is aspected by Mercury, the native will have knowledge of civil works of building construction, will be endowed with profane knowledge, be virtuous, be a sweet speaker, be a minister and be highly learned.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Sun and isGrahaDrishti( Mercury, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in Leo aspected by Venus</Description>
+		<Effect>If Jupiter is in Leo and is aspected by Venus, the native will be dear to females, be fortunate, will receive royal honours and be very strong.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Sun and isGrahaDrishti( Venus, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in Leo aspected by Saturn</Description>
+		<Effect>If Jupiter is in Leo and is aspected by Saturn, one will be garrulous, be an eloquent speaker, be devoid of happiness, be sharp and will have mean children and mean wife.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Sun and isGrahaDrishti( Saturn, Jupiter );</Rule>
+	</Config>
+
+	<!--  Jupiter in Sagittarius  -->
+	<Config>
+		<Description>Jupiter in Sagittarius</Description>
+		<Effect>If Jupiter occupies Sagittarius at birth, one will be a preceptor, will conduct religious vows, initiations, sacrifices etc., will have lasting wealth, be charitable, be friendly to his own men, be fond of helping others, interested in Shastras, be the head of a zone, or a minister, will live in many countries, will prefer loneliness and be interested in visiting shrines.</Effect>
+		<Source>Saravali</Source>
+		<Group>Rasi position</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getRasi( Jupiter ) == Sagittarius;</Rule>
+	</Config>
+
+	<!--  Jupiter in Pisces  -->
+	<Config>
+		<Description>Jupiter in Pisces</Description>
+		<Effect>If Jupiter is in Pisces at birth, one will be expert in knowing the meanings of Vedas and other Shastras, will be honoured by friends and virtuous people, will be a headsman in the king's employ, be praiseworthy, unconquerable, rich, devoid of fear, be proud, firm in undertakings, be a king, be skillful in policies, training, behavior and war tactics, be famous and will be calm in his doings.</Effect>
+		<Source>Saravali</Source>
+		<Group>Rasi position</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getRasi( Jupiter ) == Pisces;</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Jupiter aspected by Sun</Description>
+		<Effect>Jupiter is posited in Sagittarius/Pisces at birth and is aspected by the Sun, the native will be inimical to the king and will be miserable being bereft of wealth and relatives.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Jupiter and isGrahaDrishti( Sun, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Jupiter aspected by Moon</Description>
+		<Effect>If Jupiter is posited in Sagittarius/Pisces and is aspected by the Moon, the native will enjoy many kinds of happiness, be very fortunate in respect of wife and will have the pride of honour, wealth and possessions.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Jupiter and isGrahaDrishti( Moon, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Jupiter aspected by Mars</Description>
+		<Effect>If Jupiter is posited in Sagittarius/Pisces and is aspected by Mars, one will be injured in war, be cruel, will cause torture, will harm others and will lose children.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Jupiter and isGrahaDrishti( Mars, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Jupiter aspected by Mercury</Description>
+		<Effect>If Jupiter is posited in Sagittarius/Pisces and is aspected by Mercury, the native will be a minister, or a king, will be happy with wealth, fortunes and progeny and will enjoy all kinds of delights.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Jupiter and isGrahaDrishti( Mercury, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Jupiter aspected by Venus</Description>
+		<Effect>If Jupiter is posited in Sagittarius/Pisces and is aspected by Venus, the native will be happy, learned, be devoid of blemishes, be long-lived, fortunate and will be blessed by Goddess Lakshmi.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Jupiter and isGrahaDrishti( Venus, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Jupiter aspected by Saturn</Description>
+		<Effect>If Jupiter is posited in Sagittarius/Pisces and is aspected by Saturn, the native will be dirty, will be fear-stricken, be neglected by the people of his village/town and be devoid of happiness, pleasures and virtues.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Jupiter and isGrahaDrishti( Saturn, Jupiter );</Rule>
+	</Config>
+
+	<!--  Jupiter in Capricorn  -->
+	<Config>
+		<Description>Jupiter in Capricorn</Description>
+		<Effect>Jupiter in Capricorn denotes, that the native will be less virile, will experience much grief and difficulties, will be mean in conduct, be a dunce, will meet a bad end, will suffer from penury, will serve others, will be bereft of auspiciousness, mercy, purity, affection to his relatives and of religion, will have an emaciated body, be timid, interested in living in other countries and be depressed of spirits.</Effect>
+		<Source>Saravali</Source>
+		<Group>Rasi position</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getRasi( Jupiter ) == Capricorn;</Rule>
+	</Config>
+
+	<!--  Jupiter in Aquarius  -->
+	<Config>
+		<Description>Jupiter in Aquarius</Description>
+		<Effect>If Jupiter falls in Aquarius at the time of birth, one will be a tale-bearer, be ill disposed, interested in evil jobs, be chief among his racemen, be always attached to base men, be malicious, miserly, will suffer from diseases, will lose wealth on account his own utterances, be devoid of intelligence and virtues and will violate elder's beds.</Effect>
+		<Source>Saravali</Source>
+		<Group>Rasi position</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getRasi( Jupiter ) == Aquarius;</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Saturn aspected by Sun</Description>
+		<Effect>If Jupiter is in a House of Saturn at birth and is aspected by the Sun, one will be learned, be a king, be rich by birth, will enjoy various kinds of pleasures and be very courageous.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Saturn and isGrahaDrishti( Sun, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Saturn aspected by Moon</Description>
+		<Effect>If Jupiter is in a House of Saturn and is aspected by the Moon, the native will be devoted to his parents, be superior by birth, be learned rich, virtuous and very charitable.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Saturn and isGrahaDrishti( Moon, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Saturn aspected by Mars</Description>
+		<Effect>If Jupiter is in a House of Saturn and is aspected by Mars, one will be valorous, be an Army chief with the king, splendourous, well-dressed, famous and honoured.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Saturn and isGrahaDrishti( Mars, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Saturn aspected by Mercury</Description>
+		<Effect>If Jupiter is in a House of Saturn and is aspected by Mercury, one will be highly libidinous, important among his folk, rich by conveyances and wealth, famous and will have many friends.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Saturn and isGrahaDrishti( Mercury, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Saturn aspected by Venus</Description>
+		<Effect>If Jupiter is in a House of Saturn and is aspected by Venus, the native will be endowed with food, drinks, excellent residence, sleeping comforts, wealth, conveyances, excellent wife, ornaments and robes.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Saturn and isGrahaDrishti( Venus, Jupiter );</Rule>
+	</Config>
+
+	<Config>
+		<Description>Jupiter in a sign of Saturn aspected by Saturn</Description>
+		<Effect>If Jupiter is in a House of Saturn and is aspected by Saturn, the native will be endowed with incomparable learning, be supreme, be a king of his country, be rich with attendants and quadrupeds and will enjoy pleasures.</Effect>
+		<Source>Saravali</Source>
+		<Group>Aspect</Group>
+		<AllowHigherVargas>true</AllowHigherVargas>
+		<Rule>return getLord( getRasi( Jupiter )) == Saturn and isGrahaDrishti( Saturn, Jupiter );</Rule>
+	</Config>
+
+</YogaConfigs>

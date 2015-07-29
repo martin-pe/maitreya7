@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT VedicChartConfigs (Config)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Config (MarkedFields|Pen|Brush|WidgetBackground|ZodiacalSigns|OuterRectangle)*>
+<!ATTLIST Config
+    Extends CDATA #IMPLIED
+    Name CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT OuterRectangle (Radius|Pen|Show|DoubleOuterLine)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT DoubleOuterLine (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Show (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ZodiacalSigns (BrushSequence|UseStockBrushList)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT UseStockBrushList (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT BrushSequence (Brush)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Brush (Inputfile|Color|Style)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Style (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Color (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT WidgetBackground (Brush)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Pen (Style|Linewidth|Color)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Linewidth (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT MarkedFields (Brush)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Inputfile (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Radius (#PCDATA)>

@@ -1,0 +1,429 @@
+<?xml version="1.0"?>
+<!DOCTYPE MultipleViewConfigs SYSTEM "MultipleViewConfigs.dtd">
+
+<!-- See DTD for documentation -->
+<MultipleViewConfigs>
+
+  <Config
+    Name="Vedic Simple"
+    Description="All you really need: planets, Rasi, Navamsa and Dasa tree">
+    <Window>
+      <Splitter>
+        <SplitDirection>Vertical</SplitDirection>
+        <SashPosPercent>30</SashPosPercent>
+        <Window1>
+          <Widget>
+            <ViewType>GridView</ViewType>
+            <Vedic>true</Vedic>
+          </Widget>
+        </Window1>
+        <Window2>
+          <Splitter>
+            <SplitDirection>Vertical</SplitDirection>
+            <SashPosPercent>50</SashPosPercent>
+            <Window1>
+              <Widget>
+                <ViewType>GraphicGridView</ViewType>
+                <RowCount>2</RowCount>
+                <ColCount>1</ColCount>
+                <Vedic>true</Vedic>
+                <VargaList>
+                  <VargaItem>0</VargaItem>
+                  <VargaItem>1</VargaItem>
+                </VargaList>
+              </Widget>
+            </Window1>
+            <Window2>
+              <Widget>
+                <ViewType>DasaView</ViewType>
+              </Widget>
+            </Window2>
+          </Splitter>
+        </Window2>
+      </Splitter>
+    </Window>
+  </Config>
+
+  <Config
+    Name="Vedic Bhava"
+    Description="Planets, Rasi, Bhava and Dasa tree">
+    <Window>
+      <Splitter>
+        <SplitDirection>Vertical</SplitDirection>
+        <SashPosPercent>30</SashPosPercent>
+        <Window1>
+          <Widget>
+            <ViewType>GridView</ViewType>
+            <Vedic>true</Vedic>
+          </Widget>
+        </Window1>
+        <Window2>
+          <Splitter>
+            <SplitDirection>Vertical</SplitDirection>
+            <SashPosPercent>50</SashPosPercent>
+            <Window1>
+              <Widget>
+                <ViewType>GraphicGridView</ViewType>
+                <RowCount>2</RowCount>
+                <ColCount>1</ColCount>
+                <Vedic>true</Vedic>
+                <VargaList>
+                  <VargaItem>0</VargaItem>
+                  <VargaItem>18</VargaItem>
+                </VargaList>
+              </Widget>
+            </Window1>
+            <Window2>
+              <Widget>
+                <ViewType>DasaView</ViewType>
+              </Widget>
+            </Window2>
+          </Splitter>
+        </Window2>
+      </Splitter>
+    </Window>
+  </Config>
+
+  <Config
+    Name="Vedic Comprehensive"
+    Description="All Vedic views in one window">
+    <Window>
+      <Notebook>
+
+				<!-- PAGE 1 -->
+        <Page>
+          <Name>Main</Name>
+          <Splitter>
+            <SplitDirection>Vertical</SplitDirection>
+            <SashPosPercent>30</SashPosPercent>
+            <Window1>
+              <Widget>
+                <ViewType>GridView</ViewType>
+                <Vedic>true</Vedic>
+              </Widget>
+            </Window1>
+            <Window2>
+              <Splitter>
+                <SplitDirection>Vertical</SplitDirection>
+                <SashPosPercent>50</SashPosPercent>
+                <Window1>
+                  <Widget>
+                    <ViewType>GraphicGridView</ViewType>
+                    <RowCount>2</RowCount>
+                    <ColCount>1</ColCount>
+                    <Vedic>true</Vedic>
+                    <VargaList>
+                      <VargaItem>0</VargaItem>
+                      <VargaItem>1</VargaItem>
+                    </VargaList>
+                  </Widget>
+                </Window1>
+                <Window2>
+                  <Widget>
+                    <ViewType>DasaView</ViewType>
+                  </Widget>
+                </Window2>
+              </Splitter>
+            </Window2>
+          </Splitter>
+        </Page>
+
+				<!-- PAGE 2 -->
+        <Page>
+          <Name>Shad Varga</Name>
+          <Widget>
+            <ViewType>GraphicGridView</ViewType>
+            <RowCount>2</RowCount>
+            <ColCount>3</ColCount>
+            <Vedic>true</Vedic>
+            <VargaList>
+              <VargaItem>0</VargaItem>
+              <VargaItem>2</VargaItem>
+              <VargaItem>3</VargaItem>
+              <VargaItem>1</VargaItem>
+              <VargaItem>9</VargaItem>
+              <VargaItem>14</VargaItem>
+            </VargaList>
+          </Widget>
+        </Page>
+
+				<!-- PAGE 3 -->
+        <Page>
+          <Name>Varga (2)</Name>
+          <Widget>
+            <ViewType>GraphicGridView</ViewType>
+            <RowCount>2</RowCount>
+            <ColCount>3</ColCount>
+            <Vedic>true</Vedic>
+            <VargaList>
+              <VargaItem>4</VargaItem>
+              <VargaItem>6</VargaItem>
+              <VargaItem>8</VargaItem>
+              <VargaItem>10</VargaItem>
+              <VargaItem>11</VargaItem>
+              <VargaItem>12</VargaItem>
+            </VargaList>
+          </Widget>
+        </Page>
+
+				<!-- PAGE 4 -->
+        <Page>
+          <Name>Varga (3)</Name>
+          <Widget>
+            <ViewType>GraphicGridView</ViewType>
+            <RowCount>2</RowCount>
+            <ColCount>3</ColCount>
+            <Vedic>true</Vedic>
+            <VargaList>
+              <VargaItem>13</VargaItem>
+              <VargaItem>15</VargaItem>
+              <VargaItem>16</VargaItem>
+              <VargaItem>17</VargaItem>
+              <VargaItem>18</VargaItem>
+              <VargaItem>19</VargaItem>
+            </VargaList>
+          </Widget>
+        </Page>
+
+				<!-- PAGE 5 -->
+        <Page>
+          <Name>Text</Name>
+          <Widget>
+            <ViewType>TextView</ViewType>
+          </Widget>
+        </Page>
+
+				<!-- PAGE 6 -->
+        <Page>
+          <Name>Graphical Dasa</Name>
+          <Splitter>
+            <SplitDirection>Horizontal</SplitDirection>
+            <SashPos>450</SashPos>
+            <Window1>
+              <Widget>
+                <ViewType>GraphicalDasaView</ViewType>
+              </Widget>
+            </Window1>
+            <Window2>
+              <Widget>
+                <ViewType>GraphicGridView</ViewType>
+                <RowCount>1</RowCount>
+                <ColCount>2</ColCount>
+                <Vedic>true</Vedic>
+                <VargaList>
+                  <VargaItem>0</VargaItem>
+                  <VargaItem>1</VargaItem>
+                </VargaList>
+              </Widget>
+            </Window2>
+          </Splitter>
+        </Page>
+
+				<!-- PAGE 7 -->
+        <Page>
+          <Name>Ashtaka Varga</Name>
+          <Widget>
+            <ViewType>AshtakaVargaView</ViewType>
+          </Widget>
+        </Page>
+
+				<!-- PAGE 8 -->
+        <Page>
+          <Name>Yogas</Name>
+          <Widget>
+            <ViewType>YogaView</ViewType>
+          </Widget>
+        </Page>
+
+				<!-- PAGE 9 -->
+        <Page>
+          <Name>Sarvatobhadra</Name>
+          <Widget>
+            <ViewType>SbcView</ViewType>
+          </Widget>
+        </Page>
+        <Page>
+          <Name>Transit</Name>
+          <Widget>
+            <ViewType>TransitView</ViewType>
+          </Widget>
+        </Page>
+
+				<!-- PAGE 10 -->
+        <Page>
+          <Name>Tajaka/Solar</Name>
+          <Widget>
+            <ViewType>SolarView</ViewType>
+            <Vedic>true</Vedic>
+          </Widget>
+        </Page>
+      </Notebook>
+    </Window>
+  </Config>
+
+  <Config
+    Name="Western Simple"
+    Description="Planets (left) and western chart (right)">
+    <Window>
+      <Splitter>
+        <SplitDirection>Vertical</SplitDirection>
+        <SashPosPercent>30</SashPosPercent>
+        <Window1>
+          <Widget>
+            <ViewType>GridView</ViewType>
+            <Vedic>false</Vedic>
+          </Widget>
+        </Window1>
+        <Window2>
+          <Widget>
+            <ViewType>GraphicView</ViewType>
+            <Vedic>false</Vedic>
+          </Widget>
+        </Window2>
+      </Splitter>
+    </Window>
+  </Config>
+
+  <Config
+    Name="Western/Aspects left"
+    Description="Planets and aspects (left), western chart (right)">
+    <Window>
+      <Splitter>
+        <SplitDirection>Vertical</SplitDirection>
+        <SashPosPercent>30</SashPosPercent>
+        <Window1>
+          <Splitter>
+            <SplitDirection>Horizontal</SplitDirection>
+            <SashPosPercent>50</SashPosPercent>
+            <Window1>
+              <Widget>
+                <ViewType>GridView</ViewType>
+                <Vedic>false</Vedic>
+              </Widget>
+            </Window1>
+            <Window2>
+              <Widget>
+                <ViewType>TextView</ViewType>
+                <TextMode>15</TextMode>
+                <ShowToolbar>false</ShowToolbar>
+                <Vedic>false</Vedic>
+              </Widget>
+            </Window2>
+          </Splitter>
+        </Window1>
+        <Window2>
+          <Widget>
+            <ViewType>GraphicView</ViewType>
+            <Vedic>false</Vedic>
+          </Widget>
+        </Window2>
+      </Splitter>
+    </Window>
+  </Config>
+
+  <Config
+    Name="Western/Aspects right"
+    Description="Western chart (left), planets and aspects (right)">
+    <Window>
+      <Splitter>
+        <SplitDirection>Vertical</SplitDirection>
+        <SashPosPercent>70</SashPosPercent>
+        <Window1>
+          <Widget>
+            <ViewType>GraphicView</ViewType>
+            <Vedic>false</Vedic>
+          </Widget>
+        </Window1>
+        <Window2>
+          <Splitter>
+            <SplitDirection>Horizontal</SplitDirection>
+            <SashPosPercent>50</SashPosPercent>
+            <Window1>
+              <Widget>
+                <ViewType>GridView</ViewType>
+                <Vedic>false</Vedic>
+              </Widget>
+            </Window1>
+            <Window2>
+              <Widget>
+                <ViewType>TextView</ViewType>
+                <TextMode>15</TextMode>
+                <ShowToolbar>false</ShowToolbar>
+                <Vedic>false</Vedic>
+              </Widget>
+            </Window2>
+          </Splitter>
+        </Window2>
+      </Splitter>
+    </Window>
+  </Config>
+
+  <Config
+    Name="Western Comprehensive"
+    Description="All western views in one window">
+    <Window>
+      <Notebook>
+        <Page>
+          <Name>Main</Name>
+          <Splitter>
+            <SplitDirection>Vertical</SplitDirection>
+            <SashPosPercent>30</SashPosPercent>
+            <Window1>
+							<Splitter>
+								<SplitDirection>Horizontal</SplitDirection>
+								<SashPosPercent>50</SashPosPercent>
+								<Window1>
+									<Widget>
+										<ViewType>GridView</ViewType>
+										<Vedic>false</Vedic>
+									</Widget>
+								</Window1>
+								<Window2>
+									<Widget>
+										<ViewType>TextView</ViewType>
+										<TextMode>15</TextMode>
+										<ShowToolbar>false</ShowToolbar>
+										<Vedic>false</Vedic>
+									</Widget>
+								</Window2>
+							</Splitter>
+            </Window1>
+            <Window2>
+              <Widget>
+                <ViewType>GraphicView</ViewType>
+                <Vedic>false</Vedic>
+              </Widget>
+            </Window2>
+          </Splitter>
+        </Page>
+        <Page>
+          <Name>Text</Name>
+          <Widget>
+            <ViewType>TextView</ViewType>
+          </Widget>
+        </Page>
+        <Page>
+          <Name>Transit</Name>
+          <Widget>
+            <ViewType>TransitView</ViewType>
+          </Widget>
+        </Page>
+        <Page>
+          <Name>Uranian</Name>
+          <Widget>
+            <ViewType>UranianView</ViewType>
+          </Widget>
+        </Page>
+        <Page>
+          <Name>Solar</Name>
+          <Widget>
+            <ViewType>SolarView</ViewType>
+            <Vedic>true</Vedic>
+          </Widget>
+        </Page>
+      </Notebook>
+    </Window>
+  </Config>
+
+</MultipleViewConfigs>
+
