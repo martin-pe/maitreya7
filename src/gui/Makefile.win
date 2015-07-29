@@ -11,7 +11,7 @@ PDF_LIB = ../pdf/libmaitreya_pdf.a
 DB_LIB = ../db/libmaitreya_db.a
 DIALOG_LIB = ../dialogs/libmaitreya_dialogs.a
 
-MAITREYA_PROG = maitreya71.exe
+MAITREYA_PROG = maitreya7.exe
 
 MAKEFILE = Makefile.win
 

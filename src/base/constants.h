@@ -44,6 +44,7 @@
 
 #define FILE_CONF_MODE wxConvUTF8
 
+//#define str2char( s ) (const char*) wxConvCurrent->cWX2MB(s.c_str())
 #define str2char( s ) (const char*) wxConvCurrent->cWX2MB(s)
 
 // console output for wxString

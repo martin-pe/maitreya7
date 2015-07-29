@@ -1,9 +1,10 @@
-maitreya (7.1) unstable; urgency=low
+maitreya (7.1.1) stable; urgency=low
 
-  * minor changes for wxWidgets 3.0 packages on Windows and OS x.
+  * wxpdfdoc version updated (0.9.4)
+  * PDF font issue on OS x fixed
+  * New build on Yosemite
 
- -- Martin Pettau <http://www.saravali.de/contact.html>  Fri, 26 Dec 2014 10:35:06 +0100
-
+ -- Martin Pettau <http://www.saravali.de/contact.html>  Fri, 13 Mar 2015 15:38:29 +0100
 
 maitreya (7.0.7) stable; urgency=low
 

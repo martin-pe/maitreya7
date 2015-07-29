@@ -114,11 +114,13 @@ FontConfig::FontConfig()
 	defaultfd[FONT_PDFGRAPHIC].pointSize = pdfdefault_size;
 	defaultfd[FONT_PDFGRAPHIC].family = wxFONTFAMILY_SWISS;
 
+/*
 //#if defined(__WXMAC__)
 	defaultfd[FONT_PDFDEFAULT].facename = wxT( "Times New Roman" );
 	defaultfd[FONT_PDFHEADER].facename = wxT( "Times New Roman" );
 	defaultfd[FONT_PDFGRAPHIC].facename = wxT( "Arial" );
 //endif
+*/
 
 	//defaultfd[FONT_PDFSYMBOL].facename = DEFAULT_SYMBOL_FONT_NAME;
 	defaultfd[FONT_PDFSYMBOL].facename = MAITREYA_SYMBOLS;

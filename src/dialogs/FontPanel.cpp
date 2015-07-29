@@ -242,12 +242,14 @@ void FontPanel::OnChooseFont( wxCommandEvent &event )
 	wxFontData data;
 	data.SetInitialFont( t->GetFont());
 
+/*
 #if defined(__WXMAC__)
 	if ( event.GetId() == CD_PDFFONT_DEFAULT || event.GetId() == CD_PDFFONT_TABLE_HEADER || event.GetId() == CD_PDFFONT_GRAPHIC )
 	{
 		doNotShowAgainMessage( this, DO_NOT_SHOW_AGAIN_WARNING_DFONTS );
 	}
 #endif
+*/
 
 	wxFontDialog dialog( this, data );
 	if ( dialog.ShowModal() == wxID_OK )

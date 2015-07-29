@@ -261,7 +261,7 @@ void UranianExpert::writeYearlyPreviewAnalysis( const Horoscope *h, const int &y
 	list<UranianConjunctionEvent>::iterator c_iter, cd_iter;
 	list<UranianMidpointEvent>::iterator m_iter, md_iter;
 
-	writer->writeHeader1( _( "Yearly Preview for Solar Arc" ));
+	writer->writeHeader1( _( "Yearly Preview for Solar Chart" ));
 	TransitHoroscope htransit;
 	htransit.setLocation( *h->getDataSet()->getLocation() );
 

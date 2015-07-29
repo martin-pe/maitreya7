@@ -8,21 +8,22 @@
 
 
 Name:           maitreya
-Version:        7.1
+Version:        7.1.1
 Release:        1%{?dist}
 Summary:        Software for Vedic and western astrology
 Group:          Productivity/Other
 License:        GPLv2+
 URL:            http://www.saravali.de
-Source0: http://downloads.sourceforge.net/project/%{name}/%{dir_name}/%{name}-%{version}/%{name}-%{version}.tar.bz2
+Source0: http://www.saravali.de/downloads/%{version}/%{name}-%{version}.tar.bz2
 
 BuildRoot:       %{_tmppath}/%{name}-%{version}-build
 
 BuildRequires:  gcc-c++
 
 #opensuse 11.4 and better wants wxWidgets-wxcontainer-devel all others wxGTK-devel
+#changed 20150306 martin: wxWidgets-wxcontainer-devel replaced by wxWidgets-devel
 %if 0%{?suse_version} >= 1140
-BuildRequires:  wxWidgets-wxcontainer-devel
+BuildRequires:  wxWidgets-devel
 %else
 BuildRequires:  wxGTK-devel
 %endif

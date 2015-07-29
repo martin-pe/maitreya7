@@ -5,7 +5,7 @@ CP = cp
 CPR = cp -r
 
 MAKEFILE = Makefile.win
-MAIN_PROG = maitreya71.exe
+MAIN_PROG = maitreya7.exe
 RELEASE_DIR = ../release
 
 SRC_DIR = src
